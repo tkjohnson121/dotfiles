@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Plasma Ultra Plus
+Type=X-GNOME-Metatheme
+Comment=Dark purple theme
+Encoding=UTF-8
+GtkTheme=Plasma Ultra Plus
+MetacityTheme=Adwaita
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

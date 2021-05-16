@@ -1,0 +1,445 @@
+03:35:25 PM.306: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+03:35:25 PM.306: CPU Speed: 3400.000MHz
+03:35:25 PM.306: Physical Cores: 6, Logical Cores: 12
+03:35:25 PM.306: Physical Memory: 16013MB Total, 15274MB Free
+03:35:25 PM.306: Kernel Version: Linux 5.12.2-arch1-1
+03:35:25 PM.306: Distribution: "EndeavourOS" Unknown
+03:35:25 PM.306: Session Type: x11
+03:35:25 PM.306: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+03:35:25 PM.307: Portable mode: false
+03:35:25 PM.372: OBS 26.1.2-2 (linux)
+03:35:25 PM.372: ---------------------------------
+03:35:25 PM.372: ---------------------------------
+03:35:25 PM.372: audio settings reset:
+03:35:25 PM.372: 	samples per sec: 48000
+03:35:25 PM.372: 	speakers:        2
+03:35:25 PM.376: ---------------------------------
+03:35:25 PM.376: Initializing OpenGL...
+03:35:25 PM.459: Loading up OpenGL on adapter Mesa/X.org llvmpipe (LLVM 11.1.0, 256 bits)
+03:35:25 PM.459: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 21.1.0, shading language 4.50
+03:35:25 PM.493: ---------------------------------
+03:35:25 PM.493: video settings reset:
+03:35:25 PM.493: 	base resolution:   1920x1080
+03:35:25 PM.493: 	output resolution: 1920x1080
+03:35:25 PM.493: 	downscale filter:  Bicubic
+03:35:25 PM.493: 	fps:               24000/1001
+03:35:25 PM.493: 	format:            NV12
+03:35:25 PM.493: 	YUV mode:          709/Partial
+03:35:25 PM.493: NV12 texture support not available
+03:35:25 PM.501: Audio monitoring device:
+03:35:25 PM.501: 	name: Default
+03:35:25 PM.501: 	id: default
+03:35:25 PM.501: ---------------------------------
+03:35:25 PM.503: Failed to load 'en-US' text for module: 'decklink-captions.so'
+03:35:25 PM.505: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+03:35:25 PM.577: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+03:35:25 PM.577: No blackmagic support
+03:35:25 PM.626: NVENC supported
+03:35:25 PM.626: FFMPEG VAAPI supported
+03:35:25 PM.648: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+03:35:25 PM.648: 
+03:35:25 PM.648: Couldn't find VLC installation, VLC video source disabled
+03:35:25 PM.649: os_dlopen(/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so->/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so): libuiohook.so.0: cannot open shared object file: No such file or directory
+03:35:25 PM.649: 
+03:35:25 PM.649: Module '/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so' not loaded
+03:35:25 PM.658: [StreamFX] Loading Version 0.10.0.0-g5888c7d2
+03:35:25 PM.665: [StreamFX] Loaded Version 0.10.0.0-g5888c7d2
+03:35:25 PM.665: ---------------------------------
+03:35:25 PM.665:   Loaded Modules:
+03:35:25 PM.665:     StreamFX.so
+03:35:25 PM.665:     vlc-video.so
+03:35:25 PM.665:     text-freetype2.so
+03:35:25 PM.665:     rtmp-services.so
+03:35:25 PM.665:     obs-x264.so
+03:35:25 PM.665:     obs-transitions.so
+03:35:25 PM.665:     obs-outputs.so
+03:35:25 PM.665:     obs-libfdk.so
+03:35:25 PM.665:     obs-filters.so
+03:35:25 PM.665:     obs-ffmpeg.so
+03:35:25 PM.665:     linux-v4l2.so
+03:35:25 PM.665:     linux-pulseaudio.so
+03:35:25 PM.665:     linux-jack.so
+03:35:25 PM.665:     linux-decklink.so
+03:35:25 PM.665:     linux-capture.so
+03:35:25 PM.665:     linux-alsa.so
+03:35:25 PM.665:     image-source.so
+03:35:25 PM.665:     frontend-tools.so
+03:35:25 PM.665:     decklink-ouput-ui.so
+03:35:25 PM.665:     decklink-captions.so
+03:35:25 PM.665: ---------------------------------
+03:35:25 PM.667: ==== Startup complete ===============================================
+03:35:25 PM.675: All scene data cleared
+03:35:25 PM.675: ------------------------------------------------
+03:35:25 PM.684: pulse-input: Server name: 'pulseaudio 14.2'
+03:35:25 PM.684: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:35:25 PM.684: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+03:35:25 PM.685: [Loaded global audio device]: 'Desktop Audio'
+03:35:25 PM.686: pulse-input: Server name: 'pulseaudio 14.2'
+03:35:25 PM.686: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+03:35:25 PM.686: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+03:35:25 PM.686: [Loaded global audio device]: 'Mic/Aux'
+03:35:25 PM.931: pulse-input: Server name: 'pulseaudio 14.2'
+03:35:25 PM.932: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+03:35:25 PM.932: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+03:35:25 PM.932: [Loaded global audio device]: 'Mic/Aux 2'
+03:35:26 PM.215: xshm-input: Geometry 1080x1920 @ 0,0
+03:35:26 PM.226: xshm-input: Geometry 1920x1080 @ 1080,0
+03:35:26 PM.239: v4l2-input: Start capture from /dev/video0
+03:35:26 PM.256: v4l2-input: Input: 0
+03:35:26 PM.271: v4l2-input: Resolution: 640x480
+03:35:26 PM.271: v4l2-input: Pixelformat: YU12
+03:35:26 PM.271: v4l2-input: Linesize: 640 Bytes
+03:35:26 PM.271: v4l2-input: Framerate: 30.00 fps
+03:35:26 PM.298: [Media Source 'Arcade_Pop (Stinger)']: settings:
+03:35:26 PM.298: 	input:                   /home/kujo/videos/overlays/stingers/arcade_purple_mute.webm
+03:35:26 PM.298: 	input_format:            (null)
+03:35:26 PM.298: 	speed:                   100
+03:35:26 PM.298: 	is_looping:              no
+03:35:26 PM.298: 	is_hw_decoding:          yes
+03:35:26 PM.298: 	is_clear_on_media_end:   yes
+03:35:26 PM.298: 	restart_on_activate:     yes
+03:35:26 PM.298: 	close_when_inactive:     no
+03:35:26 PM.298: [Media Source 'Clearview (Stinger)']: settings:
+03:35:26 PM.298: 	input:                   /home/kujo/videos/overlays/stingers/clearview_60fps.webm
+03:35:26 PM.298: 	input_format:            (null)
+03:35:26 PM.298: 	speed:                   100
+03:35:26 PM.298: 	is_looping:              no
+03:35:26 PM.298: 	is_hw_decoding:          yes
+03:35:26 PM.298: 	is_clear_on_media_end:   yes
+03:35:26 PM.298: 	restart_on_activate:     yes
+03:35:26 PM.298: 	close_when_inactive:     no
+03:35:26 PM.299: pulse-am: Server name: 'pulseaudio 14.2'
+03:35:26 PM.299: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+03:35:26 PM.300: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+03:35:26 PM.301: Switched to scene 'Outro'
+03:35:26 PM.301: ------------------------------------------------
+03:35:26 PM.301: Loaded scenes:
+03:35:26 PM.301: - scene 'Props':
+03:35:26 PM.301:     - source: 'Titlebar' (group)
+03:35:26 PM.301:         - source: 'Titlebar - Background 2' (image_source)
+03:35:26 PM.301:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301:         - source: 'Title' (text_ft2_source_v2)
+03:35:26 PM.301:     - source: 'Circle Webcam' (v4l2_input)
+03:35:26 PM.301:         - filter: 'Color Correction' (color_filter)
+03:35:26 PM.301:         - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301:     - source: 'Social Bar' (group)
+03:35:26 PM.301:         - source: 'Social Background' (image_source)
+03:35:26 PM.301:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301:         - source: 'Twitter Icon' (image_source)
+03:35:26 PM.301:         - source: 'Twitter Username' (text_ft2_source_v2)
+03:35:26 PM.301:         - source: 'Website Icon' (image_source)
+03:35:26 PM.301:         - source: 'Website' (text_ft2_source_v2)
+03:35:26 PM.301: - scene 'Introduction':
+03:35:26 PM.301:     - source: 'Page Background' (image_source)
+03:35:26 PM.301:     - source: 'Starting Soon Text' (image_source)
+03:35:26 PM.301:     - source: 'Social Bar' (group)
+03:35:26 PM.301:         - source: 'Social Background' (image_source)
+03:35:26 PM.301:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301:         - source: 'Twitter Icon' (image_source)
+03:35:26 PM.301:         - source: 'Twitter Username' (text_ft2_source_v2)
+03:35:26 PM.301:         - source: 'Website Icon' (image_source)
+03:35:26 PM.301:         - source: 'Website' (text_ft2_source_v2)
+03:35:26 PM.301:     - source: 'Titlebar' (group)
+03:35:26 PM.301:         - source: 'Titlebar - Background 2' (image_source)
+03:35:26 PM.301:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301:         - source: 'Title' (text_ft2_source_v2)
+03:35:26 PM.301:     - source: 'Circle Webcam' (v4l2_input)
+03:35:26 PM.301:         - filter: 'Color Correction' (color_filter)
+03:35:26 PM.301:         - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301: - scene 'Main':
+03:35:26 PM.301:     - source: 'Display 1' (xshm_input)
+03:35:26 PM.301:     - source: 'Titlebar 2' (group)
+03:35:26 PM.301:     - source: 'Titlebar' (group)
+03:35:26 PM.301:         - source: 'Titlebar - Background 2' (image_source)
+03:35:26 PM.301:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301:         - source: 'Title' (text_ft2_source_v2)
+03:35:26 PM.301:     - source: 'Circle Webcam' (v4l2_input)
+03:35:26 PM.301:         - filter: 'Color Correction' (color_filter)
+03:35:26 PM.301:         - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301: - scene 'Dual':
+03:35:26 PM.301:     - source: 'Display 1' (xshm_input)
+03:35:26 PM.301:     - source: 'Display 2' (xshm_input)
+03:35:26 PM.301:     - source: 'Titlebar' (group)
+03:35:26 PM.301:         - source: 'Titlebar - Background 2' (image_source)
+03:35:26 PM.301:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.301:         - source: 'Title' (text_ft2_source_v2)
+03:35:26 PM.301:     - source: 'Circle Webcam' (v4l2_input)
+03:35:26 PM.301:         - filter: 'Color Correction' (color_filter)
+03:35:26 PM.302:         - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.302: - scene 'Outro':
+03:35:26 PM.302:     - source: 'Page Background' (image_source)
+03:35:26 PM.302:     - source: 'Titlebar' (group)
+03:35:26 PM.302:         - source: 'Titlebar - Background 2' (image_source)
+03:35:26 PM.302:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.302:         - source: 'Title' (text_ft2_source_v2)
+03:35:26 PM.302:     - source: 'Social Bar' (group)
+03:35:26 PM.302:         - source: 'Social Background' (image_source)
+03:35:26 PM.302:             - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.302:         - source: 'Twitter Icon' (image_source)
+03:35:26 PM.302:         - source: 'Twitter Username' (text_ft2_source_v2)
+03:35:26 PM.302:         - source: 'Website Icon' (image_source)
+03:35:26 PM.302:         - source: 'Website' (text_ft2_source_v2)
+03:35:26 PM.302:     - source: 'Outro Text' (image_source)
+03:35:26 PM.302:     - source: 'Circle Webcam' (v4l2_input)
+03:35:26 PM.302:         - filter: 'Color Correction' (color_filter)
+03:35:26 PM.302:         - filter: 'Image Mask/Blend' (mask_filter)
+03:35:26 PM.302: ------------------------------------------------
+03:35:26 PM.333: [Media Source 'Clearview - Muted (Stinger)']: settings:
+03:35:26 PM.333: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+03:35:26 PM.333: 	input_format:            (null)
+03:35:26 PM.333: 	speed:                   100
+03:35:26 PM.333: 	is_looping:              no
+03:35:26 PM.333: 	is_hw_decoding:          yes
+03:35:26 PM.333: 	is_clear_on_media_end:   yes
+03:35:26 PM.333: 	restart_on_activate:     yes
+03:35:26 PM.333: 	close_when_inactive:     no
+03:35:26 PM.333: [Media Source 'Interface (Stinger)']: settings:
+03:35:26 PM.333: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+03:35:26 PM.333: 	input_format:            (null)
+03:35:26 PM.333: 	speed:                   100
+03:35:26 PM.333: 	is_looping:              no
+03:35:26 PM.333: 	is_hw_decoding:          yes
+03:35:26 PM.333: 	is_clear_on_media_end:   yes
+03:35:26 PM.333: 	restart_on_activate:     yes
+03:35:26 PM.333: 	close_when_inactive:     no
+03:35:26 PM.334: [Media Source 'Kinetic (Stinger)']: settings:
+03:35:26 PM.334: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+03:35:26 PM.334: 	input_format:            (null)
+03:35:26 PM.334: 	speed:                   100
+03:35:26 PM.334: 	is_looping:              no
+03:35:26 PM.334: 	is_hw_decoding:          yes
+03:35:26 PM.334: 	is_clear_on_media_end:   yes
+03:35:26 PM.334: 	restart_on_activate:     yes
+03:35:26 PM.334: 	close_when_inactive:     no
+03:35:26 PM.623: [StreamFX] <updater> Automatic checks at launch are now enabled.
+03:44:09 PM.984: User switched to scene 'Introduction'
+03:44:10 PM.055: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Clearview (Stinger))
+03:44:10 PM.055: 
+03:44:15 PM.308: User switched to scene 'Props'
+03:45:06 PM.432: User switched to scene 'Introduction'
+05:07:06 PM.086: pulse-input: Stopped recording from 'default'
+05:07:06 PM.086: pulse-input: Got 815499 packets with 242522536 frames
+05:07:06 PM.087: pulse-input: Server name: 'pulseaudio 14.2'
+05:07:06 PM.087: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:07:06 PM.087: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:07:06 PM.162: ---------------------------------
+05:07:06 PM.162: video settings reset:
+05:07:06 PM.162: 	base resolution:   1920x1080
+05:07:06 PM.162: 	output resolution: 1920x1080
+05:07:06 PM.162: 	downscale filter:  Bicubic
+05:07:06 PM.162: 	fps:               30/1
+05:07:06 PM.162: 	format:            NV12
+05:07:06 PM.162: 	YUV mode:          709/Partial
+05:07:06 PM.162: NV12 texture support not available
+05:07:06 PM.174: Settings changed (outputs, audio, video)
+05:07:06 PM.174: ------------------------------------------------
+05:07:06 PM.192: pulse-input: Stopped recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+05:07:06 PM.192: pulse-input: Got 550895 packets with 264066817 frames
+05:08:51 PM.058: User added filter 'Noise Suppression' (noise_suppress_filter_v2) to source 'Mic/Aux'
+05:09:05 PM.588: User added filter 'Noise Gate' (noise_gate_filter) to source 'Mic/Aux'
+05:09:13 PM.783: User added filter 'Gain' (gain_filter) to source 'Mic/Aux'
+05:09:46 PM.682: Settings changed (outputs)
+05:09:46 PM.682: ------------------------------------------------
+05:10:27 PM.595: v4l2-input: /dev/video1 seems to not support video capture
+05:10:27 PM.595: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+05:10:27 PM.596: v4l2-input: Found input 'Camera 1' (Index 0)
+05:10:27 PM.641: v4l2-controls: setting default for Power Line Frequency to 2
+05:10:27 PM.692: v4l2-controls: setting default for Exposure, Auto to 3
+05:10:27 PM.728: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:10:27 PM.728: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:10:27 PM.728: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:10:27 PM.728: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:10:27 PM.728: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:10:27 PM.728: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:10:27 PM.729: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:10:27 PM.729: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:10:27 PM.729: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:10:27 PM.729: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:10:27 PM.729: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:10:27 PM.729: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:10:27 PM.729: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:10:27 PM.729: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:10:27 PM.730: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:10:27 PM.730: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:10:35 PM.077: v4l2-input: Stopped capture after 134715 frames
+05:10:35 PM.186: v4l2-input: Start capture from /dev/video0
+05:10:35 PM.189: v4l2-input: Input: 0
+05:10:35 PM.204: v4l2-input: Resolution: 640x480
+05:10:35 PM.204: v4l2-input: Pixelformat: YU12
+05:10:35 PM.204: v4l2-input: Linesize: 640 Bytes
+05:10:35 PM.204: v4l2-input: Framerate: 30.00 fps
+05:11:32 PM.044: User switched to scene 'Main'
+05:11:38 PM.383: User switched to scene 'Introduction'
+05:11:39 PM.660: User switched to scene 'Props'
+05:19:20 PM.415: User switched to scene 'Introduction'
+05:19:23 PM.807: Recording stopped because of bad output path
+05:19:38 PM.077: Settings changed (outputs)
+05:19:38 PM.077: ------------------------------------------------
+05:19:39 PM.672: ---------------------------------
+05:19:39 PM.672: [NVENC encoder: 'simple_h264_recording'] settings:
+05:19:39 PM.672: 	rate_control: CQP
+05:19:39 PM.672: 	bitrate:      0
+05:19:39 PM.672: 	cqp:          16
+05:19:39 PM.672: 	keyint:       250
+05:19:39 PM.672: 	preset:       hq
+05:19:39 PM.672: 	profile:      high
+05:19:39 PM.672: 	width:        1920
+05:19:39 PM.672: 	height:       1080
+05:19:39 PM.672: 	2-pass:       false
+05:19:39 PM.672: 	b-frames:     2
+05:19:39 PM.672: 	GPU:          0
+05:19:39 PM.672: 
+05:19:39 PM.750: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Unknown error occurred
+05:19:48 PM.918: Settings changed (outputs)
+05:19:48 PM.918: ------------------------------------------------
+05:19:50 PM.669: ---------------------------------
+05:19:50 PM.669: [NVENC encoder: 'simple_h264_recording'] settings:
+05:19:50 PM.669: 	rate_control: CQP
+05:19:50 PM.669: 	bitrate:      0
+05:19:50 PM.669: 	cqp:          16
+05:19:50 PM.669: 	keyint:       250
+05:19:50 PM.669: 	preset:       hq
+05:19:50 PM.669: 	profile:      high
+05:19:50 PM.669: 	width:        1920
+05:19:50 PM.669: 	height:       1080
+05:19:50 PM.669: 	2-pass:       false
+05:19:50 PM.669: 	b-frames:     2
+05:19:50 PM.669: 	GPU:          0
+05:19:50 PM.669: 
+05:19:50 PM.712: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Unknown error occurred
+05:20:05 PM.578: Settings changed (outputs)
+05:20:05 PM.578: ------------------------------------------------
+05:20:15 PM.904: Settings changed (outputs)
+05:20:15 PM.904: ------------------------------------------------
+05:20:17 PM.083: ---------------------------------
+05:20:17 PM.083: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+05:20:17 PM.083: [x264 encoder: 'simple_h264_recording'] profile: high
+05:20:17 PM.092: [x264 encoder: 'simple_h264_recording'] settings:
+05:20:17 PM.092: 	rate_control: CRF
+05:20:17 PM.092: 	bitrate:      0
+05:20:17 PM.092: 	buffer size:  0
+05:20:17 PM.092: 	crf:          21
+05:20:17 PM.092: 	fps_num:      30
+05:20:17 PM.092: 	fps_den:      1
+05:20:17 PM.092: 	width:        1920
+05:20:17 PM.092: 	height:       1080
+05:20:17 PM.092: 	keyint:       250
+05:20:17 PM.092: 
+05:20:17 PM.104: libfdk_aac encoder created
+05:20:17 PM.104: libfdk_aac bitrate: 192, channels: 2
+05:20:17 PM.106: ==== Recording Start ===============================================
+05:20:17 PM.107: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/kujo/_temp/2021-05-13_17-20-17.mkv'...
+05:20:30 PM.728: User switched to scene 'Main'
+05:21:06 PM.614: User switched to scene 'Dual'
+05:21:23 PM.642: User switched to scene 'Outro'
+05:21:32 PM.537: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/kujo/_temp/2021-05-13_17-20-17.mkv' stopped
+05:21:32 PM.537: Output 'simple_file_output': stopping
+05:21:32 PM.537: Output 'simple_file_output': Total frames output: 2238
+05:21:32 PM.537: Output 'simple_file_output': Total drawn frames: 1952 (2263 attempted)
+05:21:32 PM.537: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 311 (13.7%)
+05:21:32 PM.537: Video stopped, number of skipped frames due to encoding lag: 20/2260 (0.9%)
+05:21:32 PM.542: libfdk_aac encoder destroyed
+05:21:32 PM.544: ==== Recording Stop ================================================
+06:12:51 PM.826: adding 490 milliseconds of audio buffering, total audio buffering is now 533 milliseconds (source: Mic/Aux)
+06:12:51 PM.826: 
+06:15:55 PM.442: pulse-input: Stopped recording from 'alsa_input.usb-Generic_Blue_Microphones_201701110001-00.analog-stereo'
+06:15:55 PM.442: pulse-input: Got 964262 packets with 462275041 frames
+06:15:55 PM.443: pulse-input: Server name: 'pulseaudio 14.2'
+06:15:55 PM.446: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+06:15:55 PM.446: pulse-input: Started recording from 'alsa_input.usb-Generic_Blue_Microphones_201701110001-00.analog-stereo'
+06:15:55 PM.446: Settings changed (audio)
+06:15:55 PM.446: ------------------------------------------------
+06:16:40 PM.166: User switched to scene 'Props'
+06:17:14 PM.800: User switched to scene 'Introduction'
+06:17:35 PM.349: ==== Shutting down ==================================================
+06:17:36 PM.115: v4l2-input: Stopped capture after 82398 frames
+06:17:36 PM.269: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+06:17:36 PM.269: pulse-am: Got 3415 packets with 1504014 frames
+06:17:36 PM.274: pulse-input: Stopped recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+06:17:36 PM.274: pulse-input: Got 576662 packets with 186548999 frames
+06:17:36 PM.286: pulse-input: Stopped recording from 'alsa_input.usb-Generic_Blue_Microphones_201701110001-00.analog-stereo'
+06:17:36 PM.286: pulse-input: Got 10100 packets with 4446207 frames
+06:17:36 PM.287: All scene data cleared
+06:17:36 PM.287: ------------------------------------------------
+06:17:36 PM.374: [StreamFX] Unloading Version 0.10.0.0-g5888c7d2
+06:17:36 PM.399: [StreamFX] Unloaded Version 0.10.0.0-g5888c7d2
+06:17:36 PM.413: [Scripting] Total detached callbacks: 0
+06:17:36 PM.415: Freeing OBS context data
+06:17:36 PM.459: == Profiler Results =============================
+06:17:36 PM.459: run_program_init: 1393.14 ms
+06:17:36 PM.459:  ┣OBSApp::AppInit: 5.594 ms
+06:17:36 PM.459:  ┃ ┗OBSApp::InitLocale: 2.897 ms
+06:17:36 PM.459:  ┗OBSApp::OBSInit: 1284.35 ms
+06:17:36 PM.459:    ┣obs_startup: 16.55 ms
+06:17:36 PM.459:    ┗OBSBasic::OBSInit: 1202.93 ms
+06:17:36 PM.459:      ┣OBSBasic::InitBasicConfig: 0.073 ms
+06:17:36 PM.459:      ┣OBSBasic::ResetAudio: 0.098 ms
+06:17:36 PM.459:      ┣OBSBasic::ResetVideo: 128.694 ms
+06:17:36 PM.459:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+06:17:36 PM.459:      ┣OBSBasic::InitHotkeys: 0.033 ms
+06:17:36 PM.459:      ┣obs_load_all_modules: 164.153 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(decklink-captions.so): 0.02 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.632 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(frontend-tools.so): 58.139 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(image-source.so): 0.005 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(linux-capture.so): 0.259 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(linux-decklink.so): 0.086 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(linux-v4l2.so): 9.41 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(obs-ffmpeg.so): 10.763 ms
+06:17:36 PM.459:      ┃ ┃ ┗nvenc_check: 10.691 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(obs-filters.so): 0.026 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(rtmp-services.so): 1.318 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(text-freetype2.so): 0.013 ms
+06:17:36 PM.459:      ┃ ┣obs_init_module(vlc-video.so): 0.062 ms
+06:17:36 PM.459:      ┃ ┗obs_init_module(StreamFX.so): 7.285 ms
+06:17:36 PM.459:      ┣OBSBasic::ResetOutputs: 3.28 ms
+06:17:36 PM.459:      ┣OBSBasic::CreateHotkeys: 0.035 ms
+06:17:36 PM.459:      ┣OBSBasic::InitService: 1.56 ms
+06:17:36 PM.459:      ┣OBSBasic::InitPrimitives: 0.074 ms
+06:17:36 PM.459:      ┗OBSBasic::Load: 647.727 ms
+06:17:36 PM.459: obs_hotkey_thread(25 ms): min=0.041 ms, median=3.148 ms, max=646.515 ms, 99th percentile=14.803 ms, 99.9759% below 25 ms
+06:17:36 PM.459: audio_thread(Audio): min=0 ms, median=0.656 ms, max=855.235 ms, 99th percentile=22.469 ms
+06:17:36 PM.459:  ┗receive_audio: min=0.002 ms, median=0.424 ms, max=841.967 ms, 99th percentile=1.039 ms, 0.00976712 calls per parent call
+06:17:36 PM.459:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.016 ms, 99th percentile=0.003 ms
+06:17:36 PM.459:    ┗do_encode: min=0.246 ms, median=0.421 ms, max=841.963 ms, 99th percentile=1.028 ms
+06:17:36 PM.459:      ┗encode(simple_aac_recording): min=0.234 ms, median=0.407 ms, max=6.876 ms, 99th percentile=0.981 ms
+06:17:36 PM.459: obs_graphics_thread(41.7083 ms): min=0.651 ms, median=17.68 ms, max=339.699 ms, 99th percentile=44.664 ms, 98.5524% below 41.708 ms
+06:17:36 PM.460:  ┣tick_sources: min=0 ms, median=0.032 ms, max=338.886 ms, 99th percentile=0.084 ms
+06:17:36 PM.460:  ┣output_frame: min=0.639 ms, median=17.412 ms, max=103.312 ms, 99th percentile=32.544 ms
+06:17:36 PM.460:  ┃ ┗gs_context(video->graphics): min=0.639 ms, median=17.412 ms, max=103.312 ms, 99th percentile=32.543 ms
+06:17:36 PM.460:  ┃   ┣render_video: min=0.009 ms, median=14.42 ms, max=90.013 ms, 99th percentile=28.477 ms
+06:17:36 PM.460:  ┃   ┃ ┗render_main_texture: min=0.008 ms, median=14.414 ms, max=90.004 ms, 99th percentile=28.468 ms
+06:17:36 PM.460:  ┃   ┗gs_flush: min=0.622 ms, median=2.006 ms, max=28.116 ms, 99th percentile=13.166 ms
+06:17:36 PM.460:  ┗render_displays: min=0.003 ms, median=0.011 ms, max=66.162 ms, 99th percentile=13.335 ms
+06:17:36 PM.460: OBSBasic::ResetOutputs: min=0.208 ms, median=0.282 ms, max=0.35 ms, 99th percentile=0.35 ms
+06:17:36 PM.460: OBSBasic::ResetVideo: 86.114 ms
+06:17:36 PM.460: obs_graphics_thread(33.3333 ms): min=0.903 ms, median=22.223 ms, max=205.233 ms, 99th percentile=58.634 ms, 87.4381% below 33.333 ms
+06:17:36 PM.460:  ┣tick_sources: min=0.002 ms, median=0.035 ms, max=146.095 ms, 99th percentile=3.074 ms
+06:17:36 PM.460:  ┣output_frame: min=0.636 ms, median=19.825 ms, max=154.277 ms, 99th percentile=40.255 ms
+06:17:36 PM.460:  ┃ ┣gs_context(video->graphics): min=0.636 ms, median=19.82 ms, max=154.277 ms, 99th percentile=40.215 ms
+06:17:36 PM.460:  ┃ ┃ ┣render_video: min=0.022 ms, median=16.704 ms, max=154.259 ms, 99th percentile=35.14 ms
+06:17:36 PM.460:  ┃ ┃ ┃ ┣render_main_texture: min=0.019 ms, median=16.606 ms, max=84.509 ms, 99th percentile=34.6 ms
+06:17:36 PM.460:  ┃ ┃ ┃ ┣render_convert_texture: min=2.599 ms, median=3.844 ms, max=133.087 ms, 99th percentile=20.278 ms, 0.0156954 calls per parent call
+06:17:36 PM.460:  ┃ ┃ ┃ ┗stage_output_texture: min=1.598 ms, median=2.068 ms, max=20.182 ms, 99th percentile=12.253 ms, 0.0156954 calls per parent call
+06:17:36 PM.460:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=2.012 ms, max=30.113 ms, 99th percentile=14.443 ms
+06:17:36 PM.460:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=0.015 ms, 99th percentile=0.008 ms, 0.0156954 calls per parent call
+06:17:36 PM.460:  ┃ ┗output_video_data: min=0 ms, median=0.435 ms, max=5.315 ms, 99th percentile=0.783 ms, 0.0156873 calls per parent call
+06:17:36 PM.460:  ┗render_displays: min=0.005 ms, median=0.012 ms, max=112.51 ms, 99th percentile=34.898 ms
+06:17:36 PM.460: video_thread(video): min=0 ms, median=0.968 ms, max=835.823 ms, 99th percentile=9.114 ms
+06:17:36 PM.460:  ┗receive_video: min=0.68 ms, median=0.978 ms, max=835.821 ms, 99th percentile=6.654 ms, 1.16977 calls per parent call
+06:17:36 PM.460:    ┗do_encode: min=0.679 ms, median=0.977 ms, max=835.819 ms, 99th percentile=6.653 ms
+06:17:36 PM.460:      ┗encode(simple_h264_recording): min=0.665 ms, median=0.956 ms, max=14.442 ms, 99th percentile=6.231 ms
+06:17:36 PM.460: =================================================
+06:17:36 PM.460: == Profiler Time Between Calls ==================
+06:17:36 PM.461: obs_hotkey_thread(25 ms): min=25.073 ms, median=28.669 ms, max=997.227 ms, 24.1937% within ±2% of 25 ms (0% lower, 75.8063% higher)
+06:17:36 PM.461: obs_graphics_thread(41.7083 ms): min=18.582 ms, median=41.708 ms, max=339.704 ms, 59.9728% within ±2% of 41.708 ms (20.1029% lower, 19.9243% higher)
+06:17:36 PM.461: obs_graphics_thread(33.3333 ms): min=11.793 ms, median=33.333 ms, max=205.238 ms, 51.7589% within ±2% of 33.333 ms (23.4435% lower, 24.7976% higher)
+06:17:36 PM.461: =================================================
+06:17:37 PM.068: Number of memory leaks: 112

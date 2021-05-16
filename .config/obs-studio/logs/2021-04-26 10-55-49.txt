@@ -1,0 +1,1898 @@
+10:55:49 AM.530: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+10:55:49 AM.530: CPU Speed: 2601.137MHz
+10:55:49 AM.531: Physical Cores: 6, Logical Cores: 12
+10:55:49 AM.531: Physical Memory: 16015MB Total, 8389MB Free
+10:55:49 AM.531: Kernel Version: Linux 5.11.16-arch1-1
+10:55:49 AM.531: Distribution: "EndeavourOS" Unknown
+10:55:49 AM.531: Session Type: x11
+10:55:49 AM.531: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+10:55:49 AM.532: Portable mode: false
+10:55:49 AM.588: OBS 26.1.2-2 (linux)
+10:55:49 AM.588: ---------------------------------
+10:55:49 AM.589: ---------------------------------
+10:55:49 AM.589: audio settings reset:
+10:55:49 AM.589: 	samples per sec: 48000
+10:55:49 AM.589: 	speakers:        2
+10:55:49 AM.590: ---------------------------------
+10:55:49 AM.590: Initializing OpenGL...
+10:55:49 AM.650: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 980 Ti/PCIe/SSE2
+10:55:49 AM.650: OpenGL loaded successfully, version 3.3.0 NVIDIA 465.24.02, shading language 3.30 NVIDIA via Cg compiler
+10:55:49 AM.657: ---------------------------------
+10:55:49 AM.657: video settings reset:
+10:55:49 AM.657: 	base resolution:   1920x1080
+10:55:49 AM.657: 	output resolution: 1920x1080
+10:55:49 AM.657: 	downscale filter:  Bicubic
+10:55:49 AM.657: 	fps:               60/1
+10:55:49 AM.657: 	format:            NV12
+10:55:49 AM.657: 	YUV mode:          709/Partial
+10:55:49 AM.657: NV12 texture support not available
+10:55:49 AM.658: Audio monitoring device:
+10:55:49 AM.658: 	name: Default
+10:55:49 AM.658: 	id: default
+10:55:49 AM.658: ---------------------------------
+10:55:49 AM.660: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:55:49 AM.660: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+10:55:49 AM.733: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:55:49 AM.733: No blackmagic support
+10:55:49 AM.747: NVENC supported
+10:55:49 AM.747: FFMPEG VAAPI supported
+10:55:49 AM.752: VLC found, VLC video source enabled
+10:55:49 AM.780: ---------------------------------
+10:55:49 AM.780:   Loaded Modules:
+10:55:49 AM.780:     input-overlay.so
+10:55:49 AM.780:     vlc-video.so
+10:55:49 AM.780:     text-freetype2.so
+10:55:49 AM.780:     rtmp-services.so
+10:55:49 AM.780:     obs-x264.so
+10:55:49 AM.780:     obs-transitions.so
+10:55:49 AM.780:     obs-outputs.so
+10:55:49 AM.780:     obs-libfdk.so
+10:55:49 AM.780:     obs-filters.so
+10:55:49 AM.780:     obs-ffmpeg.so
+10:55:49 AM.780:     linux-v4l2.so
+10:55:49 AM.780:     linux-pulseaudio.so
+10:55:49 AM.780:     linux-jack.so
+10:55:49 AM.780:     linux-decklink.so
+10:55:49 AM.780:     linux-capture.so
+10:55:49 AM.780:     linux-alsa.so
+10:55:49 AM.780:     image-source.so
+10:55:49 AM.780:     frontend-tools.so
+10:55:49 AM.780:     decklink-ouput-ui.so
+10:55:49 AM.780:     decklink-captions.so
+10:55:49 AM.780: ---------------------------------
+10:55:49 AM.780: ==== Startup complete ===============================================
+10:55:49 AM.785: All scene data cleared
+10:55:49 AM.785: ------------------------------------------------
+10:55:49 AM.792: pulse-input: Server name: 'pulseaudio 14.2'
+10:55:49 AM.793: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+10:55:49 AM.793: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+10:55:49 AM.793: [Loaded global audio device]: 'Desktop Audio'
+10:55:49 AM.793: pulse-input: Server name: 'pulseaudio 14.2'
+10:55:49 AM.794: pulse-input: An error occurred while getting the source info!
+10:55:49 AM.794: [Loaded global audio device]: 'Mic/Aux'
+10:55:49 AM.802: v4l2-input: Start capture from /dev/video0
+10:55:49 AM.805: v4l2-input: Input: 0
+10:55:49 AM.805: v4l2-input: Resolution: 1024x576
+10:55:49 AM.805: v4l2-input: Pixelformat: YU12
+10:55:49 AM.805: v4l2-input: Linesize: 1024 Bytes
+10:55:49 AM.805: v4l2-input: Framerate: 30.00 fps
+10:55:49 AM.822: xshm-input: Geometry 1920x1080 @ 0,0
+10:55:49 AM.835: xshm-input: Geometry 1080x1920 @ 1920,0
+10:55:49 AM.850: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:55:49 AM.850:  [ERROR] Invalid type 'F' at line 2
+10:55:49 AM.850:  [ERROR] Invalid type 'G' at line 2
+10:55:49 AM.850:  [ERROR] Invalid type 'I' at line 2
+10:55:49 AM.850:  [ERROR] Invalid type 'L' at line 2
+10:55:49 AM.850:  [ERROR] Invalid type 'M' at line 2
+10:55:49 AM.850:  [ERROR] Invalid type 'O' at line 2
+10:55:49 AM.850:  1 more error(s) reported
+10:55:49 AM.978: [Media Source 'Arcade_Pop (Stinger)']: settings:
+10:55:49 AM.978: 	input:                   /home/kj/videos/overlays/arcade_pop/Transition_Purple_Mute.webm
+10:55:49 AM.978: 	input_format:            (null)
+10:55:49 AM.978: 	speed:                   100
+10:55:49 AM.978: 	is_looping:              no
+10:55:49 AM.978: 	is_hw_decoding:          yes
+10:55:49 AM.978: 	is_clear_on_media_end:   yes
+10:55:49 AM.978: 	restart_on_activate:     yes
+10:55:49 AM.978: 	close_when_inactive:     no
+10:55:49 AM.978: [Media Source 'Clearview (Stinger)']: settings:
+10:55:49 AM.978: 	input:                   /home/kj/videos/overlays/clearview/screens/Stinger_60fps.webm
+10:55:49 AM.978: 	input_format:            (null)
+10:55:49 AM.978: 	speed:                   100
+10:55:49 AM.978: 	is_looping:              no
+10:55:49 AM.978: 	is_hw_decoding:          yes
+10:55:49 AM.978: 	is_clear_on_media_end:   yes
+10:55:49 AM.978: 	restart_on_activate:     yes
+10:55:49 AM.978: 	close_when_inactive:     no
+10:55:49 AM.980: pulse-am: Server name: 'pulseaudio 14.2'
+10:55:49 AM.980: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+10:55:49 AM.980: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+10:55:49 AM.980: Switched to scene 'Dual'
+10:55:49 AM.981: ------------------------------------------------
+10:55:49 AM.981: Loaded scenes:
+10:55:49 AM.981: - scene 'Props':
+10:55:49 AM.981:     - source: 'Titlebar 2' (group)
+10:55:49 AM.981:         - source: 'Titlebar - Background 2' (image_source)
+10:55:49 AM.981:         - source: 'Title - Title' (text_ft2_source_v2)
+10:55:49 AM.981:         - source: 'Input History' (input-history)
+10:55:49 AM.981:     - source: 'Canon - Webcam' (group)
+10:55:49 AM.981:         - source: 'Webcam' (v4l2_input)
+10:55:49 AM.981:             - filter: 'Color Correction' (color_filter)
+10:55:49 AM.981:         - source: 'Webcam - Overlay' (image_source)
+10:55:49 AM.981: - scene 'Intro':
+10:55:49 AM.981:     - source: 'Canon - Webcam' (group)
+10:55:49 AM.981:         - source: 'Webcam' (v4l2_input)
+10:55:49 AM.981:             - filter: 'Color Correction' (color_filter)
+10:55:49 AM.981:         - source: 'Webcam - Overlay' (image_source)
+10:55:49 AM.981:     - source: 'Titlebar 2' (group)
+10:55:49 AM.981:         - source: 'Titlebar - Background 2' (image_source)
+10:55:49 AM.981:         - source: 'Title - Title' (text_ft2_source_v2)
+10:55:49 AM.981:         - source: 'Input History' (input-history)
+10:55:49 AM.981: - scene 'Main':
+10:55:49 AM.981:     - source: 'Display 1' (xshm_input)
+10:55:49 AM.981:     - source: 'Titlebar 2' (group)
+10:55:49 AM.981:         - source: 'Titlebar - Background 2' (image_source)
+10:55:49 AM.981:         - source: 'Title - Title' (text_ft2_source_v2)
+10:55:49 AM.981:         - source: 'Input History' (input-history)
+10:55:49 AM.981:     - source: 'Qwerty Overlay' (input-overlay)
+10:55:49 AM.981:     - source: 'Canon - Webcam' (group)
+10:55:49 AM.981:         - source: 'Webcam' (v4l2_input)
+10:55:49 AM.981:             - filter: 'Color Correction' (color_filter)
+10:55:49 AM.981:         - source: 'Webcam - Overlay' (image_source)
+10:55:49 AM.981: - scene 'Dual':
+10:55:49 AM.982:     - source: 'Display 1' (xshm_input)
+10:55:49 AM.982:     - source: 'Display 2' (xshm_input)
+10:55:49 AM.982:     - source: 'Titlebar 2' (group)
+10:55:49 AM.982:         - source: 'Titlebar - Background 2' (image_source)
+10:55:49 AM.982:         - source: 'Title - Title' (text_ft2_source_v2)
+10:55:49 AM.983:         - source: 'Input History' (input-history)
+10:55:49 AM.983:     - source: 'Canon - Webcam' (group)
+10:55:49 AM.983:         - source: 'Webcam' (v4l2_input)
+10:55:49 AM.983:             - filter: 'Color Correction' (color_filter)
+10:55:49 AM.983:         - source: 'Webcam - Overlay' (image_source)
+10:55:49 AM.983: ------------------------------------------------
+10:55:52 AM.275: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:55:52 AM.275:  [ERROR] Invalid type 'F' at line 2
+10:55:52 AM.275:  [ERROR] Invalid type 'G' at line 2
+10:55:52 AM.275:  [ERROR] Invalid type 'I' at line 2
+10:55:52 AM.275:  [ERROR] Invalid type 'L' at line 2
+10:55:52 AM.275:  [ERROR] Invalid type 'M' at line 2
+10:55:52 AM.275:  [ERROR] Invalid type 'O' at line 2
+10:55:52 AM.275:  1 more error(s) reported
+10:55:53 AM.533: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:55:53 AM.533:  [ERROR] Invalid type 'F' at line 2
+10:55:53 AM.533:  [ERROR] Invalid type 'G' at line 2
+10:55:53 AM.533:  [ERROR] Invalid type 'I' at line 2
+10:55:53 AM.533:  [ERROR] Invalid type 'L' at line 2
+10:55:53 AM.533:  [ERROR] Invalid type 'M' at line 2
+10:55:53 AM.533:  [ERROR] Invalid type 'O' at line 2
+10:55:53 AM.533:  1 more error(s) reported
+10:55:53 AM.642: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+10:55:53 AM.642: 
+10:55:56 AM.148: User switched to scene 'Intro'
+10:55:56 AM.225: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:55:56 AM.225:  [ERROR] Invalid type 'F' at line 2
+10:55:56 AM.225:  [ERROR] Invalid type 'G' at line 2
+10:55:56 AM.225:  [ERROR] Invalid type 'I' at line 2
+10:55:56 AM.225:  [ERROR] Invalid type 'L' at line 2
+10:55:56 AM.225:  [ERROR] Invalid type 'M' at line 2
+10:55:56 AM.225:  [ERROR] Invalid type 'O' at line 2
+10:55:56 AM.225:  1 more error(s) reported
+10:55:56 AM.275: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:55:56 AM.275:  [ERROR] Invalid type 'F' at line 2
+10:55:56 AM.275:  [ERROR] Invalid type 'G' at line 2
+10:55:56 AM.275:  [ERROR] Invalid type 'I' at line 2
+10:55:56 AM.275:  [ERROR] Invalid type 'L' at line 2
+10:55:56 AM.275:  [ERROR] Invalid type 'M' at line 2
+10:55:56 AM.275:  [ERROR] Invalid type 'O' at line 2
+10:55:56 AM.275:  1 more error(s) reported
+10:55:59 AM.387: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Desktop Audio)
+10:55:59 AM.387: 
+10:56:49 AM.932: User switched to scene 'Main'
+10:56:55 AM.233: User switched to scene 'Props'
+10:57:02 AM.524: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:02 AM.524:  [ERROR] Invalid type 'F' at line 2
+10:57:02 AM.524:  [ERROR] Invalid type 'G' at line 2
+10:57:02 AM.524:  [ERROR] Invalid type 'I' at line 2
+10:57:02 AM.524:  [ERROR] Invalid type 'L' at line 2
+10:57:02 AM.524:  [ERROR] Invalid type 'M' at line 2
+10:57:02 AM.524:  [ERROR] Invalid type 'O' at line 2
+10:57:02 AM.524:  1 more error(s) reported
+10:57:04 AM.325: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:04 AM.325:  [ERROR] Invalid type 'F' at line 2
+10:57:04 AM.325:  [ERROR] Invalid type 'G' at line 2
+10:57:04 AM.325:  [ERROR] Invalid type 'I' at line 2
+10:57:04 AM.325:  [ERROR] Invalid type 'L' at line 2
+10:57:04 AM.325:  [ERROR] Invalid type 'M' at line 2
+10:57:04 AM.325:  [ERROR] Invalid type 'O' at line 2
+10:57:04 AM.325:  1 more error(s) reported
+10:57:04 AM.574: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:04 AM.574:  [ERROR] Invalid type 'F' at line 2
+10:57:04 AM.574:  [ERROR] Invalid type 'G' at line 2
+10:57:04 AM.574:  [ERROR] Invalid type 'I' at line 2
+10:57:04 AM.574:  [ERROR] Invalid type 'L' at line 2
+10:57:04 AM.574:  [ERROR] Invalid type 'M' at line 2
+10:57:04 AM.574:  [ERROR] Invalid type 'O' at line 2
+10:57:04 AM.574:  1 more error(s) reported
+10:57:04 AM.725: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:04 AM.725:  [ERROR] Invalid type 'F' at line 2
+10:57:04 AM.725:  [ERROR] Invalid type 'G' at line 2
+10:57:04 AM.725:  [ERROR] Invalid type 'I' at line 2
+10:57:04 AM.725:  [ERROR] Invalid type 'L' at line 2
+10:57:04 AM.725:  [ERROR] Invalid type 'M' at line 2
+10:57:04 AM.725:  [ERROR] Invalid type 'O' at line 2
+10:57:04 AM.725:  1 more error(s) reported
+10:57:04 AM.774: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:04 AM.774:  [ERROR] Invalid type 'F' at line 2
+10:57:04 AM.774:  [ERROR] Invalid type 'G' at line 2
+10:57:04 AM.774:  [ERROR] Invalid type 'I' at line 2
+10:57:04 AM.774:  [ERROR] Invalid type 'L' at line 2
+10:57:04 AM.774:  [ERROR] Invalid type 'M' at line 2
+10:57:04 AM.774:  [ERROR] Invalid type 'O' at line 2
+10:57:04 AM.774:  1 more error(s) reported
+10:57:04 AM.874: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:04 AM.874:  [ERROR] Invalid type 'F' at line 2
+10:57:04 AM.874:  [ERROR] Invalid type 'G' at line 2
+10:57:04 AM.874:  [ERROR] Invalid type 'I' at line 2
+10:57:04 AM.874:  [ERROR] Invalid type 'L' at line 2
+10:57:04 AM.874:  [ERROR] Invalid type 'M' at line 2
+10:57:04 AM.874:  [ERROR] Invalid type 'O' at line 2
+10:57:04 AM.874:  1 more error(s) reported
+10:57:04 AM.974: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:04 AM.974:  [ERROR] Invalid type 'F' at line 2
+10:57:04 AM.974:  [ERROR] Invalid type 'G' at line 2
+10:57:04 AM.974:  [ERROR] Invalid type 'I' at line 2
+10:57:04 AM.974:  [ERROR] Invalid type 'L' at line 2
+10:57:04 AM.974:  [ERROR] Invalid type 'M' at line 2
+10:57:04 AM.974:  [ERROR] Invalid type 'O' at line 2
+10:57:04 AM.974:  1 more error(s) reported
+10:57:05 AM.874: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:05 AM.874:  [ERROR] Invalid type 'F' at line 2
+10:57:05 AM.874:  [ERROR] Invalid type 'G' at line 2
+10:57:05 AM.874:  [ERROR] Invalid type 'I' at line 2
+10:57:05 AM.874:  [ERROR] Invalid type 'L' at line 2
+10:57:05 AM.874:  [ERROR] Invalid type 'M' at line 2
+10:57:05 AM.874:  [ERROR] Invalid type 'O' at line 2
+10:57:05 AM.874:  1 more error(s) reported
+10:57:06 AM.224: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:06 AM.224:  [ERROR] Invalid type 'F' at line 2
+10:57:06 AM.224:  [ERROR] Invalid type 'G' at line 2
+10:57:06 AM.224:  [ERROR] Invalid type 'I' at line 2
+10:57:06 AM.224:  [ERROR] Invalid type 'L' at line 2
+10:57:06 AM.224:  [ERROR] Invalid type 'M' at line 2
+10:57:06 AM.224:  [ERROR] Invalid type 'O' at line 2
+10:57:06 AM.224:  1 more error(s) reported
+10:57:06 AM.675: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:06 AM.675:  [ERROR] Invalid type 'F' at line 2
+10:57:06 AM.675:  [ERROR] Invalid type 'G' at line 2
+10:57:06 AM.675:  [ERROR] Invalid type 'I' at line 2
+10:57:06 AM.675:  [ERROR] Invalid type 'L' at line 2
+10:57:06 AM.675:  [ERROR] Invalid type 'M' at line 2
+10:57:06 AM.675:  [ERROR] Invalid type 'O' at line 2
+10:57:06 AM.675:  1 more error(s) reported
+10:57:07 AM.575: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:07 AM.575:  [ERROR] Invalid type 'F' at line 2
+10:57:07 AM.575:  [ERROR] Invalid type 'G' at line 2
+10:57:07 AM.575:  [ERROR] Invalid type 'I' at line 2
+10:57:07 AM.575:  [ERROR] Invalid type 'L' at line 2
+10:57:07 AM.575:  [ERROR] Invalid type 'M' at line 2
+10:57:07 AM.575:  [ERROR] Invalid type 'O' at line 2
+10:57:07 AM.575:  1 more error(s) reported
+10:57:07 AM.724: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:07 AM.724:  [ERROR] Invalid type 'F' at line 2
+10:57:07 AM.724:  [ERROR] Invalid type 'G' at line 2
+10:57:07 AM.724:  [ERROR] Invalid type 'I' at line 2
+10:57:07 AM.724:  [ERROR] Invalid type 'L' at line 2
+10:57:07 AM.724:  [ERROR] Invalid type 'M' at line 2
+10:57:07 AM.724:  [ERROR] Invalid type 'O' at line 2
+10:57:07 AM.724:  1 more error(s) reported
+10:57:08 AM.075: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:08 AM.075:  [ERROR] Invalid type 'F' at line 2
+10:57:08 AM.075:  [ERROR] Invalid type 'G' at line 2
+10:57:08 AM.075:  [ERROR] Invalid type 'I' at line 2
+10:57:08 AM.075:  [ERROR] Invalid type 'L' at line 2
+10:57:08 AM.075:  [ERROR] Invalid type 'M' at line 2
+10:57:08 AM.075:  [ERROR] Invalid type 'O' at line 2
+10:57:08 AM.075:  1 more error(s) reported
+10:57:08 AM.475: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:08 AM.475:  [ERROR] Invalid type 'F' at line 2
+10:57:08 AM.475:  [ERROR] Invalid type 'G' at line 2
+10:57:08 AM.475:  [ERROR] Invalid type 'I' at line 2
+10:57:08 AM.475:  [ERROR] Invalid type 'L' at line 2
+10:57:08 AM.475:  [ERROR] Invalid type 'M' at line 2
+10:57:08 AM.475:  [ERROR] Invalid type 'O' at line 2
+10:57:08 AM.475:  1 more error(s) reported
+10:57:08 AM.524: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:08 AM.524:  [ERROR] Invalid type 'F' at line 2
+10:57:08 AM.524:  [ERROR] Invalid type 'G' at line 2
+10:57:08 AM.524:  [ERROR] Invalid type 'I' at line 2
+10:57:08 AM.524:  [ERROR] Invalid type 'L' at line 2
+10:57:08 AM.524:  [ERROR] Invalid type 'M' at line 2
+10:57:08 AM.524:  [ERROR] Invalid type 'O' at line 2
+10:57:08 AM.524:  1 more error(s) reported
+10:57:08 AM.574: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:08 AM.574:  [ERROR] Invalid type 'F' at line 2
+10:57:08 AM.574:  [ERROR] Invalid type 'G' at line 2
+10:57:08 AM.574:  [ERROR] Invalid type 'I' at line 2
+10:57:08 AM.574:  [ERROR] Invalid type 'L' at line 2
+10:57:08 AM.574:  [ERROR] Invalid type 'M' at line 2
+10:57:08 AM.574:  [ERROR] Invalid type 'O' at line 2
+10:57:08 AM.574:  1 more error(s) reported
+10:57:08 AM.624: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:08 AM.624:  [ERROR] Invalid type 'F' at line 2
+10:57:08 AM.624:  [ERROR] Invalid type 'G' at line 2
+10:57:08 AM.624:  [ERROR] Invalid type 'I' at line 2
+10:57:08 AM.624:  [ERROR] Invalid type 'L' at line 2
+10:57:08 AM.624:  [ERROR] Invalid type 'M' at line 2
+10:57:08 AM.624:  [ERROR] Invalid type 'O' at line 2
+10:57:08 AM.624:  1 more error(s) reported
+10:57:08 AM.674: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:08 AM.674:  [ERROR] Invalid type 'F' at line 2
+10:57:08 AM.674:  [ERROR] Invalid type 'G' at line 2
+10:57:08 AM.674:  [ERROR] Invalid type 'I' at line 2
+10:57:08 AM.674:  [ERROR] Invalid type 'L' at line 2
+10:57:08 AM.674:  [ERROR] Invalid type 'M' at line 2
+10:57:08 AM.674:  [ERROR] Invalid type 'O' at line 2
+10:57:08 AM.674:  1 more error(s) reported
+10:57:09 AM.124: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.124:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.124:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.124:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.124:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.124:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.124:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.124:  1 more error(s) reported
+10:57:09 AM.224: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.224:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.224:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.224:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.224:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.224:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.224:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.224:  1 more error(s) reported
+10:57:09 AM.274: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.274:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.274:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.274:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.274:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.274:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.274:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.274:  1 more error(s) reported
+10:57:09 AM.374: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.374:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.374:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.374:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.374:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.374:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.374:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.374:  1 more error(s) reported
+10:57:09 AM.424: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.424:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.424:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.424:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.424:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.424:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.424:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.424:  1 more error(s) reported
+10:57:09 AM.574: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.574:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.574:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.574:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.574:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.574:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.574:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.574:  1 more error(s) reported
+10:57:09 AM.674: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.674:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.674:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.674:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.674:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.674:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.674:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.674:  1 more error(s) reported
+10:57:09 AM.824: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.824:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.824:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.824:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.824:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.824:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.824:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.824:  1 more error(s) reported
+10:57:09 AM.974: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:09 AM.974:  [ERROR] Invalid type 'F' at line 2
+10:57:09 AM.974:  [ERROR] Invalid type 'G' at line 2
+10:57:09 AM.974:  [ERROR] Invalid type 'I' at line 2
+10:57:09 AM.974:  [ERROR] Invalid type 'L' at line 2
+10:57:09 AM.974:  [ERROR] Invalid type 'M' at line 2
+10:57:09 AM.974:  [ERROR] Invalid type 'O' at line 2
+10:57:09 AM.974:  1 more error(s) reported
+10:57:10 AM.074: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:10 AM.074:  [ERROR] Invalid type 'F' at line 2
+10:57:10 AM.074:  [ERROR] Invalid type 'G' at line 2
+10:57:10 AM.074:  [ERROR] Invalid type 'I' at line 2
+10:57:10 AM.074:  [ERROR] Invalid type 'L' at line 2
+10:57:10 AM.074:  [ERROR] Invalid type 'M' at line 2
+10:57:10 AM.074:  [ERROR] Invalid type 'O' at line 2
+10:57:10 AM.074:  1 more error(s) reported
+10:57:10 AM.125: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:10 AM.125:  [ERROR] Invalid type 'F' at line 2
+10:57:10 AM.125:  [ERROR] Invalid type 'G' at line 2
+10:57:10 AM.125:  [ERROR] Invalid type 'I' at line 2
+10:57:10 AM.125:  [ERROR] Invalid type 'L' at line 2
+10:57:10 AM.125:  [ERROR] Invalid type 'M' at line 2
+10:57:10 AM.125:  [ERROR] Invalid type 'O' at line 2
+10:57:10 AM.125:  1 more error(s) reported
+10:57:10 AM.224: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:10 AM.224:  [ERROR] Invalid type 'F' at line 2
+10:57:10 AM.224:  [ERROR] Invalid type 'G' at line 2
+10:57:10 AM.224:  [ERROR] Invalid type 'I' at line 2
+10:57:10 AM.224:  [ERROR] Invalid type 'L' at line 2
+10:57:10 AM.224:  [ERROR] Invalid type 'M' at line 2
+10:57:10 AM.224:  [ERROR] Invalid type 'O' at line 2
+10:57:10 AM.224:  1 more error(s) reported
+10:57:13 AM.024: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:57:13 AM.024:  [ERROR] Invalid type 'F' at line 2
+10:57:13 AM.024:  [ERROR] Invalid type 'G' at line 2
+10:57:13 AM.024:  [ERROR] Invalid type 'I' at line 2
+10:57:13 AM.024:  [ERROR] Invalid type 'L' at line 2
+10:57:13 AM.024:  [ERROR] Invalid type 'M' at line 2
+10:57:13 AM.024:  [ERROR] Invalid type 'O' at line 2
+10:57:13 AM.024:  1 more error(s) reported
+10:57:40 AM.159: Last log entry repeated for 24 more lines
+10:57:40 AM.159: User switched to scene 'Intro'
+10:57:40 AM.586: User switched to scene 'Main'
+10:58:53 AM.313: ---------------------------------
+10:58:53 AM.314: [NVENC encoder: 'simple_h264_recording'] settings:
+10:58:53 AM.314: 	rate_control: CQP
+10:58:53 AM.314: 	bitrate:      0
+10:58:53 AM.314: 	cqp:          23
+10:58:53 AM.314: 	keyint:       250
+10:58:53 AM.314: 	preset:       hq
+10:58:53 AM.314: 	profile:      high
+10:58:53 AM.314: 	width:        1920
+10:58:53 AM.314: 	height:       1080
+10:58:53 AM.314: 	2-pass:       false
+10:58:53 AM.314: 	b-frames:     2
+10:58:53 AM.314: 	GPU:          0
+10:58:53 AM.314: 
+10:58:53 AM.489: libfdk_aac encoder created
+10:58:53 AM.489: libfdk_aac bitrate: 192, channels: 2
+10:58:53 AM.513: ==== Recording Start ===============================================
+10:58:53 AM.513: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/kj/videos/_temp/2021-04-26_10-58-53.mkv'...
+10:58:55 AM.806: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/kj/videos/_temp/2021-04-26_10-58-53.mkv' stopped
+10:58:55 AM.806: Output 'simple_file_output': stopping
+10:58:55 AM.806: Output 'simple_file_output': Total frames output: 126
+10:58:55 AM.806: Output 'simple_file_output': Total drawn frames: 137
+10:58:55 AM.806: ==== Recording Stop ================================================
+10:58:55 AM.876: libfdk_aac encoder destroyed
+10:59:01 AM.008: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.008:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.008:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.008:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.008:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.008:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.008:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.008:  1 more error(s) reported
+10:59:01 AM.108: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.108:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.108:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.108:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.108:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.108:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.108:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.108:  1 more error(s) reported
+10:59:01 AM.308: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.308:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.308:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.308:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.308:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.308:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.308:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.308:  1 more error(s) reported
+10:59:01 AM.358: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.358:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.358:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.358:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.358:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.358:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.358:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.358:  1 more error(s) reported
+10:59:01 AM.458: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.458:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.458:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.458:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.458:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.458:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.458:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.458:  1 more error(s) reported
+10:59:01 AM.608: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.608:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.608:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.608:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.608:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.608:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.608:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.608:  1 more error(s) reported
+10:59:01 AM.658: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.658:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.658:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.658:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.658:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.658:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.658:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.658:  1 more error(s) reported
+10:59:01 AM.708: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:01 AM.708:  [ERROR] Invalid type 'F' at line 2
+10:59:01 AM.708:  [ERROR] Invalid type 'G' at line 2
+10:59:01 AM.708:  [ERROR] Invalid type 'I' at line 2
+10:59:01 AM.708:  [ERROR] Invalid type 'L' at line 2
+10:59:01 AM.708:  [ERROR] Invalid type 'M' at line 2
+10:59:01 AM.708:  [ERROR] Invalid type 'O' at line 2
+10:59:01 AM.708:  1 more error(s) reported
+10:59:02 AM.358: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:02 AM.358:  [ERROR] Invalid type 'F' at line 2
+10:59:02 AM.358:  [ERROR] Invalid type 'G' at line 2
+10:59:02 AM.358:  [ERROR] Invalid type 'I' at line 2
+10:59:02 AM.358:  [ERROR] Invalid type 'L' at line 2
+10:59:02 AM.358:  [ERROR] Invalid type 'M' at line 2
+10:59:02 AM.358:  [ERROR] Invalid type 'O' at line 2
+10:59:02 AM.358:  1 more error(s) reported
+10:59:02 AM.708: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:02 AM.708:  [ERROR] Invalid type 'F' at line 2
+10:59:02 AM.708:  [ERROR] Invalid type 'G' at line 2
+10:59:02 AM.708:  [ERROR] Invalid type 'I' at line 2
+10:59:02 AM.708:  [ERROR] Invalid type 'L' at line 2
+10:59:02 AM.708:  [ERROR] Invalid type 'M' at line 2
+10:59:02 AM.708:  [ERROR] Invalid type 'O' at line 2
+10:59:02 AM.708:  1 more error(s) reported
+10:59:07 AM.158: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:07 AM.158:  [ERROR] Invalid type 'F' at line 2
+10:59:07 AM.158:  [ERROR] Invalid type 'G' at line 2
+10:59:07 AM.158:  [ERROR] Invalid type 'I' at line 2
+10:59:07 AM.158:  [ERROR] Invalid type 'L' at line 2
+10:59:07 AM.158:  [ERROR] Invalid type 'M' at line 2
+10:59:07 AM.158:  [ERROR] Invalid type 'O' at line 2
+10:59:07 AM.158:  1 more error(s) reported
+10:59:08 AM.208: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:08 AM.208:  [ERROR] Invalid type 'F' at line 2
+10:59:08 AM.208:  [ERROR] Invalid type 'G' at line 2
+10:59:08 AM.208:  [ERROR] Invalid type 'I' at line 2
+10:59:08 AM.208:  [ERROR] Invalid type 'L' at line 2
+10:59:08 AM.208:  [ERROR] Invalid type 'M' at line 2
+10:59:08 AM.208:  [ERROR] Invalid type 'O' at line 2
+10:59:08 AM.208:  1 more error(s) reported
+10:59:10 AM.308: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:10 AM.308:  [ERROR] Invalid type 'F' at line 2
+10:59:10 AM.308:  [ERROR] Invalid type 'G' at line 2
+10:59:10 AM.308:  [ERROR] Invalid type 'I' at line 2
+10:59:10 AM.308:  [ERROR] Invalid type 'L' at line 2
+10:59:10 AM.308:  [ERROR] Invalid type 'M' at line 2
+10:59:10 AM.308:  [ERROR] Invalid type 'O' at line 2
+10:59:10 AM.308:  1 more error(s) reported
+10:59:15 AM.658: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:15 AM.658:  [ERROR] Invalid type 'F' at line 2
+10:59:15 AM.658:  [ERROR] Invalid type 'G' at line 2
+10:59:15 AM.658:  [ERROR] Invalid type 'I' at line 2
+10:59:15 AM.658:  [ERROR] Invalid type 'L' at line 2
+10:59:15 AM.658:  [ERROR] Invalid type 'M' at line 2
+10:59:15 AM.658:  [ERROR] Invalid type 'O' at line 2
+10:59:15 AM.658:  1 more error(s) reported
+10:59:15 AM.808: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:15 AM.808:  [ERROR] Invalid type 'F' at line 2
+10:59:15 AM.808:  [ERROR] Invalid type 'G' at line 2
+10:59:15 AM.808:  [ERROR] Invalid type 'I' at line 2
+10:59:15 AM.808:  [ERROR] Invalid type 'L' at line 2
+10:59:15 AM.808:  [ERROR] Invalid type 'M' at line 2
+10:59:15 AM.808:  [ERROR] Invalid type 'O' at line 2
+10:59:15 AM.808:  1 more error(s) reported
+10:59:17 AM.408: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:17 AM.408:  [ERROR] Invalid type 'F' at line 2
+10:59:17 AM.408:  [ERROR] Invalid type 'G' at line 2
+10:59:17 AM.408:  [ERROR] Invalid type 'I' at line 2
+10:59:17 AM.408:  [ERROR] Invalid type 'L' at line 2
+10:59:17 AM.408:  [ERROR] Invalid type 'M' at line 2
+10:59:17 AM.408:  [ERROR] Invalid type 'O' at line 2
+10:59:17 AM.408:  1 more error(s) reported
+10:59:17 AM.458: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:17 AM.458:  [ERROR] Invalid type 'F' at line 2
+10:59:17 AM.458:  [ERROR] Invalid type 'G' at line 2
+10:59:17 AM.458:  [ERROR] Invalid type 'I' at line 2
+10:59:17 AM.458:  [ERROR] Invalid type 'L' at line 2
+10:59:17 AM.458:  [ERROR] Invalid type 'M' at line 2
+10:59:17 AM.458:  [ERROR] Invalid type 'O' at line 2
+10:59:17 AM.458:  1 more error(s) reported
+10:59:23 AM.508: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:23 AM.508:  [ERROR] Invalid type 'F' at line 2
+10:59:23 AM.508:  [ERROR] Invalid type 'G' at line 2
+10:59:23 AM.508:  [ERROR] Invalid type 'I' at line 2
+10:59:23 AM.508:  [ERROR] Invalid type 'L' at line 2
+10:59:23 AM.508:  [ERROR] Invalid type 'M' at line 2
+10:59:23 AM.508:  [ERROR] Invalid type 'O' at line 2
+10:59:23 AM.508:  1 more error(s) reported
+10:59:23 AM.808: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:23 AM.808:  [ERROR] Invalid type 'F' at line 2
+10:59:23 AM.808:  [ERROR] Invalid type 'G' at line 2
+10:59:23 AM.808:  [ERROR] Invalid type 'I' at line 2
+10:59:23 AM.808:  [ERROR] Invalid type 'L' at line 2
+10:59:23 AM.808:  [ERROR] Invalid type 'M' at line 2
+10:59:23 AM.808:  [ERROR] Invalid type 'O' at line 2
+10:59:23 AM.808:  1 more error(s) reported
+10:59:25 AM.258: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:25 AM.258:  [ERROR] Invalid type 'F' at line 2
+10:59:25 AM.258:  [ERROR] Invalid type 'G' at line 2
+10:59:25 AM.258:  [ERROR] Invalid type 'I' at line 2
+10:59:25 AM.258:  [ERROR] Invalid type 'L' at line 2
+10:59:25 AM.258:  [ERROR] Invalid type 'M' at line 2
+10:59:25 AM.258:  [ERROR] Invalid type 'O' at line 2
+10:59:25 AM.258:  1 more error(s) reported
+10:59:26 AM.208: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:26 AM.208:  [ERROR] Invalid type 'F' at line 2
+10:59:26 AM.208:  [ERROR] Invalid type 'G' at line 2
+10:59:26 AM.208:  [ERROR] Invalid type 'I' at line 2
+10:59:26 AM.208:  [ERROR] Invalid type 'L' at line 2
+10:59:26 AM.208:  [ERROR] Invalid type 'M' at line 2
+10:59:26 AM.208:  [ERROR] Invalid type 'O' at line 2
+10:59:26 AM.208:  1 more error(s) reported
+10:59:26 AM.258: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:26 AM.258:  [ERROR] Invalid type 'F' at line 2
+10:59:26 AM.258:  [ERROR] Invalid type 'G' at line 2
+10:59:26 AM.258:  [ERROR] Invalid type 'I' at line 2
+10:59:26 AM.258:  [ERROR] Invalid type 'L' at line 2
+10:59:26 AM.258:  [ERROR] Invalid type 'M' at line 2
+10:59:26 AM.258:  [ERROR] Invalid type 'O' at line 2
+10:59:26 AM.258:  1 more error(s) reported
+10:59:35 AM.408: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:35 AM.408:  [ERROR] Invalid type 'F' at line 2
+10:59:35 AM.408:  [ERROR] Invalid type 'G' at line 2
+10:59:35 AM.408:  [ERROR] Invalid type 'I' at line 2
+10:59:35 AM.408:  [ERROR] Invalid type 'L' at line 2
+10:59:35 AM.408:  [ERROR] Invalid type 'M' at line 2
+10:59:35 AM.408:  [ERROR] Invalid type 'O' at line 2
+10:59:35 AM.408:  1 more error(s) reported
+10:59:41 AM.984: ---------------------------------
+10:59:41 AM.984: [NVENC encoder: 'simple_h264_recording'] settings:
+10:59:41 AM.984: 	rate_control: CQP
+10:59:41 AM.984: 	bitrate:      0
+10:59:41 AM.984: 	cqp:          23
+10:59:41 AM.984: 	keyint:       250
+10:59:41 AM.984: 	preset:       hq
+10:59:41 AM.984: 	profile:      high
+10:59:41 AM.984: 	width:        1920
+10:59:41 AM.984: 	height:       1080
+10:59:41 AM.984: 	2-pass:       false
+10:59:41 AM.984: 	b-frames:     2
+10:59:41 AM.984: 	GPU:          0
+10:59:41 AM.984: 
+10:59:42 AM.097: libfdk_aac encoder created
+10:59:42 AM.097: libfdk_aac bitrate: 192, channels: 2
+10:59:42 AM.099: ==== Recording Start ===============================================
+10:59:42 AM.099: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/kj/videos/_temp/2021-04-26_10-59-41.mkv'...
+10:59:47 AM.378: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/kj/videos/_temp/2021-04-26_10-59-41.mkv' stopped
+10:59:47 AM.378: Output 'simple_file_output': stopping
+10:59:47 AM.379: Output 'simple_file_output': Total frames output: 305
+10:59:47 AM.379: Output 'simple_file_output': Total drawn frames: 317
+10:59:47 AM.379: ==== Recording Stop ================================================
+10:59:47 AM.447: libfdk_aac encoder destroyed
+10:59:49 AM.673: ---------------------------------
+10:59:49 AM.673: [NVENC encoder: 'simple_h264_recording'] settings:
+10:59:49 AM.673: 	rate_control: CQP
+10:59:49 AM.673: 	bitrate:      0
+10:59:49 AM.673: 	cqp:          23
+10:59:49 AM.673: 	keyint:       250
+10:59:49 AM.673: 	preset:       hq
+10:59:49 AM.673: 	profile:      high
+10:59:49 AM.673: 	width:        1920
+10:59:49 AM.673: 	height:       1080
+10:59:49 AM.673: 	2-pass:       false
+10:59:49 AM.673: 	b-frames:     2
+10:59:49 AM.673: 	GPU:          0
+10:59:49 AM.673: 
+10:59:49 AM.786: libfdk_aac encoder created
+10:59:49 AM.786: libfdk_aac bitrate: 192, channels: 2
+10:59:49 AM.787: ==== Recording Start ===============================================
+10:59:49 AM.787: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/kj/videos/_temp/2021-04-26_10-59-49.mkv'...
+10:59:52 AM.558: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:52 AM.558:  [ERROR] Invalid type 'F' at line 2
+10:59:52 AM.558:  [ERROR] Invalid type 'G' at line 2
+10:59:52 AM.558:  [ERROR] Invalid type 'I' at line 2
+10:59:52 AM.558:  [ERROR] Invalid type 'L' at line 2
+10:59:52 AM.558:  [ERROR] Invalid type 'M' at line 2
+10:59:52 AM.558:  [ERROR] Invalid type 'O' at line 2
+10:59:52 AM.558:  1 more error(s) reported
+10:59:52 AM.708: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:52 AM.708:  [ERROR] Invalid type 'F' at line 2
+10:59:52 AM.708:  [ERROR] Invalid type 'G' at line 2
+10:59:52 AM.708:  [ERROR] Invalid type 'I' at line 2
+10:59:52 AM.708:  [ERROR] Invalid type 'L' at line 2
+10:59:52 AM.708:  [ERROR] Invalid type 'M' at line 2
+10:59:52 AM.708:  [ERROR] Invalid type 'O' at line 2
+10:59:52 AM.708:  1 more error(s) reported
+10:59:52 AM.758: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:52 AM.758:  [ERROR] Invalid type 'F' at line 2
+10:59:52 AM.758:  [ERROR] Invalid type 'G' at line 2
+10:59:52 AM.758:  [ERROR] Invalid type 'I' at line 2
+10:59:52 AM.758:  [ERROR] Invalid type 'L' at line 2
+10:59:52 AM.758:  [ERROR] Invalid type 'M' at line 2
+10:59:52 AM.758:  [ERROR] Invalid type 'O' at line 2
+10:59:52 AM.758:  1 more error(s) reported
+10:59:54 AM.308: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:54 AM.308:  [ERROR] Invalid type 'F' at line 2
+10:59:54 AM.308:  [ERROR] Invalid type 'G' at line 2
+10:59:54 AM.308:  [ERROR] Invalid type 'I' at line 2
+10:59:54 AM.308:  [ERROR] Invalid type 'L' at line 2
+10:59:54 AM.308:  [ERROR] Invalid type 'M' at line 2
+10:59:54 AM.308:  [ERROR] Invalid type 'O' at line 2
+10:59:54 AM.308:  1 more error(s) reported
+10:59:54 AM.508: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:54 AM.508:  [ERROR] Invalid type 'F' at line 2
+10:59:54 AM.508:  [ERROR] Invalid type 'G' at line 2
+10:59:54 AM.508:  [ERROR] Invalid type 'I' at line 2
+10:59:54 AM.508:  [ERROR] Invalid type 'L' at line 2
+10:59:54 AM.508:  [ERROR] Invalid type 'M' at line 2
+10:59:54 AM.508:  [ERROR] Invalid type 'O' at line 2
+10:59:54 AM.508:  1 more error(s) reported
+10:59:54 AM.708: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:54 AM.708:  [ERROR] Invalid type 'F' at line 2
+10:59:54 AM.708:  [ERROR] Invalid type 'G' at line 2
+10:59:54 AM.708:  [ERROR] Invalid type 'I' at line 2
+10:59:54 AM.708:  [ERROR] Invalid type 'L' at line 2
+10:59:54 AM.708:  [ERROR] Invalid type 'M' at line 2
+10:59:54 AM.708:  [ERROR] Invalid type 'O' at line 2
+10:59:54 AM.708:  1 more error(s) reported
+10:59:54 AM.808: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:54 AM.808:  [ERROR] Invalid type 'F' at line 2
+10:59:54 AM.808:  [ERROR] Invalid type 'G' at line 2
+10:59:54 AM.808:  [ERROR] Invalid type 'I' at line 2
+10:59:54 AM.808:  [ERROR] Invalid type 'L' at line 2
+10:59:54 AM.808:  [ERROR] Invalid type 'M' at line 2
+10:59:54 AM.808:  [ERROR] Invalid type 'O' at line 2
+10:59:54 AM.808:  1 more error(s) reported
+10:59:54 AM.858: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:54 AM.858:  [ERROR] Invalid type 'F' at line 2
+10:59:54 AM.858:  [ERROR] Invalid type 'G' at line 2
+10:59:54 AM.858:  [ERROR] Invalid type 'I' at line 2
+10:59:54 AM.858:  [ERROR] Invalid type 'L' at line 2
+10:59:54 AM.858:  [ERROR] Invalid type 'M' at line 2
+10:59:54 AM.858:  [ERROR] Invalid type 'O' at line 2
+10:59:54 AM.858:  1 more error(s) reported
+10:59:54 AM.958: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:54 AM.958:  [ERROR] Invalid type 'F' at line 2
+10:59:54 AM.958:  [ERROR] Invalid type 'G' at line 2
+10:59:54 AM.958:  [ERROR] Invalid type 'I' at line 2
+10:59:54 AM.958:  [ERROR] Invalid type 'L' at line 2
+10:59:54 AM.958:  [ERROR] Invalid type 'M' at line 2
+10:59:54 AM.958:  [ERROR] Invalid type 'O' at line 2
+10:59:54 AM.958:  1 more error(s) reported
+10:59:55 AM.058: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:55 AM.058:  [ERROR] Invalid type 'F' at line 2
+10:59:55 AM.058:  [ERROR] Invalid type 'G' at line 2
+10:59:55 AM.058:  [ERROR] Invalid type 'I' at line 2
+10:59:55 AM.058:  [ERROR] Invalid type 'L' at line 2
+10:59:55 AM.058:  [ERROR] Invalid type 'M' at line 2
+10:59:55 AM.058:  [ERROR] Invalid type 'O' at line 2
+10:59:55 AM.058:  1 more error(s) reported
+10:59:55 AM.108: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:55 AM.108:  [ERROR] Invalid type 'F' at line 2
+10:59:55 AM.108:  [ERROR] Invalid type 'G' at line 2
+10:59:55 AM.108:  [ERROR] Invalid type 'I' at line 2
+10:59:55 AM.108:  [ERROR] Invalid type 'L' at line 2
+10:59:55 AM.108:  [ERROR] Invalid type 'M' at line 2
+10:59:55 AM.108:  [ERROR] Invalid type 'O' at line 2
+10:59:55 AM.108:  1 more error(s) reported
+10:59:56 AM.108: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:56 AM.108:  [ERROR] Invalid type 'F' at line 2
+10:59:56 AM.108:  [ERROR] Invalid type 'G' at line 2
+10:59:56 AM.108:  [ERROR] Invalid type 'I' at line 2
+10:59:56 AM.108:  [ERROR] Invalid type 'L' at line 2
+10:59:56 AM.108:  [ERROR] Invalid type 'M' at line 2
+10:59:56 AM.108:  [ERROR] Invalid type 'O' at line 2
+10:59:56 AM.108:  1 more error(s) reported
+10:59:56 AM.339: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/kj/videos/_temp/2021-04-26_10-59-49.mkv' stopped
+10:59:56 AM.339: Output 'simple_file_output': stopping
+10:59:56 AM.339: Output 'simple_file_output': Total frames output: 381
+10:59:56 AM.339: Output 'simple_file_output': Total drawn frames: 393
+10:59:56 AM.339: ==== Recording Stop ================================================
+10:59:56 AM.395: libfdk_aac encoder destroyed
+10:59:57 AM.258: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:57 AM.258:  [ERROR] Invalid type 'F' at line 2
+10:59:57 AM.258:  [ERROR] Invalid type 'G' at line 2
+10:59:57 AM.258:  [ERROR] Invalid type 'I' at line 2
+10:59:57 AM.258:  [ERROR] Invalid type 'L' at line 2
+10:59:57 AM.258:  [ERROR] Invalid type 'M' at line 2
+10:59:57 AM.258:  [ERROR] Invalid type 'O' at line 2
+10:59:57 AM.258:  1 more error(s) reported
+10:59:58 AM.958: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+10:59:58 AM.958:  [ERROR] Invalid type 'F' at line 2
+10:59:58 AM.958:  [ERROR] Invalid type 'G' at line 2
+10:59:58 AM.958:  [ERROR] Invalid type 'I' at line 2
+10:59:58 AM.958:  [ERROR] Invalid type 'L' at line 2
+10:59:58 AM.958:  [ERROR] Invalid type 'M' at line 2
+10:59:58 AM.958:  [ERROR] Invalid type 'O' at line 2
+10:59:58 AM.958:  1 more error(s) reported
+11:00:03 AM.158: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:03 AM.158:  [ERROR] Invalid type 'F' at line 2
+11:00:03 AM.158:  [ERROR] Invalid type 'G' at line 2
+11:00:03 AM.158:  [ERROR] Invalid type 'I' at line 2
+11:00:03 AM.158:  [ERROR] Invalid type 'L' at line 2
+11:00:03 AM.158:  [ERROR] Invalid type 'M' at line 2
+11:00:03 AM.158:  [ERROR] Invalid type 'O' at line 2
+11:00:03 AM.158:  1 more error(s) reported
+11:00:03 AM.308: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:03 AM.308:  [ERROR] Invalid type 'F' at line 2
+11:00:03 AM.308:  [ERROR] Invalid type 'G' at line 2
+11:00:03 AM.308:  [ERROR] Invalid type 'I' at line 2
+11:00:03 AM.308:  [ERROR] Invalid type 'L' at line 2
+11:00:03 AM.308:  [ERROR] Invalid type 'M' at line 2
+11:00:03 AM.308:  [ERROR] Invalid type 'O' at line 2
+11:00:03 AM.308:  1 more error(s) reported
+11:00:07 AM.801: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:07 AM.801:  [ERROR] Invalid type 'F' at line 2
+11:00:07 AM.801:  [ERROR] Invalid type 'G' at line 2
+11:00:07 AM.801:  [ERROR] Invalid type 'I' at line 2
+11:00:07 AM.801:  [ERROR] Invalid type 'L' at line 2
+11:00:07 AM.801:  [ERROR] Invalid type 'M' at line 2
+11:00:07 AM.801:  [ERROR] Invalid type 'O' at line 2
+11:00:07 AM.801:  1 more error(s) reported
+11:00:09 AM.575: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:09 AM.575:  [ERROR] Invalid type 'F' at line 2
+11:00:09 AM.575:  [ERROR] Invalid type 'G' at line 2
+11:00:09 AM.575:  [ERROR] Invalid type 'I' at line 2
+11:00:09 AM.575:  [ERROR] Invalid type 'L' at line 2
+11:00:09 AM.575:  [ERROR] Invalid type 'M' at line 2
+11:00:09 AM.575:  [ERROR] Invalid type 'O' at line 2
+11:00:09 AM.575:  1 more error(s) reported
+11:00:09 AM.625: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:09 AM.625:  [ERROR] Invalid type 'F' at line 2
+11:00:09 AM.625:  [ERROR] Invalid type 'G' at line 2
+11:00:09 AM.625:  [ERROR] Invalid type 'I' at line 2
+11:00:09 AM.625:  [ERROR] Invalid type 'L' at line 2
+11:00:09 AM.625:  [ERROR] Invalid type 'M' at line 2
+11:00:09 AM.625:  [ERROR] Invalid type 'O' at line 2
+11:00:09 AM.625:  1 more error(s) reported
+11:00:10 AM.174: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:10 AM.174:  [ERROR] Invalid type 'F' at line 2
+11:00:10 AM.174:  [ERROR] Invalid type 'G' at line 2
+11:00:10 AM.174:  [ERROR] Invalid type 'I' at line 2
+11:00:10 AM.174:  [ERROR] Invalid type 'L' at line 2
+11:00:10 AM.174:  [ERROR] Invalid type 'M' at line 2
+11:00:10 AM.174:  [ERROR] Invalid type 'O' at line 2
+11:00:10 AM.174:  1 more error(s) reported
+11:00:11 AM.141: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:11 AM.141:  [ERROR] Invalid type 'F' at line 2
+11:00:11 AM.141:  [ERROR] Invalid type 'G' at line 2
+11:00:11 AM.141:  [ERROR] Invalid type 'I' at line 2
+11:00:11 AM.141:  [ERROR] Invalid type 'L' at line 2
+11:00:11 AM.141:  [ERROR] Invalid type 'M' at line 2
+11:00:11 AM.141:  [ERROR] Invalid type 'O' at line 2
+11:00:11 AM.141:  1 more error(s) reported
+11:00:11 AM.991: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:11 AM.991:  [ERROR] Invalid type 'F' at line 2
+11:00:11 AM.991:  [ERROR] Invalid type 'G' at line 2
+11:00:11 AM.991:  [ERROR] Invalid type 'I' at line 2
+11:00:11 AM.991:  [ERROR] Invalid type 'L' at line 2
+11:00:11 AM.991:  [ERROR] Invalid type 'M' at line 2
+11:00:11 AM.991:  [ERROR] Invalid type 'O' at line 2
+11:00:11 AM.991:  1 more error(s) reported
+11:00:12 AM.041: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:12 AM.041:  [ERROR] Invalid type 'F' at line 2
+11:00:12 AM.041:  [ERROR] Invalid type 'G' at line 2
+11:00:12 AM.041:  [ERROR] Invalid type 'I' at line 2
+11:00:12 AM.041:  [ERROR] Invalid type 'L' at line 2
+11:00:12 AM.041:  [ERROR] Invalid type 'M' at line 2
+11:00:12 AM.041:  [ERROR] Invalid type 'O' at line 2
+11:00:12 AM.041:  1 more error(s) reported
+11:00:12 AM.255: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:12 AM.255:  [ERROR] Invalid type 'F' at line 2
+11:00:12 AM.255:  [ERROR] Invalid type 'G' at line 2
+11:00:12 AM.255:  [ERROR] Invalid type 'I' at line 2
+11:00:12 AM.255:  [ERROR] Invalid type 'L' at line 2
+11:00:12 AM.255:  [ERROR] Invalid type 'M' at line 2
+11:00:12 AM.255:  [ERROR] Invalid type 'O' at line 2
+11:00:12 AM.255:  1 more error(s) reported
+11:00:13 AM.591: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:13 AM.591:  [ERROR] Invalid type 'F' at line 2
+11:00:13 AM.591:  [ERROR] Invalid type 'G' at line 2
+11:00:13 AM.591:  [ERROR] Invalid type 'I' at line 2
+11:00:13 AM.591:  [ERROR] Invalid type 'L' at line 2
+11:00:13 AM.591:  [ERROR] Invalid type 'M' at line 2
+11:00:13 AM.591:  [ERROR] Invalid type 'O' at line 2
+11:00:13 AM.591:  1 more error(s) reported
+11:00:16 AM.941: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:16 AM.941:  [ERROR] Invalid type 'F' at line 2
+11:00:16 AM.941:  [ERROR] Invalid type 'G' at line 2
+11:00:16 AM.941:  [ERROR] Invalid type 'I' at line 2
+11:00:16 AM.941:  [ERROR] Invalid type 'L' at line 2
+11:00:16 AM.941:  [ERROR] Invalid type 'M' at line 2
+11:00:16 AM.941:  [ERROR] Invalid type 'O' at line 2
+11:00:16 AM.941:  1 more error(s) reported
+11:00:19 AM.341: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:19 AM.341:  [ERROR] Invalid type 'F' at line 2
+11:00:19 AM.341:  [ERROR] Invalid type 'G' at line 2
+11:00:19 AM.341:  [ERROR] Invalid type 'I' at line 2
+11:00:19 AM.341:  [ERROR] Invalid type 'L' at line 2
+11:00:19 AM.341:  [ERROR] Invalid type 'M' at line 2
+11:00:19 AM.341:  [ERROR] Invalid type 'O' at line 2
+11:00:19 AM.341:  1 more error(s) reported
+11:00:19 AM.391: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:00:19 AM.391:  [ERROR] Invalid type 'F' at line 2
+11:00:19 AM.391:  [ERROR] Invalid type 'G' at line 2
+11:00:19 AM.391:  [ERROR] Invalid type 'I' at line 2
+11:00:19 AM.391:  [ERROR] Invalid type 'L' at line 2
+11:00:19 AM.391:  [ERROR] Invalid type 'M' at line 2
+11:00:19 AM.391:  [ERROR] Invalid type 'O' at line 2
+11:00:19 AM.391:  1 more error(s) reported
+11:00:20 AM.866: ---------------------------------
+11:00:20 AM.866: [NVENC encoder: 'simple_h264_recording'] settings:
+11:00:20 AM.866: 	rate_control: CQP
+11:00:20 AM.866: 	bitrate:      0
+11:00:20 AM.866: 	cqp:          23
+11:00:20 AM.866: 	keyint:       250
+11:00:20 AM.866: 	preset:       hq
+11:00:20 AM.866: 	profile:      high
+11:00:20 AM.866: 	width:        1920
+11:00:20 AM.866: 	height:       1080
+11:00:20 AM.866: 	2-pass:       false
+11:00:20 AM.866: 	b-frames:     2
+11:00:20 AM.866: 	GPU:          0
+11:00:20 AM.866: 
+11:00:20 AM.984: libfdk_aac encoder created
+11:00:20 AM.984: libfdk_aac bitrate: 192, channels: 2
+11:00:20 AM.986: ==== Recording Start ===============================================
+11:00:20 AM.986: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/kj/videos/_temp/2021-04-26_11-00-20.mkv'...
+11:01:53 AM.541: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:01:53 AM.541:  [ERROR] Invalid type 'F' at line 2
+11:01:53 AM.541:  [ERROR] Invalid type 'G' at line 2
+11:01:53 AM.541:  [ERROR] Invalid type 'I' at line 2
+11:01:53 AM.541:  [ERROR] Invalid type 'L' at line 2
+11:01:53 AM.541:  [ERROR] Invalid type 'M' at line 2
+11:01:53 AM.541:  [ERROR] Invalid type 'O' at line 2
+11:01:53 AM.541:  1 more error(s) reported
+11:01:56 AM.542: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:01:56 AM.542:  [ERROR] Invalid type 'F' at line 2
+11:01:56 AM.542:  [ERROR] Invalid type 'G' at line 2
+11:01:56 AM.542:  [ERROR] Invalid type 'I' at line 2
+11:01:56 AM.542:  [ERROR] Invalid type 'L' at line 2
+11:01:56 AM.542:  [ERROR] Invalid type 'M' at line 2
+11:01:56 AM.542:  [ERROR] Invalid type 'O' at line 2
+11:01:56 AM.542:  1 more error(s) reported
+11:02:00 AM.841: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:00 AM.841:  [ERROR] Invalid type 'F' at line 2
+11:02:00 AM.841:  [ERROR] Invalid type 'G' at line 2
+11:02:00 AM.841:  [ERROR] Invalid type 'I' at line 2
+11:02:00 AM.841:  [ERROR] Invalid type 'L' at line 2
+11:02:00 AM.841:  [ERROR] Invalid type 'M' at line 2
+11:02:00 AM.841:  [ERROR] Invalid type 'O' at line 2
+11:02:00 AM.841:  1 more error(s) reported
+11:02:03 AM.841: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:03 AM.841:  [ERROR] Invalid type 'F' at line 2
+11:02:03 AM.841:  [ERROR] Invalid type 'G' at line 2
+11:02:03 AM.841:  [ERROR] Invalid type 'I' at line 2
+11:02:03 AM.841:  [ERROR] Invalid type 'L' at line 2
+11:02:03 AM.841:  [ERROR] Invalid type 'M' at line 2
+11:02:03 AM.841:  [ERROR] Invalid type 'O' at line 2
+11:02:03 AM.841:  1 more error(s) reported
+11:02:04 AM.091: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.091:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.091:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.091:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.091:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.091:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.091:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.091:  1 more error(s) reported
+11:02:04 AM.141: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.141:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.141:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.141:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.141:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.141:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.141:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.141:  1 more error(s) reported
+11:02:04 AM.291: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.291:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.291:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.291:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.291:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.291:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.291:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.291:  1 more error(s) reported
+11:02:04 AM.391: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.391:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.391:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.391:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.391:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.391:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.391:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.391:  1 more error(s) reported
+11:02:04 AM.491: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.491:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.491:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.491:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.491:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.491:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.491:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.491:  1 more error(s) reported
+11:02:04 AM.541: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.541:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.541:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.541:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.541:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.541:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.541:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.541:  1 more error(s) reported
+11:02:04 AM.591: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.591:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.591:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.591:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.591:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.591:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.591:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.591:  1 more error(s) reported
+11:02:04 AM.741: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.741:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.741:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.741:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.741:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.741:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.741:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.741:  1 more error(s) reported
+11:02:04 AM.791: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.791:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.791:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.791:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.791:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.791:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.791:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.791:  1 more error(s) reported
+11:02:04 AM.841: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.841:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.841:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.841:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.841:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.841:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.841:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.841:  1 more error(s) reported
+11:02:04 AM.941: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:04 AM.941:  [ERROR] Invalid type 'F' at line 2
+11:02:04 AM.941:  [ERROR] Invalid type 'G' at line 2
+11:02:04 AM.941:  [ERROR] Invalid type 'I' at line 2
+11:02:04 AM.941:  [ERROR] Invalid type 'L' at line 2
+11:02:04 AM.941:  [ERROR] Invalid type 'M' at line 2
+11:02:04 AM.941:  [ERROR] Invalid type 'O' at line 2
+11:02:04 AM.941:  1 more error(s) reported
+11:02:05 AM.141: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:05 AM.141:  [ERROR] Invalid type 'F' at line 2
+11:02:05 AM.141:  [ERROR] Invalid type 'G' at line 2
+11:02:05 AM.141:  [ERROR] Invalid type 'I' at line 2
+11:02:05 AM.141:  [ERROR] Invalid type 'L' at line 2
+11:02:05 AM.141:  [ERROR] Invalid type 'M' at line 2
+11:02:05 AM.141:  [ERROR] Invalid type 'O' at line 2
+11:02:05 AM.141:  1 more error(s) reported
+11:02:05 AM.241: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:05 AM.241:  [ERROR] Invalid type 'F' at line 2
+11:02:05 AM.241:  [ERROR] Invalid type 'G' at line 2
+11:02:05 AM.241:  [ERROR] Invalid type 'I' at line 2
+11:02:05 AM.241:  [ERROR] Invalid type 'L' at line 2
+11:02:05 AM.241:  [ERROR] Invalid type 'M' at line 2
+11:02:05 AM.241:  [ERROR] Invalid type 'O' at line 2
+11:02:05 AM.241:  1 more error(s) reported
+11:02:05 AM.441: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:05 AM.441:  [ERROR] Invalid type 'F' at line 2
+11:02:05 AM.441:  [ERROR] Invalid type 'G' at line 2
+11:02:05 AM.441:  [ERROR] Invalid type 'I' at line 2
+11:02:05 AM.441:  [ERROR] Invalid type 'L' at line 2
+11:02:05 AM.441:  [ERROR] Invalid type 'M' at line 2
+11:02:05 AM.441:  [ERROR] Invalid type 'O' at line 2
+11:02:05 AM.441:  1 more error(s) reported
+11:02:05 AM.491: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:05 AM.491:  [ERROR] Invalid type 'F' at line 2
+11:02:05 AM.491:  [ERROR] Invalid type 'G' at line 2
+11:02:05 AM.491:  [ERROR] Invalid type 'I' at line 2
+11:02:05 AM.491:  [ERROR] Invalid type 'L' at line 2
+11:02:05 AM.491:  [ERROR] Invalid type 'M' at line 2
+11:02:05 AM.491:  [ERROR] Invalid type 'O' at line 2
+11:02:05 AM.491:  1 more error(s) reported
+11:02:05 AM.941: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:05 AM.941:  [ERROR] Invalid type 'F' at line 2
+11:02:05 AM.941:  [ERROR] Invalid type 'G' at line 2
+11:02:05 AM.941:  [ERROR] Invalid type 'I' at line 2
+11:02:05 AM.941:  [ERROR] Invalid type 'L' at line 2
+11:02:05 AM.941:  [ERROR] Invalid type 'M' at line 2
+11:02:05 AM.941:  [ERROR] Invalid type 'O' at line 2
+11:02:05 AM.941:  1 more error(s) reported
+11:02:05 AM.991: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:05 AM.991:  [ERROR] Invalid type 'F' at line 2
+11:02:05 AM.991:  [ERROR] Invalid type 'G' at line 2
+11:02:05 AM.991:  [ERROR] Invalid type 'I' at line 2
+11:02:05 AM.991:  [ERROR] Invalid type 'L' at line 2
+11:02:05 AM.991:  [ERROR] Invalid type 'M' at line 2
+11:02:05 AM.991:  [ERROR] Invalid type 'O' at line 2
+11:02:05 AM.991:  1 more error(s) reported
+11:02:06 AM.041: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:06 AM.041:  [ERROR] Invalid type 'F' at line 2
+11:02:06 AM.041:  [ERROR] Invalid type 'G' at line 2
+11:02:06 AM.041:  [ERROR] Invalid type 'I' at line 2
+11:02:06 AM.041:  [ERROR] Invalid type 'L' at line 2
+11:02:06 AM.041:  [ERROR] Invalid type 'M' at line 2
+11:02:06 AM.041:  [ERROR] Invalid type 'O' at line 2
+11:02:06 AM.041:  1 more error(s) reported
+11:02:06 AM.291: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:06 AM.291:  [ERROR] Invalid type 'F' at line 2
+11:02:06 AM.291:  [ERROR] Invalid type 'G' at line 2
+11:02:06 AM.291:  [ERROR] Invalid type 'I' at line 2
+11:02:06 AM.291:  [ERROR] Invalid type 'L' at line 2
+11:02:06 AM.291:  [ERROR] Invalid type 'M' at line 2
+11:02:06 AM.291:  [ERROR] Invalid type 'O' at line 2
+11:02:06 AM.291:  1 more error(s) reported
+11:02:06 AM.341: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:06 AM.341:  [ERROR] Invalid type 'F' at line 2
+11:02:06 AM.341:  [ERROR] Invalid type 'G' at line 2
+11:02:06 AM.341:  [ERROR] Invalid type 'I' at line 2
+11:02:06 AM.341:  [ERROR] Invalid type 'L' at line 2
+11:02:06 AM.341:  [ERROR] Invalid type 'M' at line 2
+11:02:06 AM.341:  [ERROR] Invalid type 'O' at line 2
+11:02:06 AM.341:  1 more error(s) reported
+11:02:06 AM.441: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:06 AM.441:  [ERROR] Invalid type 'F' at line 2
+11:02:06 AM.441:  [ERROR] Invalid type 'G' at line 2
+11:02:06 AM.441:  [ERROR] Invalid type 'I' at line 2
+11:02:06 AM.441:  [ERROR] Invalid type 'L' at line 2
+11:02:06 AM.441:  [ERROR] Invalid type 'M' at line 2
+11:02:06 AM.441:  [ERROR] Invalid type 'O' at line 2
+11:02:06 AM.441:  1 more error(s) reported
+11:02:06 AM.491: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:06 AM.491:  [ERROR] Invalid type 'F' at line 2
+11:02:06 AM.491:  [ERROR] Invalid type 'G' at line 2
+11:02:06 AM.491:  [ERROR] Invalid type 'I' at line 2
+11:02:06 AM.491:  [ERROR] Invalid type 'L' at line 2
+11:02:06 AM.491:  [ERROR] Invalid type 'M' at line 2
+11:02:06 AM.491:  [ERROR] Invalid type 'O' at line 2
+11:02:06 AM.491:  1 more error(s) reported
+11:02:06 AM.541: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:06 AM.541:  [ERROR] Invalid type 'F' at line 2
+11:02:06 AM.541:  [ERROR] Invalid type 'G' at line 2
+11:02:06 AM.541:  [ERROR] Invalid type 'I' at line 2
+11:02:06 AM.541:  [ERROR] Invalid type 'L' at line 2
+11:02:06 AM.541:  [ERROR] Invalid type 'M' at line 2
+11:02:06 AM.541:  [ERROR] Invalid type 'O' at line 2
+11:02:06 AM.541:  1 more error(s) reported
+11:02:08 AM.891: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:08 AM.891:  [ERROR] Invalid type 'F' at line 2
+11:02:08 AM.891:  [ERROR] Invalid type 'G' at line 2
+11:02:08 AM.891:  [ERROR] Invalid type 'I' at line 2
+11:02:08 AM.891:  [ERROR] Invalid type 'L' at line 2
+11:02:08 AM.891:  [ERROR] Invalid type 'M' at line 2
+11:02:08 AM.891:  [ERROR] Invalid type 'O' at line 2
+11:02:08 AM.891:  1 more error(s) reported
+11:02:08 AM.941: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:08 AM.941:  [ERROR] Invalid type 'F' at line 2
+11:02:08 AM.941:  [ERROR] Invalid type 'G' at line 2
+11:02:08 AM.941:  [ERROR] Invalid type 'I' at line 2
+11:02:08 AM.941:  [ERROR] Invalid type 'L' at line 2
+11:02:08 AM.941:  [ERROR] Invalid type 'M' at line 2
+11:02:08 AM.941:  [ERROR] Invalid type 'O' at line 2
+11:02:08 AM.941:  1 more error(s) reported
+11:02:16 AM.491: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:16 AM.491:  [ERROR] Invalid type 'F' at line 2
+11:02:16 AM.491:  [ERROR] Invalid type 'G' at line 2
+11:02:16 AM.491:  [ERROR] Invalid type 'I' at line 2
+11:02:16 AM.491:  [ERROR] Invalid type 'L' at line 2
+11:02:16 AM.491:  [ERROR] Invalid type 'M' at line 2
+11:02:16 AM.491:  [ERROR] Invalid type 'O' at line 2
+11:02:16 AM.491:  1 more error(s) reported
+11:02:16 AM.641: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:02:16 AM.641:  [ERROR] Invalid type 'F' at line 2
+11:02:16 AM.641:  [ERROR] Invalid type 'G' at line 2
+11:02:16 AM.641:  [ERROR] Invalid type 'I' at line 2
+11:02:16 AM.641:  [ERROR] Invalid type 'L' at line 2
+11:02:16 AM.641:  [ERROR] Invalid type 'M' at line 2
+11:02:16 AM.641:  [ERROR] Invalid type 'O' at line 2
+11:02:16 AM.641:  1 more error(s) reported
+11:07:38 AM.899: Last log entry repeated for 147 more lines
+11:07:38 AM.899: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/kj/videos/_temp/2021-04-26_11-00-20.mkv' stopped
+11:07:38 AM.899: Output 'simple_file_output': stopping
+11:07:38 AM.899: Output 'simple_file_output': Total frames output: 26263
+11:07:38 AM.899: Output 'simple_file_output': Total drawn frames: 26275
+11:07:38 AM.900: ==== Recording Stop ================================================
+11:07:38 AM.969: libfdk_aac encoder destroyed
+11:07:46 AM.041: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:46 AM.041:  [ERROR] Invalid type 'F' at line 2
+11:07:46 AM.041:  [ERROR] Invalid type 'G' at line 2
+11:07:46 AM.041:  [ERROR] Invalid type 'I' at line 2
+11:07:46 AM.041:  [ERROR] Invalid type 'L' at line 2
+11:07:46 AM.041:  [ERROR] Invalid type 'M' at line 2
+11:07:46 AM.041:  [ERROR] Invalid type 'O' at line 2
+11:07:46 AM.041:  1 more error(s) reported
+11:07:46 AM.541: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:46 AM.541:  [ERROR] Invalid type 'F' at line 2
+11:07:46 AM.541:  [ERROR] Invalid type 'G' at line 2
+11:07:46 AM.541:  [ERROR] Invalid type 'I' at line 2
+11:07:46 AM.541:  [ERROR] Invalid type 'L' at line 2
+11:07:46 AM.541:  [ERROR] Invalid type 'M' at line 2
+11:07:46 AM.541:  [ERROR] Invalid type 'O' at line 2
+11:07:46 AM.541:  1 more error(s) reported
+11:07:47 AM.591: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:47 AM.591:  [ERROR] Invalid type 'F' at line 2
+11:07:47 AM.591:  [ERROR] Invalid type 'G' at line 2
+11:07:47 AM.591:  [ERROR] Invalid type 'I' at line 2
+11:07:47 AM.591:  [ERROR] Invalid type 'L' at line 2
+11:07:47 AM.591:  [ERROR] Invalid type 'M' at line 2
+11:07:47 AM.591:  [ERROR] Invalid type 'O' at line 2
+11:07:47 AM.591:  1 more error(s) reported
+11:07:47 AM.691: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:47 AM.691:  [ERROR] Invalid type 'F' at line 2
+11:07:47 AM.691:  [ERROR] Invalid type 'G' at line 2
+11:07:47 AM.691:  [ERROR] Invalid type 'I' at line 2
+11:07:47 AM.691:  [ERROR] Invalid type 'L' at line 2
+11:07:47 AM.691:  [ERROR] Invalid type 'M' at line 2
+11:07:47 AM.691:  [ERROR] Invalid type 'O' at line 2
+11:07:47 AM.691:  1 more error(s) reported
+11:07:48 AM.241: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:48 AM.241:  [ERROR] Invalid type 'F' at line 2
+11:07:48 AM.241:  [ERROR] Invalid type 'G' at line 2
+11:07:48 AM.241:  [ERROR] Invalid type 'I' at line 2
+11:07:48 AM.241:  [ERROR] Invalid type 'L' at line 2
+11:07:48 AM.241:  [ERROR] Invalid type 'M' at line 2
+11:07:48 AM.241:  [ERROR] Invalid type 'O' at line 2
+11:07:48 AM.241:  1 more error(s) reported
+11:07:50 AM.441: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:50 AM.441:  [ERROR] Invalid type 'F' at line 2
+11:07:50 AM.441:  [ERROR] Invalid type 'G' at line 2
+11:07:50 AM.441:  [ERROR] Invalid type 'I' at line 2
+11:07:50 AM.441:  [ERROR] Invalid type 'L' at line 2
+11:07:50 AM.441:  [ERROR] Invalid type 'M' at line 2
+11:07:50 AM.441:  [ERROR] Invalid type 'O' at line 2
+11:07:50 AM.441:  1 more error(s) reported
+11:07:52 AM.241: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:52 AM.241:  [ERROR] Invalid type 'F' at line 2
+11:07:52 AM.241:  [ERROR] Invalid type 'G' at line 2
+11:07:52 AM.241:  [ERROR] Invalid type 'I' at line 2
+11:07:52 AM.241:  [ERROR] Invalid type 'L' at line 2
+11:07:52 AM.241:  [ERROR] Invalid type 'M' at line 2
+11:07:52 AM.241:  [ERROR] Invalid type 'O' at line 2
+11:07:52 AM.241:  1 more error(s) reported
+11:07:53 AM.391: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:53 AM.391:  [ERROR] Invalid type 'F' at line 2
+11:07:53 AM.391:  [ERROR] Invalid type 'G' at line 2
+11:07:53 AM.391:  [ERROR] Invalid type 'I' at line 2
+11:07:53 AM.391:  [ERROR] Invalid type 'L' at line 2
+11:07:53 AM.391:  [ERROR] Invalid type 'M' at line 2
+11:07:53 AM.391:  [ERROR] Invalid type 'O' at line 2
+11:07:53 AM.391:  1 more error(s) reported
+11:07:54 AM.141: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:54 AM.141:  [ERROR] Invalid type 'F' at line 2
+11:07:54 AM.141:  [ERROR] Invalid type 'G' at line 2
+11:07:54 AM.141:  [ERROR] Invalid type 'I' at line 2
+11:07:54 AM.141:  [ERROR] Invalid type 'L' at line 2
+11:07:54 AM.141:  [ERROR] Invalid type 'M' at line 2
+11:07:54 AM.141:  [ERROR] Invalid type 'O' at line 2
+11:07:54 AM.141:  1 more error(s) reported
+11:07:56 AM.091: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.091:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.091:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.091:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.091:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.091:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.091:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.091:  1 more error(s) reported
+11:07:56 AM.141: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.141:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.141:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.141:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.141:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.141:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.141:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.141:  1 more error(s) reported
+11:07:56 AM.291: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.291:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.291:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.291:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.291:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.291:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.291:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.291:  1 more error(s) reported
+11:07:56 AM.341: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.341:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.341:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.341:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.341:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.341:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.341:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.341:  1 more error(s) reported
+11:07:56 AM.391: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.391:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.391:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.391:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.391:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.391:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.391:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.391:  1 more error(s) reported
+11:07:56 AM.491: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.491:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.491:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.491:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.491:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.491:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.491:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.491:  1 more error(s) reported
+11:07:56 AM.541: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.541:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.541:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.541:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.541:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.541:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.541:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.541:  1 more error(s) reported
+11:07:56 AM.591: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.591:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.591:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.591:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.591:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.591:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.591:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.591:  1 more error(s) reported
+11:07:56 AM.641: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.641:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.641:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.641:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.641:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.641:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.641:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.641:  1 more error(s) reported
+11:07:56 AM.941: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:56 AM.941:  [ERROR] Invalid type 'F' at line 2
+11:07:56 AM.941:  [ERROR] Invalid type 'G' at line 2
+11:07:56 AM.941:  [ERROR] Invalid type 'I' at line 2
+11:07:56 AM.941:  [ERROR] Invalid type 'L' at line 2
+11:07:56 AM.941:  [ERROR] Invalid type 'M' at line 2
+11:07:56 AM.941:  [ERROR] Invalid type 'O' at line 2
+11:07:56 AM.941:  1 more error(s) reported
+11:07:57 AM.191: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:57 AM.191:  [ERROR] Invalid type 'F' at line 2
+11:07:57 AM.191:  [ERROR] Invalid type 'G' at line 2
+11:07:57 AM.191:  [ERROR] Invalid type 'I' at line 2
+11:07:57 AM.191:  [ERROR] Invalid type 'L' at line 2
+11:07:57 AM.191:  [ERROR] Invalid type 'M' at line 2
+11:07:57 AM.191:  [ERROR] Invalid type 'O' at line 2
+11:07:57 AM.191:  1 more error(s) reported
+11:07:57 AM.291: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:57 AM.291:  [ERROR] Invalid type 'F' at line 2
+11:07:57 AM.291:  [ERROR] Invalid type 'G' at line 2
+11:07:57 AM.291:  [ERROR] Invalid type 'I' at line 2
+11:07:57 AM.291:  [ERROR] Invalid type 'L' at line 2
+11:07:57 AM.291:  [ERROR] Invalid type 'M' at line 2
+11:07:57 AM.291:  [ERROR] Invalid type 'O' at line 2
+11:07:57 AM.291:  1 more error(s) reported
+11:07:57 AM.391: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:57 AM.391:  [ERROR] Invalid type 'F' at line 2
+11:07:57 AM.391:  [ERROR] Invalid type 'G' at line 2
+11:07:57 AM.391:  [ERROR] Invalid type 'I' at line 2
+11:07:57 AM.391:  [ERROR] Invalid type 'L' at line 2
+11:07:57 AM.391:  [ERROR] Invalid type 'M' at line 2
+11:07:57 AM.391:  [ERROR] Invalid type 'O' at line 2
+11:07:57 AM.391:  1 more error(s) reported
+11:07:57 AM.441: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:57 AM.441:  [ERROR] Invalid type 'F' at line 2
+11:07:57 AM.441:  [ERROR] Invalid type 'G' at line 2
+11:07:57 AM.441:  [ERROR] Invalid type 'I' at line 2
+11:07:57 AM.441:  [ERROR] Invalid type 'L' at line 2
+11:07:57 AM.441:  [ERROR] Invalid type 'M' at line 2
+11:07:57 AM.441:  [ERROR] Invalid type 'O' at line 2
+11:07:57 AM.441:  1 more error(s) reported
+11:07:57 AM.841: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:57 AM.841:  [ERROR] Invalid type 'F' at line 2
+11:07:57 AM.841:  [ERROR] Invalid type 'G' at line 2
+11:07:57 AM.841:  [ERROR] Invalid type 'I' at line 2
+11:07:57 AM.841:  [ERROR] Invalid type 'L' at line 2
+11:07:57 AM.841:  [ERROR] Invalid type 'M' at line 2
+11:07:57 AM.841:  [ERROR] Invalid type 'O' at line 2
+11:07:57 AM.841:  1 more error(s) reported
+11:07:58 AM.041: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:58 AM.041:  [ERROR] Invalid type 'F' at line 2
+11:07:58 AM.041:  [ERROR] Invalid type 'G' at line 2
+11:07:58 AM.041:  [ERROR] Invalid type 'I' at line 2
+11:07:58 AM.041:  [ERROR] Invalid type 'L' at line 2
+11:07:58 AM.041:  [ERROR] Invalid type 'M' at line 2
+11:07:58 AM.041:  [ERROR] Invalid type 'O' at line 2
+11:07:58 AM.041:  1 more error(s) reported
+11:07:58 AM.141: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:58 AM.141:  [ERROR] Invalid type 'F' at line 2
+11:07:58 AM.141:  [ERROR] Invalid type 'G' at line 2
+11:07:58 AM.141:  [ERROR] Invalid type 'I' at line 2
+11:07:58 AM.141:  [ERROR] Invalid type 'L' at line 2
+11:07:58 AM.141:  [ERROR] Invalid type 'M' at line 2
+11:07:58 AM.141:  [ERROR] Invalid type 'O' at line 2
+11:07:58 AM.141:  1 more error(s) reported
+11:07:58 AM.241: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:58 AM.241:  [ERROR] Invalid type 'F' at line 2
+11:07:58 AM.241:  [ERROR] Invalid type 'G' at line 2
+11:07:58 AM.241:  [ERROR] Invalid type 'I' at line 2
+11:07:58 AM.241:  [ERROR] Invalid type 'L' at line 2
+11:07:58 AM.241:  [ERROR] Invalid type 'M' at line 2
+11:07:58 AM.241:  [ERROR] Invalid type 'O' at line 2
+11:07:58 AM.241:  1 more error(s) reported
+11:07:58 AM.291: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:58 AM.291:  [ERROR] Invalid type 'F' at line 2
+11:07:58 AM.291:  [ERROR] Invalid type 'G' at line 2
+11:07:58 AM.291:  [ERROR] Invalid type 'I' at line 2
+11:07:58 AM.291:  [ERROR] Invalid type 'L' at line 2
+11:07:58 AM.291:  [ERROR] Invalid type 'M' at line 2
+11:07:58 AM.291:  [ERROR] Invalid type 'O' at line 2
+11:07:58 AM.291:  1 more error(s) reported
+11:07:58 AM.441: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:58 AM.441:  [ERROR] Invalid type 'F' at line 2
+11:07:58 AM.441:  [ERROR] Invalid type 'G' at line 2
+11:07:58 AM.441:  [ERROR] Invalid type 'I' at line 2
+11:07:58 AM.441:  [ERROR] Invalid type 'L' at line 2
+11:07:58 AM.441:  [ERROR] Invalid type 'M' at line 2
+11:07:58 AM.441:  [ERROR] Invalid type 'O' at line 2
+11:07:58 AM.441:  1 more error(s) reported
+11:07:59 AM.091: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:59 AM.091:  [ERROR] Invalid type 'F' at line 2
+11:07:59 AM.091:  [ERROR] Invalid type 'G' at line 2
+11:07:59 AM.091:  [ERROR] Invalid type 'I' at line 2
+11:07:59 AM.091:  [ERROR] Invalid type 'L' at line 2
+11:07:59 AM.091:  [ERROR] Invalid type 'M' at line 2
+11:07:59 AM.091:  [ERROR] Invalid type 'O' at line 2
+11:07:59 AM.091:  1 more error(s) reported
+11:07:59 AM.191: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:07:59 AM.191:  [ERROR] Invalid type 'F' at line 2
+11:07:59 AM.191:  [ERROR] Invalid type 'G' at line 2
+11:07:59 AM.191:  [ERROR] Invalid type 'I' at line 2
+11:07:59 AM.191:  [ERROR] Invalid type 'L' at line 2
+11:07:59 AM.191:  [ERROR] Invalid type 'M' at line 2
+11:07:59 AM.191:  [ERROR] Invalid type 'O' at line 2
+11:07:59 AM.191:  1 more error(s) reported
+11:09:10 AM.582: Last log entry repeated for 139 more lines
+11:09:10 AM.582: ---------------------------------
+11:09:10 AM.582: [NVENC encoder: 'simple_h264_recording'] settings:
+11:09:10 AM.582: 	rate_control: CQP
+11:09:10 AM.582: 	bitrate:      0
+11:09:10 AM.582: 	cqp:          23
+11:09:10 AM.582: 	keyint:       250
+11:09:10 AM.582: 	preset:       hq
+11:09:10 AM.582: 	profile:      high
+11:09:10 AM.582: 	width:        1920
+11:09:10 AM.582: 	height:       1080
+11:09:10 AM.582: 	2-pass:       false
+11:09:10 AM.582: 	b-frames:     2
+11:09:10 AM.582: 	GPU:          0
+11:09:10 AM.582: 
+11:09:10 AM.664: libfdk_aac encoder created
+11:09:10 AM.664: libfdk_aac bitrate: 192, channels: 2
+11:09:10 AM.666: ==== Recording Start ===============================================
+11:09:10 AM.666: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/kj/videos/_temp/2021-04-26_11-09-10.mkv'...
+11:09:14 AM.808: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:14 AM.808:  [ERROR] Invalid type 'F' at line 2
+11:09:14 AM.808:  [ERROR] Invalid type 'G' at line 2
+11:09:14 AM.808:  [ERROR] Invalid type 'I' at line 2
+11:09:14 AM.808:  [ERROR] Invalid type 'L' at line 2
+11:09:14 AM.808:  [ERROR] Invalid type 'M' at line 2
+11:09:14 AM.808:  [ERROR] Invalid type 'O' at line 2
+11:09:14 AM.808:  1 more error(s) reported
+11:09:14 AM.958: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:14 AM.958:  [ERROR] Invalid type 'F' at line 2
+11:09:14 AM.958:  [ERROR] Invalid type 'G' at line 2
+11:09:14 AM.958:  [ERROR] Invalid type 'I' at line 2
+11:09:14 AM.958:  [ERROR] Invalid type 'L' at line 2
+11:09:14 AM.958:  [ERROR] Invalid type 'M' at line 2
+11:09:14 AM.958:  [ERROR] Invalid type 'O' at line 2
+11:09:14 AM.958:  1 more error(s) reported
+11:09:21 AM.641: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:21 AM.641:  [ERROR] Invalid type 'F' at line 2
+11:09:21 AM.641:  [ERROR] Invalid type 'G' at line 2
+11:09:21 AM.641:  [ERROR] Invalid type 'I' at line 2
+11:09:21 AM.641:  [ERROR] Invalid type 'L' at line 2
+11:09:21 AM.641:  [ERROR] Invalid type 'M' at line 2
+11:09:21 AM.641:  [ERROR] Invalid type 'O' at line 2
+11:09:21 AM.641:  1 more error(s) reported
+11:09:21 AM.691: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:21 AM.691:  [ERROR] Invalid type 'F' at line 2
+11:09:21 AM.691:  [ERROR] Invalid type 'G' at line 2
+11:09:21 AM.691:  [ERROR] Invalid type 'I' at line 2
+11:09:21 AM.691:  [ERROR] Invalid type 'L' at line 2
+11:09:21 AM.691:  [ERROR] Invalid type 'M' at line 2
+11:09:21 AM.691:  [ERROR] Invalid type 'O' at line 2
+11:09:21 AM.691:  1 more error(s) reported
+11:09:23 AM.391: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:23 AM.391:  [ERROR] Invalid type 'F' at line 2
+11:09:23 AM.391:  [ERROR] Invalid type 'G' at line 2
+11:09:23 AM.391:  [ERROR] Invalid type 'I' at line 2
+11:09:23 AM.391:  [ERROR] Invalid type 'L' at line 2
+11:09:23 AM.391:  [ERROR] Invalid type 'M' at line 2
+11:09:23 AM.391:  [ERROR] Invalid type 'O' at line 2
+11:09:23 AM.391:  1 more error(s) reported
+11:09:23 AM.491: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:23 AM.491:  [ERROR] Invalid type 'F' at line 2
+11:09:23 AM.491:  [ERROR] Invalid type 'G' at line 2
+11:09:23 AM.491:  [ERROR] Invalid type 'I' at line 2
+11:09:23 AM.491:  [ERROR] Invalid type 'L' at line 2
+11:09:23 AM.491:  [ERROR] Invalid type 'M' at line 2
+11:09:23 AM.491:  [ERROR] Invalid type 'O' at line 2
+11:09:23 AM.491:  1 more error(s) reported
+11:09:25 AM.841: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:25 AM.841:  [ERROR] Invalid type 'F' at line 2
+11:09:25 AM.841:  [ERROR] Invalid type 'G' at line 2
+11:09:25 AM.841:  [ERROR] Invalid type 'I' at line 2
+11:09:25 AM.841:  [ERROR] Invalid type 'L' at line 2
+11:09:25 AM.841:  [ERROR] Invalid type 'M' at line 2
+11:09:25 AM.841:  [ERROR] Invalid type 'O' at line 2
+11:09:25 AM.841:  1 more error(s) reported
+11:09:25 AM.891: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:25 AM.891:  [ERROR] Invalid type 'F' at line 2
+11:09:25 AM.891:  [ERROR] Invalid type 'G' at line 2
+11:09:25 AM.891:  [ERROR] Invalid type 'I' at line 2
+11:09:25 AM.891:  [ERROR] Invalid type 'L' at line 2
+11:09:25 AM.891:  [ERROR] Invalid type 'M' at line 2
+11:09:25 AM.891:  [ERROR] Invalid type 'O' at line 2
+11:09:25 AM.891:  1 more error(s) reported
+11:09:26 AM.841: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:26 AM.841:  [ERROR] Invalid type 'F' at line 2
+11:09:26 AM.841:  [ERROR] Invalid type 'G' at line 2
+11:09:26 AM.841:  [ERROR] Invalid type 'I' at line 2
+11:09:26 AM.841:  [ERROR] Invalid type 'L' at line 2
+11:09:26 AM.841:  [ERROR] Invalid type 'M' at line 2
+11:09:26 AM.841:  [ERROR] Invalid type 'O' at line 2
+11:09:26 AM.841:  1 more error(s) reported
+11:09:32 AM.441: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:32 AM.441:  [ERROR] Invalid type 'F' at line 2
+11:09:32 AM.441:  [ERROR] Invalid type 'G' at line 2
+11:09:32 AM.441:  [ERROR] Invalid type 'I' at line 2
+11:09:32 AM.441:  [ERROR] Invalid type 'L' at line 2
+11:09:32 AM.441:  [ERROR] Invalid type 'M' at line 2
+11:09:32 AM.441:  [ERROR] Invalid type 'O' at line 2
+11:09:32 AM.441:  1 more error(s) reported
+11:09:34 AM.674: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:34 AM.674:  [ERROR] Invalid type 'F' at line 2
+11:09:34 AM.674:  [ERROR] Invalid type 'G' at line 2
+11:09:34 AM.674:  [ERROR] Invalid type 'I' at line 2
+11:09:34 AM.674:  [ERROR] Invalid type 'L' at line 2
+11:09:34 AM.674:  [ERROR] Invalid type 'M' at line 2
+11:09:34 AM.674:  [ERROR] Invalid type 'O' at line 2
+11:09:34 AM.674:  1 more error(s) reported
+11:09:35 AM.574: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:35 AM.574:  [ERROR] Invalid type 'F' at line 2
+11:09:35 AM.574:  [ERROR] Invalid type 'G' at line 2
+11:09:35 AM.574:  [ERROR] Invalid type 'I' at line 2
+11:09:35 AM.574:  [ERROR] Invalid type 'L' at line 2
+11:09:35 AM.574:  [ERROR] Invalid type 'M' at line 2
+11:09:35 AM.574:  [ERROR] Invalid type 'O' at line 2
+11:09:35 AM.574:  1 more error(s) reported
+11:09:46 AM.425: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:09:46 AM.425:  [ERROR] Invalid type 'F' at line 2
+11:09:46 AM.425:  [ERROR] Invalid type 'G' at line 2
+11:09:46 AM.425:  [ERROR] Invalid type 'I' at line 2
+11:09:46 AM.425:  [ERROR] Invalid type 'L' at line 2
+11:09:46 AM.425:  [ERROR] Invalid type 'M' at line 2
+11:09:46 AM.425:  [ERROR] Invalid type 'O' at line 2
+11:09:46 AM.425:  1 more error(s) reported
+11:10:08 AM.174: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:08 AM.174:  [ERROR] Invalid type 'F' at line 2
+11:10:08 AM.174:  [ERROR] Invalid type 'G' at line 2
+11:10:08 AM.174:  [ERROR] Invalid type 'I' at line 2
+11:10:08 AM.174:  [ERROR] Invalid type 'L' at line 2
+11:10:08 AM.174:  [ERROR] Invalid type 'M' at line 2
+11:10:08 AM.174:  [ERROR] Invalid type 'O' at line 2
+11:10:08 AM.174:  1 more error(s) reported
+11:10:09 AM.325: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:09 AM.325:  [ERROR] Invalid type 'F' at line 2
+11:10:09 AM.325:  [ERROR] Invalid type 'G' at line 2
+11:10:09 AM.325:  [ERROR] Invalid type 'I' at line 2
+11:10:09 AM.325:  [ERROR] Invalid type 'L' at line 2
+11:10:09 AM.325:  [ERROR] Invalid type 'M' at line 2
+11:10:09 AM.325:  [ERROR] Invalid type 'O' at line 2
+11:10:09 AM.325:  1 more error(s) reported
+11:10:12 AM.324: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:12 AM.324:  [ERROR] Invalid type 'F' at line 2
+11:10:12 AM.324:  [ERROR] Invalid type 'G' at line 2
+11:10:12 AM.324:  [ERROR] Invalid type 'I' at line 2
+11:10:12 AM.324:  [ERROR] Invalid type 'L' at line 2
+11:10:12 AM.324:  [ERROR] Invalid type 'M' at line 2
+11:10:12 AM.324:  [ERROR] Invalid type 'O' at line 2
+11:10:12 AM.324:  1 more error(s) reported
+11:10:14 AM.125: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:14 AM.125:  [ERROR] Invalid type 'F' at line 2
+11:10:14 AM.125:  [ERROR] Invalid type 'G' at line 2
+11:10:14 AM.125:  [ERROR] Invalid type 'I' at line 2
+11:10:14 AM.125:  [ERROR] Invalid type 'L' at line 2
+11:10:14 AM.125:  [ERROR] Invalid type 'M' at line 2
+11:10:14 AM.125:  [ERROR] Invalid type 'O' at line 2
+11:10:14 AM.125:  1 more error(s) reported
+11:10:30 AM.525: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:30 AM.525:  [ERROR] Invalid type 'F' at line 2
+11:10:30 AM.525:  [ERROR] Invalid type 'G' at line 2
+11:10:30 AM.525:  [ERROR] Invalid type 'I' at line 2
+11:10:30 AM.525:  [ERROR] Invalid type 'L' at line 2
+11:10:30 AM.525:  [ERROR] Invalid type 'M' at line 2
+11:10:30 AM.525:  [ERROR] Invalid type 'O' at line 2
+11:10:30 AM.525:  1 more error(s) reported
+11:10:34 AM.174: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:34 AM.174:  [ERROR] Invalid type 'F' at line 2
+11:10:34 AM.174:  [ERROR] Invalid type 'G' at line 2
+11:10:34 AM.174:  [ERROR] Invalid type 'I' at line 2
+11:10:34 AM.174:  [ERROR] Invalid type 'L' at line 2
+11:10:34 AM.174:  [ERROR] Invalid type 'M' at line 2
+11:10:34 AM.174:  [ERROR] Invalid type 'O' at line 2
+11:10:34 AM.174:  1 more error(s) reported
+11:10:44 AM.374: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:44 AM.374:  [ERROR] Invalid type 'F' at line 2
+11:10:44 AM.374:  [ERROR] Invalid type 'G' at line 2
+11:10:44 AM.374:  [ERROR] Invalid type 'I' at line 2
+11:10:44 AM.374:  [ERROR] Invalid type 'L' at line 2
+11:10:44 AM.374:  [ERROR] Invalid type 'M' at line 2
+11:10:44 AM.374:  [ERROR] Invalid type 'O' at line 2
+11:10:44 AM.374:  1 more error(s) reported
+11:10:51 AM.474: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:51 AM.474:  [ERROR] Invalid type 'F' at line 2
+11:10:51 AM.474:  [ERROR] Invalid type 'G' at line 2
+11:10:51 AM.474:  [ERROR] Invalid type 'I' at line 2
+11:10:51 AM.474:  [ERROR] Invalid type 'L' at line 2
+11:10:51 AM.474:  [ERROR] Invalid type 'M' at line 2
+11:10:51 AM.474:  [ERROR] Invalid type 'O' at line 2
+11:10:51 AM.474:  1 more error(s) reported
+11:10:56 AM.125: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:10:56 AM.125:  [ERROR] Invalid type 'F' at line 2
+11:10:56 AM.125:  [ERROR] Invalid type 'G' at line 2
+11:10:56 AM.125:  [ERROR] Invalid type 'I' at line 2
+11:10:56 AM.125:  [ERROR] Invalid type 'L' at line 2
+11:10:56 AM.125:  [ERROR] Invalid type 'M' at line 2
+11:10:56 AM.125:  [ERROR] Invalid type 'O' at line 2
+11:10:56 AM.125:  1 more error(s) reported
+11:11:04 AM.224: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:11:04 AM.224:  [ERROR] Invalid type 'F' at line 2
+11:11:04 AM.224:  [ERROR] Invalid type 'G' at line 2
+11:11:04 AM.224:  [ERROR] Invalid type 'I' at line 2
+11:11:04 AM.224:  [ERROR] Invalid type 'L' at line 2
+11:11:04 AM.224:  [ERROR] Invalid type 'M' at line 2
+11:11:04 AM.224:  [ERROR] Invalid type 'O' at line 2
+11:11:04 AM.224:  1 more error(s) reported
+11:11:05 AM.074: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:11:05 AM.074:  [ERROR] Invalid type 'F' at line 2
+11:11:05 AM.074:  [ERROR] Invalid type 'G' at line 2
+11:11:05 AM.074:  [ERROR] Invalid type 'I' at line 2
+11:11:05 AM.074:  [ERROR] Invalid type 'L' at line 2
+11:11:05 AM.074:  [ERROR] Invalid type 'M' at line 2
+11:11:05 AM.074:  [ERROR] Invalid type 'O' at line 2
+11:11:05 AM.074:  1 more error(s) reported
+11:11:06 AM.224: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:11:06 AM.224:  [ERROR] Invalid type 'F' at line 2
+11:11:06 AM.224:  [ERROR] Invalid type 'G' at line 2
+11:11:06 AM.224:  [ERROR] Invalid type 'I' at line 2
+11:11:06 AM.224:  [ERROR] Invalid type 'L' at line 2
+11:11:06 AM.224:  [ERROR] Invalid type 'M' at line 2
+11:11:06 AM.224:  [ERROR] Invalid type 'O' at line 2
+11:11:06 AM.224:  1 more error(s) reported
+11:11:08 AM.674: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:11:08 AM.674:  [ERROR] Invalid type 'F' at line 2
+11:11:08 AM.674:  [ERROR] Invalid type 'G' at line 2
+11:11:08 AM.674:  [ERROR] Invalid type 'I' at line 2
+11:11:08 AM.674:  [ERROR] Invalid type 'L' at line 2
+11:11:08 AM.674:  [ERROR] Invalid type 'M' at line 2
+11:11:08 AM.674:  [ERROR] Invalid type 'O' at line 2
+11:11:08 AM.674:  1 more error(s) reported
+11:11:47 AM.275: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:11:47 AM.275:  [ERROR] Invalid type 'F' at line 2
+11:11:47 AM.275:  [ERROR] Invalid type 'G' at line 2
+11:11:47 AM.275:  [ERROR] Invalid type 'I' at line 2
+11:11:47 AM.275:  [ERROR] Invalid type 'L' at line 2
+11:11:47 AM.275:  [ERROR] Invalid type 'M' at line 2
+11:11:47 AM.275:  [ERROR] Invalid type 'O' at line 2
+11:11:47 AM.275:  1 more error(s) reported
+11:11:47 AM.875: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:11:47 AM.875:  [ERROR] Invalid type 'F' at line 2
+11:11:47 AM.875:  [ERROR] Invalid type 'G' at line 2
+11:11:47 AM.875:  [ERROR] Invalid type 'I' at line 2
+11:11:47 AM.875:  [ERROR] Invalid type 'L' at line 2
+11:11:47 AM.875:  [ERROR] Invalid type 'M' at line 2
+11:11:47 AM.875:  [ERROR] Invalid type 'O' at line 2
+11:11:47 AM.875:  1 more error(s) reported
+11:12:12 AM.474: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:12:12 AM.474:  [ERROR] Invalid type 'F' at line 2
+11:12:12 AM.474:  [ERROR] Invalid type 'G' at line 2
+11:12:12 AM.474:  [ERROR] Invalid type 'I' at line 2
+11:12:12 AM.474:  [ERROR] Invalid type 'L' at line 2
+11:12:12 AM.474:  [ERROR] Invalid type 'M' at line 2
+11:12:12 AM.474:  [ERROR] Invalid type 'O' at line 2
+11:12:12 AM.474:  1 more error(s) reported
+11:12:12 AM.525: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:12:12 AM.525:  [ERROR] Invalid type 'F' at line 2
+11:12:12 AM.525:  [ERROR] Invalid type 'G' at line 2
+11:12:12 AM.525:  [ERROR] Invalid type 'I' at line 2
+11:12:12 AM.525:  [ERROR] Invalid type 'L' at line 2
+11:12:12 AM.525:  [ERROR] Invalid type 'M' at line 2
+11:12:12 AM.525:  [ERROR] Invalid type 'O' at line 2
+11:12:12 AM.525:  1 more error(s) reported
+11:14:50 AM.375: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:14:50 AM.375:  [ERROR] Invalid type 'F' at line 2
+11:14:50 AM.375:  [ERROR] Invalid type 'G' at line 2
+11:14:50 AM.375:  [ERROR] Invalid type 'I' at line 2
+11:14:50 AM.375:  [ERROR] Invalid type 'L' at line 2
+11:14:50 AM.375:  [ERROR] Invalid type 'M' at line 2
+11:14:50 AM.375:  [ERROR] Invalid type 'O' at line 2
+11:14:50 AM.375:  1 more error(s) reported
+11:23:37 AM.133: Last log entry repeated for 60 more lines
+11:23:37 AM.133: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/kj/videos/_temp/2021-04-26_11-09-10.mkv' stopped
+11:23:37 AM.133: Output 'simple_file_output': stopping
+11:23:37 AM.133: Output 'simple_file_output': Total frames output: 51973
+11:23:37 AM.133: Output 'simple_file_output': Total drawn frames: 51966 (51988 attempted)
+11:23:37 AM.133: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 22 (0.0%)
+11:23:37 AM.133: ==== Recording Stop ================================================
+11:23:37 AM.196: libfdk_aac encoder destroyed
+11:23:40 AM.724: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:40 AM.724:  [ERROR] Invalid type 'F' at line 2
+11:23:40 AM.724:  [ERROR] Invalid type 'G' at line 2
+11:23:40 AM.724:  [ERROR] Invalid type 'I' at line 2
+11:23:40 AM.724:  [ERROR] Invalid type 'L' at line 2
+11:23:40 AM.724:  [ERROR] Invalid type 'M' at line 2
+11:23:40 AM.724:  [ERROR] Invalid type 'O' at line 2
+11:23:40 AM.724:  1 more error(s) reported
+11:23:41 AM.674: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:41 AM.674:  [ERROR] Invalid type 'F' at line 2
+11:23:41 AM.674:  [ERROR] Invalid type 'G' at line 2
+11:23:41 AM.674:  [ERROR] Invalid type 'I' at line 2
+11:23:41 AM.674:  [ERROR] Invalid type 'L' at line 2
+11:23:41 AM.674:  [ERROR] Invalid type 'M' at line 2
+11:23:41 AM.674:  [ERROR] Invalid type 'O' at line 2
+11:23:41 AM.674:  1 more error(s) reported
+11:23:43 AM.574: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:43 AM.574:  [ERROR] Invalid type 'F' at line 2
+11:23:43 AM.574:  [ERROR] Invalid type 'G' at line 2
+11:23:43 AM.574:  [ERROR] Invalid type 'I' at line 2
+11:23:43 AM.574:  [ERROR] Invalid type 'L' at line 2
+11:23:43 AM.574:  [ERROR] Invalid type 'M' at line 2
+11:23:43 AM.574:  [ERROR] Invalid type 'O' at line 2
+11:23:43 AM.574:  1 more error(s) reported
+11:23:48 AM.224: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:48 AM.224:  [ERROR] Invalid type 'F' at line 2
+11:23:48 AM.224:  [ERROR] Invalid type 'G' at line 2
+11:23:48 AM.224:  [ERROR] Invalid type 'I' at line 2
+11:23:48 AM.224:  [ERROR] Invalid type 'L' at line 2
+11:23:48 AM.224:  [ERROR] Invalid type 'M' at line 2
+11:23:48 AM.224:  [ERROR] Invalid type 'O' at line 2
+11:23:48 AM.224:  1 more error(s) reported
+11:23:52 AM.524: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:52 AM.524:  [ERROR] Invalid type 'F' at line 2
+11:23:52 AM.524:  [ERROR] Invalid type 'G' at line 2
+11:23:52 AM.524:  [ERROR] Invalid type 'I' at line 2
+11:23:52 AM.524:  [ERROR] Invalid type 'L' at line 2
+11:23:52 AM.524:  [ERROR] Invalid type 'M' at line 2
+11:23:52 AM.524:  [ERROR] Invalid type 'O' at line 2
+11:23:52 AM.524:  1 more error(s) reported
+11:23:53 AM.224: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:53 AM.224:  [ERROR] Invalid type 'F' at line 2
+11:23:53 AM.224:  [ERROR] Invalid type 'G' at line 2
+11:23:53 AM.224:  [ERROR] Invalid type 'I' at line 2
+11:23:53 AM.224:  [ERROR] Invalid type 'L' at line 2
+11:23:53 AM.224:  [ERROR] Invalid type 'M' at line 2
+11:23:53 AM.224:  [ERROR] Invalid type 'O' at line 2
+11:23:53 AM.224:  1 more error(s) reported
+11:23:54 AM.924: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:54 AM.924:  [ERROR] Invalid type 'F' at line 2
+11:23:54 AM.924:  [ERROR] Invalid type 'G' at line 2
+11:23:54 AM.924:  [ERROR] Invalid type 'I' at line 2
+11:23:54 AM.924:  [ERROR] Invalid type 'L' at line 2
+11:23:54 AM.924:  [ERROR] Invalid type 'M' at line 2
+11:23:54 AM.924:  [ERROR] Invalid type 'O' at line 2
+11:23:54 AM.924:  1 more error(s) reported
+11:23:56 AM.474: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:56 AM.474:  [ERROR] Invalid type 'F' at line 2
+11:23:56 AM.474:  [ERROR] Invalid type 'G' at line 2
+11:23:56 AM.474:  [ERROR] Invalid type 'I' at line 2
+11:23:56 AM.474:  [ERROR] Invalid type 'L' at line 2
+11:23:56 AM.474:  [ERROR] Invalid type 'M' at line 2
+11:23:56 AM.474:  [ERROR] Invalid type 'O' at line 2
+11:23:56 AM.474:  1 more error(s) reported
+11:23:56 AM.725: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:56 AM.725:  [ERROR] Invalid type 'F' at line 2
+11:23:56 AM.725:  [ERROR] Invalid type 'G' at line 2
+11:23:56 AM.725:  [ERROR] Invalid type 'I' at line 2
+11:23:56 AM.725:  [ERROR] Invalid type 'L' at line 2
+11:23:56 AM.725:  [ERROR] Invalid type 'M' at line 2
+11:23:56 AM.725:  [ERROR] Invalid type 'O' at line 2
+11:23:56 AM.725:  1 more error(s) reported
+11:23:59 AM.125: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:59 AM.125:  [ERROR] Invalid type 'F' at line 2
+11:23:59 AM.125:  [ERROR] Invalid type 'G' at line 2
+11:23:59 AM.125:  [ERROR] Invalid type 'I' at line 2
+11:23:59 AM.125:  [ERROR] Invalid type 'L' at line 2
+11:23:59 AM.125:  [ERROR] Invalid type 'M' at line 2
+11:23:59 AM.125:  [ERROR] Invalid type 'O' at line 2
+11:23:59 AM.125:  1 more error(s) reported
+11:23:59 AM.174: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:59 AM.174:  [ERROR] Invalid type 'F' at line 2
+11:23:59 AM.174:  [ERROR] Invalid type 'G' at line 2
+11:23:59 AM.174:  [ERROR] Invalid type 'I' at line 2
+11:23:59 AM.174:  [ERROR] Invalid type 'L' at line 2
+11:23:59 AM.174:  [ERROR] Invalid type 'M' at line 2
+11:23:59 AM.174:  [ERROR] Invalid type 'O' at line 2
+11:23:59 AM.174:  1 more error(s) reported
+11:23:59 AM.424: [ccl] Encountered errors when loading '/home/kj/.config/obs-studio/plugins/input-overlay/data/locale/en-US.ini':
+11:23:59 AM.424:  [ERROR] Invalid type 'F' at line 2
+11:23:59 AM.424:  [ERROR] Invalid type 'G' at line 2
+11:23:59 AM.424:  [ERROR] Invalid type 'I' at line 2
+11:23:59 AM.424:  [ERROR] Invalid type 'L' at line 2
+11:23:59 AM.424:  [ERROR] Invalid type 'M' at line 2
+11:23:59 AM.424:  [ERROR] Invalid type 'O' at line 2
+11:23:59 AM.424:  1 more error(s) reported
+11:23:59 AM.473: ==== Shutting down ==================================================
+11:23:59 AM.674: v4l2-input: Stopped capture after 50509 frames
+11:23:59 AM.676: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+11:23:59 AM.676: pulse-am: Got 1241 packets with 546361 frames
+11:23:59 AM.682: pulse-input: Stopped recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+11:23:59 AM.682: pulse-input: Got 169424 packets with 74484327 frames
+11:23:59 AM.682: All scene data cleared
+11:23:59 AM.682: ------------------------------------------------
+11:23:59 AM.686: X Error: GLXBadDrawable, Major opcode: 151, Minor opcode: 26, Serial: 1722134
+11:23:59 AM.686: Failed to make context current.
+11:23:59 AM.691: X Error: GLXBadDrawable, Major opcode: 151, Minor opcode: 26, Serial: 1722136
+11:23:59 AM.691: Failed to make context current.
+11:23:59 AM.691: X Error: GLXBadDrawable, Major opcode: 151, Minor opcode: 26, Serial: 1722138
+11:23:59 AM.691: Failed to make context current.
+11:23:59 AM.741: [Scripting] Total detached callbacks: 0
+11:23:59 AM.755: Freeing OBS context data
+11:23:59 AM.787: == Profiler Results =============================
+11:23:59 AM.788: run_program_init: 609.167 ms
+11:23:59 AM.788:  ┣OBSApp::AppInit: 1.472 ms
+11:23:59 AM.788:  ┃ ┗OBSApp::InitLocale: 0.591 ms
+11:23:59 AM.788:  ┗OBSApp::OBSInit: 576.271 ms
+11:23:59 AM.788:    ┣obs_startup: 15.947 ms
+11:23:59 AM.788:    ┗OBSBasic::OBSInit: 503.502 ms
+11:23:59 AM.788:      ┣OBSBasic::InitBasicConfig: 0.07 ms
+11:23:59 AM.788:      ┣OBSBasic::ResetAudio: 0.116 ms
+11:23:59 AM.788:      ┣OBSBasic::ResetVideo: 68.797 ms
+11:23:59 AM.788:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+11:23:59 AM.788:      ┣OBSBasic::InitHotkeys: 0.029 ms
+11:23:59 AM.788:      ┣obs_load_all_modules: 122.426 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(decklink-captions.so): 0.022 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.396 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(frontend-tools.so): 67.631 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(image-source.so): 0.005 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(linux-capture.so): 0.289 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(linux-decklink.so): 0.065 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(linux-v4l2.so): 9.31 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.323 ms
+11:23:59 AM.788:      ┃ ┃ ┗nvenc_check: 0.283 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(obs-filters.so): 0.015 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(obs-transitions.so): 0.005 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(obs-x264.so): 0 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(rtmp-services.so): 0.387 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(text-freetype2.so): 0.006 ms
+11:23:59 AM.788:      ┃ ┣obs_init_module(vlc-video.so): 0.67 ms
+11:23:59 AM.788:      ┃ ┗obs_init_module(input-overlay.so): 0.923 ms
+11:23:59 AM.788:      ┣OBSBasic::ResetOutputs: 0.125 ms
+11:23:59 AM.788:      ┣OBSBasic::CreateHotkeys: 0.035 ms
+11:23:59 AM.788:      ┣OBSBasic::InitService: 1.318 ms
+11:23:59 AM.788:      ┣OBSBasic::InitPrimitives: 0.15 ms
+11:23:59 AM.788:      ┗OBSBasic::Load: 212.983 ms
+11:23:59 AM.788: obs_hotkey_thread(25 ms): min=0.041 ms, median=0.119 ms, max=108.601 ms, 99th percentile=1.576 ms, 99.9447% below 25 ms
+11:23:59 AM.788: audio_thread(Audio): min=0 ms, median=0.386 ms, max=47.367 ms, 99th percentile=1.212 ms
+11:23:59 AM.788:  ┗receive_audio: min=0.001 ms, median=0.471 ms, max=4.75 ms, 99th percentile=0.922 ms, 0.786784 calls per parent call
+11:23:59 AM.788:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.081 ms, 99th percentile=0.002 ms
+11:23:59 AM.788:    ┗do_encode: min=0.079 ms, median=0.467 ms, max=4.747 ms, 99th percentile=0.916 ms
+11:23:59 AM.788:      ┗encode(simple_aac_recording): min=0.077 ms, median=0.46 ms, max=2.769 ms, 99th percentile=0.899 ms
+11:23:59 AM.788: obs_graphics_thread(16.6667 ms): min=0.337 ms, median=4.438 ms, max=210.569 ms, 99th percentile=7.922 ms, 99.8933% below 16.667 ms
+11:23:59 AM.788:  ┣tick_sources: min=0 ms, median=2.6 ms, max=170.245 ms, 99th percentile=5.63 ms
+11:23:59 AM.788:  ┣output_frame: min=0.127 ms, median=1.172 ms, max=96.44 ms, 99th percentile=2.053 ms
+11:23:59 AM.788:  ┃ ┣gs_context(video->graphics): min=0.126 ms, median=0.717 ms, max=96.438 ms, 99th percentile=1.76 ms
+11:23:59 AM.788:  ┃ ┃ ┣render_video: min=0.05 ms, median=0.572 ms, max=61.386 ms, 99th percentile=1.538 ms
+11:23:59 AM.788:  ┃ ┃ ┃ ┣render_main_texture: min=0.042 ms, median=0.442 ms, max=61.362 ms, 99th percentile=1.505 ms
+11:23:59 AM.788:  ┃ ┃ ┃ ┣render_convert_texture: min=0.037 ms, median=0.085 ms, max=10.942 ms, 99th percentile=0.153 ms, 0.781666 calls per parent call
+11:23:59 AM.788:  ┃ ┃ ┃ ┗stage_output_texture: min=0.018 ms, median=0.043 ms, max=30.838 ms, 99th percentile=0.082 ms, 0.781666 calls per parent call
+11:23:59 AM.788:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.006 ms, max=19.909 ms, 99th percentile=0.054 ms
+11:23:59 AM.788:  ┃ ┃ ┗download_frame: min=0 ms, median=0.003 ms, max=0.131 ms, 99th percentile=0.006 ms, 0.781666 calls per parent call
+11:23:59 AM.788:  ┃ ┗output_video_data: min=0.256 ms, median=0.483 ms, max=1.393 ms, 99th percentile=0.676 ms, 0.781617 calls per parent call
+11:23:59 AM.788:  ┗render_displays: min=0.054 ms, median=0.464 ms, max=152.12 ms, 99th percentile=1.074 ms
+11:23:59 AM.789: video_thread(video): min=0.787 ms, median=1.419 ms, max=8.583 ms, 99th percentile=2.371 ms
+11:23:59 AM.789:  ┗receive_video: min=0.786 ms, median=1.417 ms, max=6.368 ms, 99th percentile=2.366 ms
+11:23:59 AM.789:    ┗do_encode: min=0.784 ms, median=1.416 ms, max=6.366 ms, 99th percentile=2.363 ms
+11:23:59 AM.789:      ┗encode(simple_h264_recording): min=0.779 ms, median=1.403 ms, max=6.356 ms, 99th percentile=2.346 ms
+11:23:59 AM.789: =================================================
+11:23:59 AM.789: == Profiler Time Between Calls ==================
+11:23:59 AM.789: obs_hotkey_thread(25 ms): min=25.063 ms, median=25.187 ms, max=133.677 ms, 96.1602% within ±2% of 25 ms (0% lower, 3.83977% higher)
+11:23:59 AM.789: obs_graphics_thread(16.6667 ms): min=1.296 ms, median=16.667 ms, max=210.58 ms, 99.7816% within ±2% of 16.667 ms (0.0919163% lower, 0.126508% higher)
+11:23:59 AM.789: =================================================
+11:23:59 AM.878: Number of memory leaks: 0

@@ -1,0 +1,13 @@
+Enable 'Show hidden folders' in your file manager.
+Copy the following directories:
+
+
+'.kde' ------------> /HOME/YOUR-USER/  
+Includes '.kde/share/apps/color-schemes/GtkDarkPlasmaTheme.colors'
+Includes '.kde/share/config/kdeglobals'
+
+
+'color-schemes' ---> /HOME/YOUR-USER/.local/share/
+Includes 'GtkDarkPlasmaTheme.colors'
+
+

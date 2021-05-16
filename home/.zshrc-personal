@@ -1,0 +1,101 @@
+# Sort Locale
+export LC_COLLATE=C
+
+# Go Path
+export PATH="$PATH:$HOME/go/bin"
+
+# Pydoro Config
+export PYDORO_CONFIG_FILE="/home/kj/.config/pydoro.ini"
+
+# Ranger Config
+export RANGER_LOAD_DEFAULT_RC="FALSE"
+
+# Rofi Scripts
+export PATH="$PATH:$HOME/.config/rofi/scripts/sxhkd-help.sh"
+export PATH="$PATH:$HOME/.config/rofi/scripts/inotify-watchers.sh"
+export PATH="$PATH:$HOME/.config/rofi/scripts/web-search.py"
+
+# Crypto Scripts
+export PATH="$PATH:$HOME/code/crypto/nuxhash.sh"
+export PATH="$PATH:$HOME/code/crypto/multiminer.sh"
+
+#NVM Configuration
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Yarn Global Path
+export PATH="/home/kj/.yarn/bin:$PATH"
+export PATH="$PATH:$(yarn global bin)"
+
+# Pywal Config
+#(cat /home/kj/.cache/wal/sequences &)
+# cat ~/.cache/wal/sequences
+# source ~/.cache/wal/colors-tty.sh
+
+## Aliases
+# General Shrotcuts
+alias h="cd ~/"
+alias raspi="ssh pi@raspi.local"
+alias s="yarn develop; yarn dev; yarn start; npm run develop; npm run dev; npm run start;"
+alias cw="cd ~/code/_client-work; ls"
+alias cdc="cd ~/code/ ; ls"
+alias tm1="cd ~/code/_client-work/tm1; ls; git checkout latest; yarn start"
+alias tm2="cd ~/code/_client-work/tm1; ls; git checkout tm2; yarn start"
+
+# System Utilities
+alias pomo="pydoro"
+alias open="thunar"
+alias vi="nvim"
+alias top="bpytop"
+alias npkill="npx npkill ~/code"
+
+# Git Aliases
+alias commit-all="git add .; git-cz"
+alias commit="git-cz"
+alias gcm="git-cz"
+alias gitpretty="git log --all --graph --decorate --oneline"
+
+# Dotfile Aliases
+alias dotfiles='git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles'
+alias dtr="ranger ~/.dotfiles"
+alias dtb="nvim ~/.dotfiles/.config/bspwm/bspwmrc"
+alias dtz="nvim ~/.dotfiles/home/.zshrc-personal"
+alias dtpm="nvim ~/.dotfiles/.config/polybar/main.ini"
+alias dtps="nvim ~/.dotfiles/.config/polybar/secondary.ini"
+
+# List Aliases
+alias ls='ls --color=auto'
+alias la='ls -a'
+alias ll='ls -la'
+alias l='ls'
+alias l.="ls -A | egrep '^\.'"
+
+# APT Updates
+#alias update='sudo apt update'
+#alias upgrade='sudo apt upgrade'
+#alias dist-upgrade='sudo apt dist-upgrade'
+#alias full-upgrade='sudo apt full-upgrade'
+#alias update-all='update && upgrade && dist-upgrade && full-upgrade'
+#alias clean='sudo apt clean && sudo apt autoclean && sudo apt autoremove && sudo flatpak uninstall --unused && sudo flatpak repair'
+
+# Pacman Updates
+alias unlock="sudo rm /var/lib/pacman/db.lck"
+alias pacman='sudo pacman --color auto'
+alias update='sudo pacman -Syyu'
+alias update-all="yay -Syu --noconfirm"
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+
+# DSLR Webcam
+alias webcam-load="sudo modprobe v4l2loopback exclusive_caps=1 max_buffers=2"
+alias webcam-start="gphoto2 --stdout --capture-movie | ffmpeg -hwaccel nvdec -c:v mjpeg_cuvid -i - -vcodec rawvideo -pix_fmt yuv420p -threads 0 -f v4l2 /dev/video0"
+alias webcam-detect="gphoto2 --auto-detect"
+alias webcam-summary="gphoto2 --summary; gphoto2 --abilities"
+alias webcam-list-config="gphoto2 --list-config"
+alias webcam-get-config="gphoto2 --get-config"
+alias webcam-set-config="gphoto2 --set-config"
+
+# starship prompt
+eval "$(starship init zsh)"
+
+figlet "GVEMPIRE"

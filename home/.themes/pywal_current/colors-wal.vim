@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kj/photos/wallpapers/landscape-4.jpeg"
+let background = "#190621"
+let foreground = "#c5c0c7"
+let cursor     = "#c5c0c7"
+
+" Colors
+let color0  = "#190621"
+let color1  = "#8123aa"
+let color2  = "#945aa7"
+let color3  = "#a6249d"
+let color4  = "#b14185"
+let color5  = "#ac1f6a"
+let color6  = "#aa1349"
+let color7  = "#c5c0c7"
+let color8  = "#524458"
+let color9  = "#8123aa"
+let color10 = "#945aa7"
+let color11 = "#a6249d"
+let color12 = "#b14185"
+let color13 = "#ac1f6a"
+let color14 = "#aa1349"
+let color15 = "#c5c0c7"

@@ -1,0 +1,59 @@
+/* Plasma Bolt Plus - Version 4 */
+@define-color theme_bg_color #000916;
+@define-color theme_fg_color #a1a1a1;
+@define-color theme_base_color #000916;
+
+/* Below:- Compromise for Gnome Calendar readability and selected bg color for Evolution message list rows. */
+@define-color theme_selected_bg_color shade(@info_fg_color,0.7);  /* Adjust as preferred. */
+
+@define-color theme_selected_fg_color #bcbcbc;
+@define-color theme_selected_text_color #3498cc;
+@define-color theme_selected_text_bg_color #014a8a; 
+@define-color theme_disabled_fg_color #505050;
+@define-color theme_disabled_bg_color #000916;
+@define-color theme_backdrop_fg_color #767676;
+@define-color theme_backdrop_bg_color #00060f;
+@define-color theme_backdrop_selected_bg_color #0b1a2a;
+@define-color theme_backdrop_selected_fg_color shade(@theme_selected_fg_color, 0.6);
+@define-color theme_tooltip_bg_color #000916;
+@define-color theme_tooltip_fg_color #a1a1a1;
+@define-color levelbar_color #1882cc;
+@define-color borders #005096;  /* Some applications have this hard-coded on some borders. */
+@define-color unfocused_borders #0a3554; 
+@define-color tab_color #0e8be3;
+@define-color gradient_1 #2e353c;
+@define-color gradient_2 #0d151d;
+@define-color event-calendar-color #001641;
+/* misc colors used by gtk+ */
+@define-color info_fg_color #369ed4;
+@define-color info_bg_color @theme_bg_color;
+@define-color warning_fg_color #3498cc;
+@define-color warning_bg_color @theme_bg_color;
+@define-color question_fg_color #3498cc;
+@define-color question_bg_color @theme_bg_color;
+@define-color error_fg_color #3498cc;
+@define-color error_bg_color @theme_bg_color;
+@define-color link_color @info_fg_color;
+@define-color link_visited_color shade(@info_fg_color, 0.8);
+@define-color success_color #3498cc;
+@define-color error_color #3498cc;
+/* widget colors */
+@define-color titlebar_bg_color @theme_bg_color;
+@define-color titlebar_fg_color @theme_fg_color;
+@define-color menubar_bg_color @theme_bg_color;
+@define-color menubar_fg_color @theme_fg_color;
+@define-color toolbar_bg_color @theme_bg_color;
+@define-color toolbar_fg_color @theme_fg_color;
+@define-color menu_bg_color @theme_bg_color;
+@define-color menu_fg_color @theme_fg_color;
+@define-color panel_bg_color @theme_bg_color;
+@define-color panel_fg_color @theme_fg_color;
+/* window manager colors */
+@define-color wm_bg @theme_bg_color;
+@define-color wm_title_focused mix(@theme_fg_color, @theme_bg_color, 0.1);
+@define-color wm_title_unfocused mix(@theme_fg_color, @theme_bg_color, 0.6);
+@define-color wm_border_focused shade(@theme_bg_color, 0.7);
+@define-color wm_border_unfocused shade(@theme_bg_color, 0.8);
+
+@import url("gtk-widgets.css");
+@import url("lightdm-gtk-greeter.css");

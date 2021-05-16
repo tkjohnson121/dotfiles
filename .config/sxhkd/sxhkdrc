@@ -1,0 +1,184 @@
+#################################################################
+# GVEMPIRE BSPWM KEYBINDINGS
+#################################################################
+
+#################################################################
+# Applications
+#################################################################
+
+# sxhkd help
+alt + slash
+ /home/kujo/.config/rofi/scripts/sxhkd-help.sh 
+
+# kill
+super + q
+	bspc node -c
+
+# Web Browser
+alt + w
+  brave
+
+# Firefox
+alt + f
+  firefox
+
+# Spotify
+alt + s
+  spotify
+
+# Pavucontrol
+alt + v
+  pavucontrol
+
+# Kitty
+super + {Return,KP_Enter}
+  kitty
+
+# Xkill
+alt + Escape
+  xkill
+
+# File Manager    
+alt + r
+  thunar
+
+# Rofi 
+ctrl + space
+	rofi -show combi
+
+# 1Password
+ctrl + shift + period
+  1password
+
+#################################################################
+# Navigation
+#################################################################
+
+# Focus selected desktop
+alt + Tab
+	bspc desktop -f '^{1-8,10}'
+super + {1-8,0}
+    bspc desktop --focus ^{1-8,10}
+
+# Focus/swap windows by direction
+super + {Left,Down,Up,Right}
+	bspc node --{focus} {west,south,north,east}
+
+# Move current window to another workspace
+super + shift + {1-9}
+    id=$(bspc query -N -n); bspc node -d ^{1-9}; bspc node -f ${id}
+
+# Set the window state (layout)
+super + shift + {q,w,e,r}
+        bspc node -t {tiled,pseudo_tiled,\~floating,\~fullscreen}
+
+#################################################################
+# Window Control
+#################################################################
+
+# Move focused node to a different leaf
+super + shift + {Left,Down,Up,Right}
+  bspc node -n {west,south,north,east}
+
+# Move focus to other monitor
+super + shift + BackSpace
+		bspc monitor -f next
+
+# Swap current window with the biggest one in the present desktop.
+super + shift + d 
+	bspc node -s biggest.local
+
+# Expand tiled space
+super + shift + {h,j,k,l}
+  bspc node -z {left -50 0 || bspc node -z right -50 0, \
+                bottom 0 50 || bspc node -z top 0 50,\
+                top 0 -50 || bspc node -z bottom 0 -50,\
+                right 50 0 || bspc node -z left 50 0}
+
+# Rotate all windows {counter-}clockwise by 90 degrees.
+super + {_,shift + }r
+	bspc node @/ --rotate {90,-90}
+
+# Increase/decrease window gap on focused desktop
+super + shift + bracket{left,right}
+	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
+
+# Rotate desktop
+alt + space
+	bspc node @/ --rotate {90,-90}
+
+#################################################################
+# Restart Applications
+#################################################################
+
+# Reload sxhkd
+super + shift + s
+	pkill -USR1 -x sxhkd
+
+# Reload bspwm
+super + shift + b
+	/home/kujo/.config/bspwm/bspwmrc
+
+# Reload polybar
+super + shift + p
+	/home/kujo/.config/polybar/launch.sh
+
+# Hide polybar
+super + shift + y
+    polybar-msg cmd toggle
+
+# Toggle Compton
+ctrl + shift + o
+  /home/kujo/.config/bspwm/compton.conf
+
+# Power Menu
+ctrl + shift + e
+  /home/kujo/.config/rofi/scripts/powermenu.sh
+
+#################################################################
+#     SCREENSHOTS
+#################################################################
+
+# Flameshot
+Print
+  flameshot gui
+
+#################################################################
+#     MULTIMEDIA KEYS
+#################################################################
+
+# Raises volume
+XF86AudioRaiseVolume
+    amixer set Master 10%+
+
+# Lowers volume
+XF86AudioLowerVolume
+    amixer set Master 10%-
+
+# Mute
+XF86AudioMute
+    amixer -D pulse set Master 1+ toggle
+
+# Play
+XF86AudioPlay
+    playerctl play-pause
+
+# Next
+XF86AudioNext
+    playerctl next
+
+# Previous
+XF86AudioPrev
+    playerctl previous
+
+# Stop
+XF86AudioStop
+    playerctl stop
+
+# Brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 10
+
+# Brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 10

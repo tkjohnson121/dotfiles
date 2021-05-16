@@ -1,0 +1,20 @@
+# Print a new line at the start of the prompt
+add_newline = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+# [character]                            # The name of the module we are configuring is "character"
+# success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+# Configure Packages module
+[package]
+display_private = true
+
+# Configure Username module
+[username]
+show_always = true
+
+# Configure Git Commit module
+[git_commit]
+# commit_hash_length = 7
+# tag_disabled = false
+# only_detached = false

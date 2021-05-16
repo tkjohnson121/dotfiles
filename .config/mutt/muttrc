@@ -1,0 +1,34 @@
+set ssl_force_tls = yes
+set abort_nosubject = no
+set mail_check = 60
+set timeout = 10
+set sort = "reverse-date-received"
+set signature = "~/.config/mutt/signature"
+set copy = no
+
+set from = "kj@gvempire.com"
+set realname = "Khari Johnson"
+
+# IMAP settings
+set imap_user = "kj@gvempire.com"
+set imap_pass = "qdjbgbertflphjzf"
+
+# SMTP settings
+set smtp_url = "smpts://kj@gvempire.com@smtp.gmail.com:587"
+set smtp_pass = "qdjbgbertflphjzf"
+
+# Remote Gmail Folders
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[GMAIL]/Drafts"
+set record = "+[GMAIL]/Sent Mail"
+set trash = "+[GMAIL]/Trash"
+
+# Caching
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+
+macro index gd "<change-folder>$postponed<enter>" "go to drafts"
+macro index gs "<change-folder>$record<enter>" "go to sent"
+macro index gi "<change-folder>$spoolfile<Enter>" "go to inbox"
+macro index gt "<change-folder>$trash<enter>" "go to trash""

@@ -1,0 +1,11 @@
+# Link init
+ln -s /home/kj/code/_dotfiles/nvim/init.vim /home/kj/.config/nvim/init.vim
+
+# Install Plug
+ln -s /home/kj/code/_dotfiles/nvim/plug.vim /home/kj/.local/share/nvim/site/autoload/plug.vim
+
+# Link Settings
+ln -s /home/kj/code/_dotfiles/nvim/settings.vim /home/kj/.config/nvim/settings.vim
+
+# Link KeyMaps
+ln -s /home/kj/code/_dotfiles/nvim/mappings.vim /home/kj/.config/nvim/mappings.vim

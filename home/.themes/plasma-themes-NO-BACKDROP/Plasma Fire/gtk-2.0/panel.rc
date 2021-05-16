@@ -1,0 +1,74 @@
+style "panel"
+{
+xthickness           	= 2
+ythickness            	= 2
+engine "pixmap"
+{
+}
+bg_pixmap[NORMAL] 	= "Panel/panel.png"
+}
+style "panelbuttons"
+{
+fg[NORMAL]		= "#a1a1a1"
+fg[PRELIGHT]		= "#bcbcbc"
+fg[ACTIVE]		= "#bcbcbc"
+fg[SELECTED]		= "#bcbcbc"
+fg[INSENSITIVE]	= "#606060"
+xthickness            	= 2
+ythickness            	= 2
+engine "pixmap" 
+{
+image
+{
+function   		= BOX
+state			= NORMAL
+file           	= "Panel/null-panel.png"
+border         	= { 0, 0, 0, 0 }
+stretch         	= TRUE
+}
+image
+{
+function		= BOX
+state			= PRELIGHT
+recolorable		= TRUE
+file			= "Panel/panel-button-prelight.png"
+border			= { 0 , 0 , 0 , 0}
+stretch		= TRUE
+}		
+image
+{
+function		= BOX
+state			= ACTIVE
+file			= "Panel/panel-button-prelight.png"
+border			= { 0 , 0 , 0 , 0}
+stretch		=TRUE
+}
+image
+{
+function      		= BOX
+state			= INSENSITIVE
+file           	= "Panel/null-panel.png"
+stretch        	= TRUE
+} 
+}
+}
+widget "*Xfce*Panel*"   			    style "panel"
+widget "*PanelWidget*"              		    style "panel"
+widget "*PanelApplet*"              		    style "panel"
+widget "*fast-user-switch*"         		    style "panel"
+widget "*CPUFreq*Applet*"           		    style "panel"
+widget "*indicator-applet*"        		    style "panel"
+class "PanelApp*"                  		    style "panel"
+class "PanelToplevel*"             		    style "panel"
+widget_class "*PanelToplevel*"     		    style "panel"
+widget_class "*notif*"             		    style "panel"
+widget_class "*Notif*"              		    style "panel"
+widget_class "*Tray*"               		    style "panel" 
+widget_class "*tray*"             		    style "panel"
+widget_class "*computertemp*"    		    style "panel"
+widget_class "*Applet*Tomboy*"     		    style "panel"
+widget_class "*Applet*Netstatus*"   	   	    style "panel"
+widget_class "*Xfce*Panel*" 			    style "panelbuttons"
+widget_class "*tasklist*" 			    style "panelbuttons"
+widget_class "*Xfce*Panel*.GtkToggleButton" 	    style "panelbuttons"
+widget_class "*Xfce*NetkTasklist*GtkToggleButton"  style "panelbuttons"

@@ -1,0 +1,1261 @@
+04:17:55 AM.329: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+04:17:55 AM.329: CPU Speed: 3769.507MHz
+04:17:55 AM.329: Physical Cores: 6, Logical Cores: 12
+04:17:55 AM.329: Physical Memory: 16013MB Total, 2433MB Free
+04:17:55 AM.329: Kernel Version: Linux 5.12.2-arch1-1
+04:17:55 AM.329: Distribution: "EndeavourOS" Unknown
+04:17:55 AM.329: Session Type: x11
+04:17:55 AM.338: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+04:17:55 AM.339: Portable mode: false
+04:17:55 AM.417: OBS 26.1.2-2 (linux)
+04:17:55 AM.418: ---------------------------------
+04:17:55 AM.418: ---------------------------------
+04:17:55 AM.418: audio settings reset:
+04:17:55 AM.418: 	samples per sec: 48000
+04:17:55 AM.418: 	speakers:        2
+04:17:55 AM.422: ---------------------------------
+04:17:55 AM.422: Initializing OpenGL...
+04:17:55 AM.530: Loading up OpenGL on adapter Mesa/X.org llvmpipe (LLVM 11.1.0, 256 bits)
+04:17:55 AM.530: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 21.1.0, shading language 4.50
+04:17:55 AM.578: ---------------------------------
+04:17:55 AM.578: video settings reset:
+04:17:55 AM.578: 	base resolution:   1920x1080
+04:17:55 AM.578: 	output resolution: 1920x1080
+04:17:55 AM.578: 	downscale filter:  Bicubic
+04:17:55 AM.578: 	fps:               60/1
+04:17:55 AM.578: 	format:            NV12
+04:17:55 AM.578: 	YUV mode:          709/Partial
+04:17:55 AM.579: NV12 texture support not available
+04:17:55 AM.586: Audio monitoring device:
+04:17:55 AM.586: 	name: Default
+04:17:55 AM.586: 	id: default
+04:17:55 AM.586: ---------------------------------
+04:17:55 AM.589: Failed to load 'en-US' text for module: 'decklink-captions.so'
+04:17:55 AM.592: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+04:17:55 AM.678: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+04:17:55 AM.678: No blackmagic support
+04:17:55 AM.707: NVENC supported
+04:17:55 AM.707: FFMPEG VAAPI supported
+04:17:55 AM.734: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+04:17:55 AM.734: 
+04:17:55 AM.734: Couldn't find VLC installation, VLC video source disabled
+04:17:55 AM.735: os_dlopen(/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so->/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so): libuiohook.so.0: cannot open shared object file: No such file or directory
+04:17:55 AM.735: 
+04:17:55 AM.735: Module '/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so' not loaded
+04:17:55 AM.735: ---------------------------------
+04:17:55 AM.735:   Loaded Modules:
+04:17:55 AM.735:     vlc-video.so
+04:17:55 AM.735:     text-freetype2.so
+04:17:55 AM.735:     rtmp-services.so
+04:17:55 AM.735:     obs-x264.so
+04:17:55 AM.735:     obs-transitions.so
+04:17:55 AM.735:     obs-outputs.so
+04:17:55 AM.735:     obs-libfdk.so
+04:17:55 AM.735:     obs-filters.so
+04:17:55 AM.735:     obs-ffmpeg.so
+04:17:55 AM.735:     linux-v4l2.so
+04:17:55 AM.735:     linux-pulseaudio.so
+04:17:55 AM.735:     linux-jack.so
+04:17:55 AM.735:     linux-decklink.so
+04:17:55 AM.735:     linux-capture.so
+04:17:55 AM.735:     linux-alsa.so
+04:17:55 AM.735:     image-source.so
+04:17:55 AM.735:     frontend-tools.so
+04:17:55 AM.735:     decklink-ouput-ui.so
+04:17:55 AM.735:     decklink-captions.so
+04:17:55 AM.735: ---------------------------------
+04:17:55 AM.736: ==== Startup complete ===============================================
+04:17:55 AM.742: All scene data cleared
+04:17:55 AM.742: ------------------------------------------------
+04:17:55 AM.749: pulse-input: Server name: 'pulseaudio 14.2'
+04:17:55 AM.749: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:17:55 AM.749: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+04:17:55 AM.749: [Loaded global audio device]: 'Desktop Audio'
+04:17:55 AM.749: pulse-input: Server name: 'pulseaudio 14.2'
+04:17:55 AM.750: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+04:17:55 AM.750: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+04:17:55 AM.750: [Loaded global audio device]: 'Mic/Aux'
+04:17:55 AM.786: pulse-input: Server name: 'pulseaudio 14.2'
+04:17:55 AM.786: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+04:17:55 AM.786: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+04:17:55 AM.786: [Loaded global audio device]: 'Mic/Aux 2'
+04:17:56 AM.329: v4l2-input: Start capture from /dev/video0
+04:17:56 AM.330: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+04:17:56 AM.330: 
+04:17:56 AM.341: v4l2-input: Input: 0
+04:17:56 AM.356: v4l2-input: Resolution: 640x480
+04:17:56 AM.356: v4l2-input: Pixelformat: YU12
+04:17:56 AM.356: v4l2-input: Linesize: 640 Bytes
+04:17:56 AM.356: v4l2-input: Framerate: 30.00 fps
+04:17:56 AM.371: xshm-input: Geometry 1920x1080 @ 1080,0
+04:17:56 AM.381: xshm-input: Geometry 1080x1920 @ 0,0
+04:17:56 AM.386: Source ID 'input-overlay' not found
+04:17:56 AM.386: Failed to create source 'Qwerty Overlay'!
+04:17:56 AM.386: Source ID 'input-history' not found
+04:17:56 AM.386: Failed to create source 'Input History'!
+04:17:56 AM.387: Switched to scene 'Props'
+04:17:56 AM.388: ------------------------------------------------
+04:17:56 AM.388: Loaded scenes:
+04:17:56 AM.388: - scene 'Props':
+04:17:56 AM.388:     - source: 'Titlebar 2' (group)
+04:17:56 AM.388:         - source: 'Titlebar - Background 2' (image_source)
+04:17:56 AM.388:         - source: 'Title - Title' (text_ft2_source_v2)
+04:17:56 AM.388:         - source: 'Input History' (input-history)
+04:17:56 AM.388:     - source: 'Canon - Webcam' (group)
+04:17:56 AM.388:         - source: 'Webcam' (v4l2_input)
+04:17:56 AM.388:             - filter: 'Color Correction' (color_filter)
+04:17:56 AM.388:         - source: 'Webcam - Overlay' (image_source)
+04:17:56 AM.388: - scene 'Intro':
+04:17:56 AM.388:     - source: 'Canon - Webcam' (group)
+04:17:56 AM.388:         - source: 'Webcam' (v4l2_input)
+04:17:56 AM.388:             - filter: 'Color Correction' (color_filter)
+04:17:56 AM.388:         - source: 'Webcam - Overlay' (image_source)
+04:17:56 AM.388:     - source: 'Titlebar 2' (group)
+04:17:56 AM.388:         - source: 'Titlebar - Background 2' (image_source)
+04:17:56 AM.388:         - source: 'Title - Title' (text_ft2_source_v2)
+04:17:56 AM.388:         - source: 'Input History' (input-history)
+04:17:56 AM.388: - scene 'Main':
+04:17:56 AM.388:     - source: 'Display 1' (xshm_input)
+04:17:56 AM.388:     - source: 'Titlebar 2' (group)
+04:17:56 AM.388:         - source: 'Titlebar - Background 2' (image_source)
+04:17:56 AM.388:         - source: 'Title - Title' (text_ft2_source_v2)
+04:17:56 AM.388:         - source: 'Input History' (input-history)
+04:17:56 AM.388:     - source: 'Qwerty Overlay' (input-overlay)
+04:17:56 AM.388:     - source: 'Canon - Webcam' (group)
+04:17:56 AM.388:         - source: 'Webcam' (v4l2_input)
+04:17:56 AM.388:             - filter: 'Color Correction' (color_filter)
+04:17:56 AM.388:         - source: 'Webcam - Overlay' (image_source)
+04:17:56 AM.388: - scene 'Dual':
+04:17:56 AM.388:     - source: 'Display 1' (xshm_input)
+04:17:56 AM.388:     - source: 'Display 2' (xshm_input)
+04:17:56 AM.388:     - source: 'Titlebar 2' (group)
+04:17:56 AM.388:         - source: 'Titlebar - Background 2' (image_source)
+04:17:56 AM.388:         - source: 'Title - Title' (text_ft2_source_v2)
+04:17:56 AM.388:         - source: 'Input History' (input-history)
+04:17:56 AM.388:     - source: 'Canon - Webcam' (group)
+04:17:56 AM.388:         - source: 'Webcam' (v4l2_input)
+04:17:56 AM.388:             - filter: 'Color Correction' (color_filter)
+04:17:56 AM.388:         - source: 'Webcam - Overlay' (image_source)
+04:17:56 AM.388: ------------------------------------------------
+04:17:56 AM.391: [Media Source 'Arcade_Pop (Stinger)']: settings:
+04:17:56 AM.391: 	input:                   /home/kj/videos/overlays/arcade_pop/Transition_Purple_Mute.webm
+04:17:56 AM.391: 	input_format:            (null)
+04:17:56 AM.391: 	speed:                   100
+04:17:56 AM.391: 	is_looping:              no
+04:17:56 AM.391: 	is_hw_decoding:          yes
+04:17:56 AM.391: 	is_clear_on_media_end:   yes
+04:17:56 AM.391: 	restart_on_activate:     yes
+04:17:56 AM.391: 	close_when_inactive:     no
+04:17:56 AM.391: [Media Source 'Clearview (Stinger)']: settings:
+04:17:56 AM.391: 	input:                   /home/kj/videos/overlays/clearview/screens/Stinger_60fps.webm
+04:17:56 AM.391: 	input_format:            (null)
+04:17:56 AM.391: 	speed:                   100
+04:17:56 AM.391: 	is_looping:              no
+04:17:56 AM.391: 	is_hw_decoding:          yes
+04:17:56 AM.391: 	is_clear_on_media_end:   yes
+04:17:56 AM.391: 	restart_on_activate:     yes
+04:17:56 AM.391: 	close_when_inactive:     no
+04:17:56 AM.391: MP: Failed to open media: '/home/kj/videos/overlays/clearview/screens/Stinger_60fps.webm'
+04:17:56 AM.391: MP: Failed to open media: '/home/kj/videos/overlays/arcade_pop/Transition_Purple_Mute.webm'
+04:17:56 AM.393: pulse-am: Server name: 'pulseaudio 14.2'
+04:17:56 AM.393: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+04:17:56 AM.393: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+04:18:08 AM.405: v4l2-input: /dev/video1 seems to not support video capture
+04:18:08 AM.406: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+04:18:08 AM.406: v4l2-input: Found input 'Camera 1' (Index 0)
+04:18:08 AM.455: v4l2-controls: setting default for Power Line Frequency to 2
+04:18:08 AM.504: v4l2-controls: setting default for Exposure, Auto to 3
+04:18:08 AM.543: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:18:08 AM.543: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:18:08 AM.543: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:18:08 AM.543: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:18:08 AM.543: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:18:08 AM.543: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:18:08 AM.544: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:18:08 AM.544: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:18:08 AM.544: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:18:08 AM.544: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:18:08 AM.544: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:18:08 AM.544: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:18:08 AM.544: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:18:08 AM.545: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:18:08 AM.549: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:18:08 AM.549: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:18:22 AM.532: v4l2-input: Stopped capture after 594 frames
+04:18:22 AM.638: v4l2-input: Start capture from /dev/video0
+04:18:22 AM.643: v4l2-input: Input: 0
+04:18:22 AM.658: v4l2-input: Resolution: 640x480
+04:18:22 AM.658: v4l2-input: Pixelformat: YU12
+04:18:22 AM.658: v4l2-input: Linesize: 640 Bytes
+04:18:22 AM.658: v4l2-input: Framerate: 30.00 fps
+04:19:37 AM.871: ---------------------------------
+04:19:37 AM.871: video settings reset:
+04:19:37 AM.871: 	base resolution:   640x480
+04:19:37 AM.871: 	output resolution: 640x480
+04:19:37 AM.871: 	downscale filter:  Bicubic
+04:19:37 AM.871: 	fps:               60/1
+04:19:37 AM.871: 	format:            NV12
+04:19:37 AM.871: 	YUV mode:          709/Partial
+04:19:37 AM.872: NV12 texture support not available
+04:21:39 AM.213: User switched to scene 'Intro'
+04:21:40 AM.604: User switched to scene 'Main'
+04:22:24 AM.003: ---------------------------------
+04:22:24 AM.003: video settings reset:
+04:22:24 AM.003: 	base resolution:   1920x1080
+04:22:24 AM.003: 	output resolution: 1920x1080
+04:22:24 AM.003: 	downscale filter:  Bicubic
+04:22:24 AM.003: 	fps:               60/1
+04:22:24 AM.003: 	format:            NV12
+04:22:24 AM.003: 	YUV mode:          709/Partial
+04:22:24 AM.003: NV12 texture support not available
+04:22:24 AM.012: Settings changed (outputs, video)
+04:22:24 AM.012: ------------------------------------------------
+04:22:33 AM.902: User switched to scene 'Props'
+04:22:43 AM.984: User switched to scene 'Intro'
+04:22:46 AM.230: User switched to scene 'Props'
+04:23:00 AM.756: User switched to scene 'Intro'
+04:23:14 AM.364: User switched to scene 'Main'
+04:23:22 AM.298: User switched to scene 'Dual'
+04:23:28 AM.506: User switched to scene 'Main'
+04:23:31 AM.597: v4l2-input: /dev/video1 seems to not support video capture
+04:23:31 AM.598: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+04:23:31 AM.598: v4l2-input: Found input 'Camera 1' (Index 0)
+04:23:31 AM.598: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:23:31 AM.598: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:23:31 AM.598: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:23:31 AM.598: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:23:31 AM.598: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:23:31 AM.598: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:23:31 AM.599: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:23:31 AM.599: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:23:31 AM.599: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:23:31 AM.599: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:23:31 AM.599: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:23:31 AM.599: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:23:31 AM.599: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:23:31 AM.600: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:23:31 AM.600: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:23:34 AM.725: v4l2-input: /dev/video1 seems to not support video capture
+04:23:34 AM.725: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+04:23:34 AM.726: v4l2-input: Found input 'Camera 1' (Index 0)
+04:23:34 AM.726: v4l2-controls: setting default for Power Line Frequency to 2
+04:23:34 AM.726: v4l2-controls: setting default for Exposure, Auto to 3
+04:23:34 AM.726: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:23:34 AM.726: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:23:34 AM.726: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:23:34 AM.726: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:23:34 AM.726: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:23:34 AM.726: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:23:34 AM.727: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:23:34 AM.727: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:23:34 AM.727: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:23:34 AM.727: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:23:34 AM.727: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:23:34 AM.727: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:23:34 AM.727: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:23:34 AM.727: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:23:34 AM.728: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:23:34 AM.728: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:23:54 AM.540: User added filter 'Luma Key' (luma_key_filter) to source 'Webcam'
+04:23:58 AM.222: User removed filter 'Luma Key' (luma_key_filter) from source 'Webcam'
+04:24:01 AM.757: User added filter 'Color Key' (color_key_filter) to source 'Webcam'
+04:24:05 AM.479: User removed filter 'Color Key' (color_key_filter) from source 'Webcam'
+04:24:08 AM.840: User added filter 'Chroma Key' (chroma_key_filter) to source 'Webcam'
+04:24:15 AM.881: User added filter 'Image Mask/Blend' (mask_filter) to source 'Webcam'
+04:24:18 AM.613: User removed filter 'Chroma Key' (chroma_key_filter) from source 'Webcam'
+04:27:52 AM.524: User switched to scene 'Intro'
+04:27:56 AM.959: User switched to scene 'Props'
+04:28:02 AM.156: User Removed source 'Webcam - Overlay' (image_source) from scene 'Canon - Webcam'
+04:28:16 AM.448: Source 'Webcam' renamed to 'Circle webcam'
+04:28:18 AM.038: User switched to scene 'Intro'
+04:28:19 AM.177: User switched to scene 'Main'
+04:28:27 AM.589: User Removed source 'Canon - Webcam' (group) from scene 'Main'
+04:28:43 AM.198: User switched to scene 'Dual'
+04:28:48 AM.329: User Removed source 'Canon - Webcam' (group) from scene 'Dual'
+04:28:49 AM.431: User switched to scene 'Props'
+04:28:51 AM.844: User switched to scene 'Dual'
+04:28:52 AM.789: User added source 'Circle webcam' (v4l2_input) to scene 'Dual'
+04:29:06 AM.036: User switched to scene 'Main'
+04:29:08 AM.734: User switched to scene 'Intro'
+04:29:10 AM.613: User switched to scene 'Props'
+04:37:49 AM.082: Failed to open file '/home/kujo/videos/overlays/green-circle.png': No such file or directory
+04:37:49 AM.083: gs_image_file_init_internal: Failed to load file '/home/kujo/videos/overlays/green-circle.png'
+04:38:33 AM.378: v4l2-input: /dev/video1 seems to not support video capture
+04:38:33 AM.378: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+04:38:33 AM.378: v4l2-input: Found input 'Camera 1' (Index 0)
+04:38:33 AM.378: v4l2-controls: setting default for Power Line Frequency to 2
+04:38:33 AM.378: v4l2-controls: setting default for Exposure, Auto to 3
+04:38:33 AM.379: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:38:33 AM.379: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:38:33 AM.379: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:38:33 AM.379: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:38:33 AM.379: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:38:33 AM.379: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:38:33 AM.379: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:38:33 AM.379: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:38:33 AM.379: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:38:33 AM.379: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:38:33 AM.379: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+04:38:33 AM.379: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:38:33 AM.379: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:38:33 AM.380: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:38:33 AM.380: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:38:33 AM.380: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:43:56 AM.066: Failed to open file '/home/kujo/videos/overlays/clearview/overlays/Overlay_1_blank.png': No such file or directory
+04:43:56 AM.066: gs_image_file_init_internal: Failed to load file '/home/kujo/videos/overlays/clearview/overlays/Overlay_1_blank.png'
+04:43:56 AM.066: [image_source: 'Titlebar - Background 2'] failed to load texture '/home/kujo/videos/overlays/clearview/overlays/Overlay_1_blank.png'
+04:55:28 AM.751: Failed to open file '/home/kujo/videos/overlays/webcam-masks/green-circle.png': No such file or directory
+04:55:28 AM.751: gs_image_file_init_internal: Failed to load file '/home/kujo/videos/overlays/webcam-masks/green-circle.png'
+04:59:01 AM.079: [Media Source 'Kinetic (Stinger)']: settings:
+04:59:01 AM.079: 	input:                   
+04:59:01 AM.079: 	input_format:            (null)
+04:59:01 AM.079: 	speed:                   100
+04:59:01 AM.079: 	is_looping:              no
+04:59:01 AM.079: 	is_hw_decoding:          yes
+04:59:01 AM.079: 	is_clear_on_media_end:   yes
+04:59:01 AM.079: 	restart_on_activate:     yes
+04:59:01 AM.079: 	close_when_inactive:     no
+04:59:01 AM.121: Out of space trying to render glyphs
+04:59:01 AM.200: Out of space trying to render glyphs
+04:59:01 AM.265: [Media Source 'clone (Stinger)']: settings:
+04:59:01 AM.265: 	input:                   
+04:59:01 AM.265: 	input_format:            (null)
+04:59:01 AM.265: 	speed:                   100
+04:59:01 AM.265: 	is_looping:              no
+04:59:01 AM.265: 	is_hw_decoding:          yes
+04:59:01 AM.265: 	is_clear_on_media_end:   yes
+04:59:01 AM.265: 	restart_on_activate:     yes
+04:59:01 AM.265: 	close_when_inactive:     no
+04:59:10 AM.337: [Media Source 'clone (Stinger)']: settings:
+04:59:10 AM.337: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:10 AM.337: 	input_format:            (null)
+04:59:10 AM.337: 	speed:                   100
+04:59:10 AM.337: 	is_looping:              no
+04:59:10 AM.337: 	is_hw_decoding:          yes
+04:59:10 AM.337: 	is_clear_on_media_end:   yes
+04:59:10 AM.337: 	restart_on_activate:     yes
+04:59:10 AM.337: 	close_when_inactive:     no
+04:59:18 AM.248: [Media Source 'clone (Stinger)']: settings:
+04:59:18 AM.248: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:18 AM.248: 	input_format:            (null)
+04:59:18 AM.248: 	speed:                   100
+04:59:18 AM.248: 	is_looping:              no
+04:59:18 AM.248: 	is_hw_decoding:          yes
+04:59:18 AM.248: 	is_clear_on_media_end:   yes
+04:59:18 AM.248: 	restart_on_activate:     yes
+04:59:18 AM.248: 	close_when_inactive:     no
+04:59:18 AM.452: [Media Source 'clone (Stinger)']: settings:
+04:59:18 AM.452: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:18 AM.452: 	input_format:            (null)
+04:59:18 AM.452: 	speed:                   100
+04:59:18 AM.452: 	is_looping:              no
+04:59:18 AM.452: 	is_hw_decoding:          yes
+04:59:18 AM.452: 	is_clear_on_media_end:   yes
+04:59:18 AM.452: 	restart_on_activate:     yes
+04:59:18 AM.452: 	close_when_inactive:     no
+04:59:18 AM.530: [Media Source 'clone (Stinger)']: settings:
+04:59:18 AM.530: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:18 AM.530: 	input_format:            (null)
+04:59:18 AM.530: 	speed:                   100
+04:59:18 AM.530: 	is_looping:              no
+04:59:18 AM.530: 	is_hw_decoding:          yes
+04:59:18 AM.530: 	is_clear_on_media_end:   yes
+04:59:18 AM.530: 	restart_on_activate:     yes
+04:59:18 AM.530: 	close_when_inactive:     no
+04:59:22 AM.345: [Media Source 'clone (Stinger)']: settings:
+04:59:22 AM.345: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:22 AM.345: 	input_format:            (null)
+04:59:22 AM.345: 	speed:                   100
+04:59:22 AM.345: 	is_looping:              no
+04:59:22 AM.345: 	is_hw_decoding:          yes
+04:59:22 AM.345: 	is_clear_on_media_end:   yes
+04:59:22 AM.345: 	restart_on_activate:     yes
+04:59:22 AM.345: 	close_when_inactive:     no
+04:59:22 AM.526: [Media Source 'clone (Stinger)']: settings:
+04:59:22 AM.526: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:22 AM.526: 	input_format:            (null)
+04:59:22 AM.526: 	speed:                   100
+04:59:22 AM.526: 	is_looping:              no
+04:59:22 AM.526: 	is_hw_decoding:          yes
+04:59:22 AM.526: 	is_clear_on_media_end:   yes
+04:59:22 AM.526: 	restart_on_activate:     yes
+04:59:22 AM.526: 	close_when_inactive:     no
+04:59:23 AM.161: [Media Source 'clone (Stinger)']: settings:
+04:59:23 AM.161: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:23 AM.161: 	input_format:            (null)
+04:59:23 AM.161: 	speed:                   100
+04:59:23 AM.161: 	is_looping:              no
+04:59:23 AM.161: 	is_hw_decoding:          yes
+04:59:23 AM.161: 	is_clear_on_media_end:   yes
+04:59:23 AM.161: 	restart_on_activate:     yes
+04:59:23 AM.161: 	close_when_inactive:     no
+04:59:23 AM.466: [Media Source 'clone (Stinger)']: settings:
+04:59:23 AM.466: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:23 AM.466: 	input_format:            (null)
+04:59:23 AM.466: 	speed:                   100
+04:59:23 AM.466: 	is_looping:              no
+04:59:23 AM.466: 	is_hw_decoding:          yes
+04:59:23 AM.466: 	is_clear_on_media_end:   yes
+04:59:23 AM.466: 	restart_on_activate:     yes
+04:59:23 AM.466: 	close_when_inactive:     no
+04:59:23 AM.625: [Media Source 'clone (Stinger)']: settings:
+04:59:23 AM.625: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:23 AM.625: 	input_format:            (null)
+04:59:23 AM.625: 	speed:                   100
+04:59:23 AM.625: 	is_looping:              no
+04:59:23 AM.625: 	is_hw_decoding:          yes
+04:59:23 AM.625: 	is_clear_on_media_end:   yes
+04:59:23 AM.625: 	restart_on_activate:     yes
+04:59:23 AM.625: 	close_when_inactive:     no
+04:59:26 AM.891: [Media Source 'clone (Stinger)']: settings:
+04:59:26 AM.891: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:26 AM.891: 	input_format:            (null)
+04:59:26 AM.891: 	speed:                   100
+04:59:26 AM.891: 	is_looping:              no
+04:59:26 AM.891: 	is_hw_decoding:          yes
+04:59:26 AM.891: 	is_clear_on_media_end:   yes
+04:59:26 AM.891: 	restart_on_activate:     yes
+04:59:26 AM.891: 	close_when_inactive:     no
+04:59:27 AM.101: [Media Source 'clone (Stinger)']: settings:
+04:59:27 AM.101: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:27 AM.101: 	input_format:            (null)
+04:59:27 AM.101: 	speed:                   100
+04:59:27 AM.101: 	is_looping:              no
+04:59:27 AM.101: 	is_hw_decoding:          yes
+04:59:27 AM.101: 	is_clear_on_media_end:   yes
+04:59:27 AM.101: 	restart_on_activate:     yes
+04:59:27 AM.101: 	close_when_inactive:     no
+04:59:27 AM.489: [Media Source 'clone (Stinger)']: settings:
+04:59:27 AM.489: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:27 AM.489: 	input_format:            (null)
+04:59:27 AM.489: 	speed:                   100
+04:59:27 AM.489: 	is_looping:              no
+04:59:27 AM.489: 	is_hw_decoding:          yes
+04:59:27 AM.489: 	is_clear_on_media_end:   yes
+04:59:27 AM.489: 	restart_on_activate:     yes
+04:59:27 AM.489: 	close_when_inactive:     no
+04:59:27 AM.680: [Media Source 'clone (Stinger)']: settings:
+04:59:27 AM.680: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:27 AM.680: 	input_format:            (null)
+04:59:27 AM.680: 	speed:                   100
+04:59:27 AM.680: 	is_looping:              no
+04:59:27 AM.680: 	is_hw_decoding:          yes
+04:59:27 AM.680: 	is_clear_on_media_end:   yes
+04:59:27 AM.680: 	restart_on_activate:     yes
+04:59:27 AM.680: 	close_when_inactive:     no
+04:59:27 AM.752: [Media Source 'clone (Stinger)']: settings:
+04:59:27 AM.752: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:27 AM.752: 	input_format:            (null)
+04:59:27 AM.752: 	speed:                   100
+04:59:27 AM.752: 	is_looping:              no
+04:59:27 AM.752: 	is_hw_decoding:          yes
+04:59:27 AM.752: 	is_clear_on_media_end:   yes
+04:59:27 AM.752: 	restart_on_activate:     yes
+04:59:27 AM.752: 	close_when_inactive:     no
+04:59:31 AM.350: [Media Source 'clone (Stinger)']: settings:
+04:59:31 AM.350: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:31 AM.350: 	input_format:            (null)
+04:59:31 AM.350: 	speed:                   100
+04:59:31 AM.350: 	is_looping:              no
+04:59:31 AM.350: 	is_hw_decoding:          yes
+04:59:31 AM.350: 	is_clear_on_media_end:   yes
+04:59:31 AM.350: 	restart_on_activate:     yes
+04:59:31 AM.350: 	close_when_inactive:     no
+04:59:31 AM.483: [Media Source 'clone (Stinger)']: settings:
+04:59:31 AM.483: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:31 AM.483: 	input_format:            (null)
+04:59:31 AM.483: 	speed:                   100
+04:59:31 AM.483: 	is_looping:              no
+04:59:31 AM.483: 	is_hw_decoding:          yes
+04:59:31 AM.483: 	is_clear_on_media_end:   yes
+04:59:31 AM.483: 	restart_on_activate:     yes
+04:59:31 AM.483: 	close_when_inactive:     no
+04:59:31 AM.871: [Media Source 'clone (Stinger)']: settings:
+04:59:31 AM.871: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:31 AM.871: 	input_format:            (null)
+04:59:31 AM.871: 	speed:                   100
+04:59:31 AM.871: 	is_looping:              no
+04:59:31 AM.871: 	is_hw_decoding:          yes
+04:59:31 AM.871: 	is_clear_on_media_end:   yes
+04:59:31 AM.871: 	restart_on_activate:     yes
+04:59:31 AM.871: 	close_when_inactive:     no
+04:59:31 AM.927: [Media Source 'clone (Stinger)']: settings:
+04:59:31 AM.927: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:31 AM.927: 	input_format:            (null)
+04:59:31 AM.927: 	speed:                   100
+04:59:31 AM.927: 	is_looping:              no
+04:59:31 AM.927: 	is_hw_decoding:          yes
+04:59:31 AM.927: 	is_clear_on_media_end:   yes
+04:59:31 AM.927: 	restart_on_activate:     yes
+04:59:31 AM.927: 	close_when_inactive:     no
+04:59:35 AM.754: [Media Source 'clone (Stinger)']: settings:
+04:59:35 AM.754: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:35 AM.754: 	input_format:            (null)
+04:59:35 AM.754: 	speed:                   100
+04:59:35 AM.754: 	is_looping:              no
+04:59:35 AM.754: 	is_hw_decoding:          yes
+04:59:35 AM.754: 	is_clear_on_media_end:   yes
+04:59:35 AM.754: 	restart_on_activate:     yes
+04:59:35 AM.754: 	close_when_inactive:     no
+04:59:35 AM.919: [Media Source 'clone (Stinger)']: settings:
+04:59:35 AM.919: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:35 AM.919: 	input_format:            (null)
+04:59:35 AM.919: 	speed:                   100
+04:59:35 AM.919: 	is_looping:              no
+04:59:35 AM.919: 	is_hw_decoding:          yes
+04:59:35 AM.919: 	is_clear_on_media_end:   yes
+04:59:35 AM.919: 	restart_on_activate:     yes
+04:59:35 AM.919: 	close_when_inactive:     no
+04:59:36 AM.183: [Media Source 'clone (Stinger)']: settings:
+04:59:36 AM.183: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:36 AM.183: 	input_format:            (null)
+04:59:36 AM.183: 	speed:                   100
+04:59:36 AM.183: 	is_looping:              no
+04:59:36 AM.183: 	is_hw_decoding:          yes
+04:59:36 AM.183: 	is_clear_on_media_end:   yes
+04:59:36 AM.183: 	restart_on_activate:     yes
+04:59:36 AM.183: 	close_when_inactive:     no
+04:59:36 AM.410: [Media Source 'clone (Stinger)']: settings:
+04:59:36 AM.410: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:36 AM.410: 	input_format:            (null)
+04:59:36 AM.410: 	speed:                   100
+04:59:36 AM.410: 	is_looping:              no
+04:59:36 AM.410: 	is_hw_decoding:          yes
+04:59:36 AM.410: 	is_clear_on_media_end:   yes
+04:59:36 AM.410: 	restart_on_activate:     yes
+04:59:36 AM.410: 	close_when_inactive:     no
+04:59:42 AM.786: [Media Source 'clone (Stinger)']: settings:
+04:59:42 AM.786: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:42 AM.786: 	input_format:            (null)
+04:59:42 AM.786: 	speed:                   100
+04:59:42 AM.786: 	is_looping:              no
+04:59:42 AM.786: 	is_hw_decoding:          yes
+04:59:42 AM.786: 	is_clear_on_media_end:   yes
+04:59:42 AM.786: 	restart_on_activate:     yes
+04:59:42 AM.786: 	close_when_inactive:     no
+04:59:49 AM.140: [Media Source 'Kinetic (Stinger)']: settings:
+04:59:49 AM.140: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+04:59:49 AM.140: 	input_format:            (null)
+04:59:49 AM.140: 	speed:                   100
+04:59:49 AM.140: 	is_looping:              no
+04:59:49 AM.140: 	is_hw_decoding:          yes
+04:59:49 AM.140: 	is_clear_on_media_end:   yes
+04:59:49 AM.140: 	restart_on_activate:     yes
+04:59:49 AM.140: 	close_when_inactive:     no
+04:59:52 AM.418: User switched to scene 'Intro'
+04:59:54 AM.622: User switched to scene 'Props'
+04:59:59 AM.178: Out of space trying to render glyphs
+04:59:59 AM.284: Out of space trying to render glyphs
+04:59:59 AM.299: [Media Source 'clone (Stinger)']: settings:
+04:59:59 AM.299: 	input:                   /home/kj/videos/overlays/clearview/screens/Stinger_60fps.webm
+04:59:59 AM.299: 	input_format:            (null)
+04:59:59 AM.299: 	speed:                   100
+04:59:59 AM.299: 	is_looping:              no
+04:59:59 AM.299: 	is_hw_decoding:          yes
+04:59:59 AM.299: 	is_clear_on_media_end:   yes
+04:59:59 AM.299: 	restart_on_activate:     yes
+04:59:59 AM.299: 	close_when_inactive:     no
+04:59:59 AM.299: MP: Failed to open media: '/home/kj/videos/overlays/clearview/screens/Stinger_60fps.webm'
+04:59:59 AM.301: pulse-am: Server name: 'pulseaudio 14.2'
+04:59:59 AM.301: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+04:59:59 AM.302: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:00:05 AM.044: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:00:05 AM.044: pulse-am: Got 0 packets with 0 frames
+05:00:05 AM.044: [Media Source 'clone (Stinger)']: settings:
+05:00:05 AM.044: 	input:                   /home/kujo/videos/overlays/stingers/clearview_60fps.webm
+05:00:05 AM.044: 	input_format:            (null)
+05:00:05 AM.044: 	speed:                   100
+05:00:05 AM.044: 	is_looping:              no
+05:00:05 AM.044: 	is_hw_decoding:          yes
+05:00:05 AM.044: 	is_clear_on_media_end:   yes
+05:00:05 AM.044: 	restart_on_activate:     yes
+05:00:05 AM.044: 	close_when_inactive:     no
+05:00:05 AM.050: pulse-am: Server name: 'pulseaudio 14.2'
+05:00:05 AM.050: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+05:00:05 AM.050: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:00:10 AM.649: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:00:10 AM.649: pulse-am: Got 300 packets with 131843 frames
+05:00:10 AM.666: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:00:10 AM.666: pulse-am: Got 0 packets with 0 frames
+05:00:10 AM.666: [Media Source 'Clearview (Stinger)']: settings:
+05:00:10 AM.666: 	input:                   /home/kujo/videos/overlays/stingers/clearview_60fps.webm
+05:00:10 AM.666: 	input_format:            (null)
+05:00:10 AM.666: 	speed:                   100
+05:00:10 AM.666: 	is_looping:              no
+05:00:10 AM.666: 	is_hw_decoding:          yes
+05:00:10 AM.666: 	is_clear_on_media_end:   yes
+05:00:10 AM.666: 	restart_on_activate:     yes
+05:00:10 AM.666: 	close_when_inactive:     no
+05:00:10 AM.678: pulse-am: Server name: 'pulseaudio 14.2'
+05:00:10 AM.678: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+05:00:10 AM.678: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:00:17 AM.523: Out of space trying to render glyphs
+05:00:17 AM.577: Out of space trying to render glyphs
+05:00:17 AM.589: [Media Source 'clone (Stinger)']: settings:
+05:00:17 AM.589: 	input:                   /home/kj/videos/overlays/arcade_pop/Transition_Purple_Mute.webm
+05:00:17 AM.589: 	input_format:            (null)
+05:00:17 AM.589: 	speed:                   100
+05:00:17 AM.589: 	is_looping:              no
+05:00:17 AM.589: 	is_hw_decoding:          yes
+05:00:17 AM.589: 	is_clear_on_media_end:   yes
+05:00:17 AM.589: 	restart_on_activate:     yes
+05:00:17 AM.589: 	close_when_inactive:     no
+05:00:30 AM.548: [Media Source 'clone (Stinger)']: settings:
+05:00:30 AM.548: 	input:                   /home/kujo/videos/overlays/stingers/arcade_purple_mute.webm
+05:00:30 AM.548: 	input_format:            (null)
+05:00:30 AM.548: 	speed:                   100
+05:00:30 AM.548: 	is_looping:              no
+05:00:30 AM.548: 	is_hw_decoding:          yes
+05:00:30 AM.548: 	is_clear_on_media_end:   yes
+05:00:30 AM.548: 	restart_on_activate:     yes
+05:00:30 AM.548: 	close_when_inactive:     no
+05:00:36 AM.700: [Media Source 'clone (Stinger)']: settings:
+05:00:36 AM.700: 	input:                   /home/kujo/videos/overlays/stingers/arcade_dark_waudio.webm
+05:00:36 AM.700: 	input_format:            (null)
+05:00:36 AM.700: 	speed:                   100
+05:00:36 AM.700: 	is_looping:              no
+05:00:36 AM.700: 	is_hw_decoding:          yes
+05:00:36 AM.700: 	is_clear_on_media_end:   yes
+05:00:36 AM.700: 	restart_on_activate:     yes
+05:00:36 AM.700: 	close_when_inactive:     no
+05:00:40 AM.535: [Media Source 'clone (Stinger)']: settings:
+05:00:40 AM.535: 	input:                   /home/kujo/videos/overlays/stingers/arcade_purple_mute.webm
+05:00:40 AM.535: 	input_format:            (null)
+05:00:40 AM.535: 	speed:                   100
+05:00:40 AM.535: 	is_looping:              no
+05:00:40 AM.535: 	is_hw_decoding:          yes
+05:00:40 AM.535: 	is_clear_on_media_end:   yes
+05:00:40 AM.535: 	restart_on_activate:     yes
+05:00:40 AM.535: 	close_when_inactive:     no
+05:00:41 AM.323: [Media Source 'Arcade_Pop (Stinger)']: settings:
+05:00:41 AM.323: 	input:                   /home/kujo/videos/overlays/stingers/arcade_purple_mute.webm
+05:00:41 AM.323: 	input_format:            (null)
+05:00:41 AM.323: 	speed:                   100
+05:00:41 AM.323: 	is_looping:              no
+05:00:41 AM.323: 	is_hw_decoding:          yes
+05:00:41 AM.323: 	is_clear_on_media_end:   yes
+05:00:41 AM.323: 	restart_on_activate:     yes
+05:00:41 AM.323: 	close_when_inactive:     no
+05:01:14 AM.578: [Media Source 'Interface (Stinger)']: settings:
+05:01:14 AM.578: 	input:                   
+05:01:14 AM.578: 	input_format:            (null)
+05:01:14 AM.578: 	speed:                   100
+05:01:14 AM.578: 	is_looping:              no
+05:01:14 AM.578: 	is_hw_decoding:          yes
+05:01:14 AM.578: 	is_clear_on_media_end:   yes
+05:01:14 AM.578: 	restart_on_activate:     yes
+05:01:14 AM.578: 	close_when_inactive:     no
+05:01:14 AM.601: Out of space trying to render glyphs
+05:01:14 AM.748: Out of space trying to render glyphs
+05:01:14 AM.789: [Media Source 'clone (Stinger)']: settings:
+05:01:14 AM.789: 	input:                   
+05:01:14 AM.789: 	input_format:            (null)
+05:01:14 AM.789: 	speed:                   100
+05:01:14 AM.789: 	is_looping:              no
+05:01:14 AM.789: 	is_hw_decoding:          yes
+05:01:14 AM.789: 	is_clear_on_media_end:   yes
+05:01:14 AM.789: 	restart_on_activate:     yes
+05:01:14 AM.789: 	close_when_inactive:     no
+05:01:18 AM.334: [Media Source 'clone (Stinger)']: settings:
+05:01:18 AM.334: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:18 AM.334: 	input_format:            (null)
+05:01:18 AM.334: 	speed:                   100
+05:01:18 AM.334: 	is_looping:              no
+05:01:18 AM.334: 	is_hw_decoding:          yes
+05:01:18 AM.334: 	is_clear_on_media_end:   yes
+05:01:18 AM.334: 	restart_on_activate:     yes
+05:01:18 AM.334: 	close_when_inactive:     no
+05:01:24 AM.516: [Media Source 'clone (Stinger)']: settings:
+05:01:24 AM.516: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:24 AM.516: 	input_format:            (null)
+05:01:24 AM.516: 	speed:                   100
+05:01:24 AM.516: 	is_looping:              no
+05:01:24 AM.516: 	is_hw_decoding:          yes
+05:01:24 AM.516: 	is_clear_on_media_end:   yes
+05:01:24 AM.516: 	restart_on_activate:     yes
+05:01:24 AM.516: 	close_when_inactive:     no
+05:01:24 AM.609: [Media Source 'clone (Stinger)']: settings:
+05:01:24 AM.609: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:24 AM.609: 	input_format:            (null)
+05:01:24 AM.609: 	speed:                   100
+05:01:24 AM.609: 	is_looping:              no
+05:01:24 AM.609: 	is_hw_decoding:          yes
+05:01:24 AM.609: 	is_clear_on_media_end:   yes
+05:01:24 AM.609: 	restart_on_activate:     yes
+05:01:24 AM.609: 	close_when_inactive:     no
+05:01:24 AM.850: [Media Source 'clone (Stinger)']: settings:
+05:01:24 AM.850: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:24 AM.850: 	input_format:            (null)
+05:01:24 AM.850: 	speed:                   100
+05:01:24 AM.850: 	is_looping:              no
+05:01:24 AM.850: 	is_hw_decoding:          yes
+05:01:24 AM.850: 	is_clear_on_media_end:   yes
+05:01:24 AM.850: 	restart_on_activate:     yes
+05:01:24 AM.850: 	close_when_inactive:     no
+05:01:25 AM.082: [Media Source 'clone (Stinger)']: settings:
+05:01:25 AM.082: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:25 AM.082: 	input_format:            (null)
+05:01:25 AM.082: 	speed:                   100
+05:01:25 AM.082: 	is_looping:              no
+05:01:25 AM.082: 	is_hw_decoding:          yes
+05:01:25 AM.082: 	is_clear_on_media_end:   yes
+05:01:25 AM.082: 	restart_on_activate:     yes
+05:01:25 AM.082: 	close_when_inactive:     no
+05:01:25 AM.213: [Media Source 'clone (Stinger)']: settings:
+05:01:25 AM.213: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:25 AM.213: 	input_format:            (null)
+05:01:25 AM.213: 	speed:                   100
+05:01:25 AM.213: 	is_looping:              no
+05:01:25 AM.213: 	is_hw_decoding:          yes
+05:01:25 AM.213: 	is_clear_on_media_end:   yes
+05:01:25 AM.213: 	restart_on_activate:     yes
+05:01:25 AM.213: 	close_when_inactive:     no
+05:01:27 AM.649: [Media Source 'clone (Stinger)']: settings:
+05:01:27 AM.649: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:27 AM.649: 	input_format:            (null)
+05:01:27 AM.649: 	speed:                   100
+05:01:27 AM.649: 	is_looping:              no
+05:01:27 AM.649: 	is_hw_decoding:          yes
+05:01:27 AM.649: 	is_clear_on_media_end:   yes
+05:01:27 AM.649: 	restart_on_activate:     yes
+05:01:27 AM.649: 	close_when_inactive:     no
+05:01:33 AM.645: [Media Source 'clone (Stinger)']: settings:
+05:01:33 AM.645: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:33 AM.645: 	input_format:            (null)
+05:01:33 AM.645: 	speed:                   100
+05:01:33 AM.645: 	is_looping:              no
+05:01:33 AM.645: 	is_hw_decoding:          yes
+05:01:33 AM.645: 	is_clear_on_media_end:   yes
+05:01:33 AM.645: 	restart_on_activate:     yes
+05:01:33 AM.645: 	close_when_inactive:     no
+05:01:33 AM.721: [Media Source 'clone (Stinger)']: settings:
+05:01:33 AM.721: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:33 AM.721: 	input_format:            (null)
+05:01:33 AM.721: 	speed:                   100
+05:01:33 AM.721: 	is_looping:              no
+05:01:33 AM.721: 	is_hw_decoding:          yes
+05:01:33 AM.721: 	is_clear_on_media_end:   yes
+05:01:33 AM.721: 	restart_on_activate:     yes
+05:01:33 AM.721: 	close_when_inactive:     no
+05:01:42 AM.418: [Media Source 'clone (Stinger)']: settings:
+05:01:42 AM.418: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:42 AM.418: 	input_format:            (null)
+05:01:42 AM.418: 	speed:                   100
+05:01:42 AM.418: 	is_looping:              no
+05:01:42 AM.418: 	is_hw_decoding:          yes
+05:01:42 AM.418: 	is_clear_on_media_end:   yes
+05:01:42 AM.418: 	restart_on_activate:     yes
+05:01:42 AM.418: 	close_when_inactive:     no
+05:01:42 AM.508: [Media Source 'clone (Stinger)']: settings:
+05:01:42 AM.508: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:42 AM.508: 	input_format:            (null)
+05:01:42 AM.508: 	speed:                   100
+05:01:42 AM.508: 	is_looping:              no
+05:01:42 AM.508: 	is_hw_decoding:          yes
+05:01:42 AM.508: 	is_clear_on_media_end:   yes
+05:01:42 AM.508: 	restart_on_activate:     yes
+05:01:42 AM.508: 	close_when_inactive:     no
+05:01:42 AM.724: [Media Source 'clone (Stinger)']: settings:
+05:01:42 AM.724: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:42 AM.724: 	input_format:            (null)
+05:01:42 AM.724: 	speed:                   100
+05:01:42 AM.724: 	is_looping:              no
+05:01:42 AM.724: 	is_hw_decoding:          yes
+05:01:42 AM.724: 	is_clear_on_media_end:   yes
+05:01:42 AM.724: 	restart_on_activate:     yes
+05:01:42 AM.724: 	close_when_inactive:     no
+05:01:42 AM.885: [Media Source 'clone (Stinger)']: settings:
+05:01:42 AM.885: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:42 AM.885: 	input_format:            (null)
+05:01:42 AM.885: 	speed:                   100
+05:01:42 AM.885: 	is_looping:              no
+05:01:42 AM.885: 	is_hw_decoding:          yes
+05:01:42 AM.885: 	is_clear_on_media_end:   yes
+05:01:42 AM.885: 	restart_on_activate:     yes
+05:01:42 AM.885: 	close_when_inactive:     no
+05:01:49 AM.841: [Media Source 'clone (Stinger)']: settings:
+05:01:49 AM.841: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:49 AM.841: 	input_format:            (null)
+05:01:49 AM.841: 	speed:                   100
+05:01:49 AM.841: 	is_looping:              no
+05:01:49 AM.841: 	is_hw_decoding:          yes
+05:01:49 AM.841: 	is_clear_on_media_end:   yes
+05:01:49 AM.841: 	restart_on_activate:     yes
+05:01:49 AM.841: 	close_when_inactive:     no
+05:01:50 AM.104: [Media Source 'clone (Stinger)']: settings:
+05:01:50 AM.104: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:50 AM.104: 	input_format:            (null)
+05:01:50 AM.104: 	speed:                   100
+05:01:50 AM.104: 	is_looping:              no
+05:01:50 AM.104: 	is_hw_decoding:          yes
+05:01:50 AM.104: 	is_clear_on_media_end:   yes
+05:01:50 AM.104: 	restart_on_activate:     yes
+05:01:50 AM.104: 	close_when_inactive:     no
+05:01:50 AM.619: [Media Source 'clone (Stinger)']: settings:
+05:01:50 AM.619: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:50 AM.619: 	input_format:            (null)
+05:01:50 AM.619: 	speed:                   100
+05:01:50 AM.619: 	is_looping:              no
+05:01:50 AM.619: 	is_hw_decoding:          yes
+05:01:50 AM.619: 	is_clear_on_media_end:   yes
+05:01:50 AM.619: 	restart_on_activate:     yes
+05:01:50 AM.619: 	close_when_inactive:     no
+05:01:50 AM.871: [Media Source 'clone (Stinger)']: settings:
+05:01:50 AM.871: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:50 AM.871: 	input_format:            (null)
+05:01:50 AM.871: 	speed:                   100
+05:01:50 AM.871: 	is_looping:              no
+05:01:50 AM.871: 	is_hw_decoding:          yes
+05:01:50 AM.871: 	is_clear_on_media_end:   yes
+05:01:50 AM.871: 	restart_on_activate:     yes
+05:01:50 AM.871: 	close_when_inactive:     no
+05:01:53 AM.538: [Media Source 'clone (Stinger)']: settings:
+05:01:53 AM.538: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:53 AM.538: 	input_format:            (null)
+05:01:53 AM.538: 	speed:                   100
+05:01:53 AM.538: 	is_looping:              no
+05:01:53 AM.538: 	is_hw_decoding:          yes
+05:01:53 AM.538: 	is_clear_on_media_end:   yes
+05:01:53 AM.538: 	restart_on_activate:     yes
+05:01:53 AM.538: 	close_when_inactive:     no
+05:01:53 AM.821: [Media Source 'clone (Stinger)']: settings:
+05:01:53 AM.821: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:53 AM.821: 	input_format:            (null)
+05:01:53 AM.821: 	speed:                   100
+05:01:53 AM.821: 	is_looping:              no
+05:01:53 AM.821: 	is_hw_decoding:          yes
+05:01:53 AM.821: 	is_clear_on_media_end:   yes
+05:01:53 AM.821: 	restart_on_activate:     yes
+05:01:53 AM.821: 	close_when_inactive:     no
+05:01:54 AM.997: [Media Source 'clone (Stinger)']: settings:
+05:01:54 AM.997: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:54 AM.997: 	input_format:            (null)
+05:01:54 AM.997: 	speed:                   100
+05:01:54 AM.997: 	is_looping:              no
+05:01:54 AM.997: 	is_hw_decoding:          yes
+05:01:54 AM.997: 	is_clear_on_media_end:   yes
+05:01:54 AM.997: 	restart_on_activate:     yes
+05:01:54 AM.997: 	close_when_inactive:     no
+05:01:55 AM.337: [Media Source 'clone (Stinger)']: settings:
+05:01:55 AM.337: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:01:55 AM.337: 	input_format:            (null)
+05:01:55 AM.337: 	speed:                   100
+05:01:55 AM.337: 	is_looping:              no
+05:01:55 AM.337: 	is_hw_decoding:          yes
+05:01:55 AM.337: 	is_clear_on_media_end:   yes
+05:01:55 AM.337: 	restart_on_activate:     yes
+05:01:55 AM.337: 	close_when_inactive:     no
+05:02:00 AM.559: [Media Source 'clone (Stinger)']: settings:
+05:02:00 AM.559: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:00 AM.559: 	input_format:            (null)
+05:02:00 AM.559: 	speed:                   100
+05:02:00 AM.559: 	is_looping:              no
+05:02:00 AM.559: 	is_hw_decoding:          yes
+05:02:00 AM.559: 	is_clear_on_media_end:   yes
+05:02:00 AM.559: 	restart_on_activate:     yes
+05:02:00 AM.559: 	close_when_inactive:     no
+05:02:00 AM.689: [Media Source 'clone (Stinger)']: settings:
+05:02:00 AM.689: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:00 AM.689: 	input_format:            (null)
+05:02:00 AM.689: 	speed:                   100
+05:02:00 AM.689: 	is_looping:              no
+05:02:00 AM.689: 	is_hw_decoding:          yes
+05:02:00 AM.689: 	is_clear_on_media_end:   yes
+05:02:00 AM.689: 	restart_on_activate:     yes
+05:02:00 AM.689: 	close_when_inactive:     no
+05:02:00 AM.796: [Media Source 'clone (Stinger)']: settings:
+05:02:00 AM.796: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:00 AM.796: 	input_format:            (null)
+05:02:00 AM.796: 	speed:                   100
+05:02:00 AM.796: 	is_looping:              no
+05:02:00 AM.796: 	is_hw_decoding:          yes
+05:02:00 AM.796: 	is_clear_on_media_end:   yes
+05:02:00 AM.796: 	restart_on_activate:     yes
+05:02:00 AM.796: 	close_when_inactive:     no
+05:02:00 AM.902: [Media Source 'clone (Stinger)']: settings:
+05:02:00 AM.902: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:00 AM.902: 	input_format:            (null)
+05:02:00 AM.902: 	speed:                   100
+05:02:00 AM.902: 	is_looping:              no
+05:02:00 AM.902: 	is_hw_decoding:          yes
+05:02:00 AM.902: 	is_clear_on_media_end:   yes
+05:02:00 AM.902: 	restart_on_activate:     yes
+05:02:00 AM.902: 	close_when_inactive:     no
+05:02:06 AM.098: [Media Source 'clone (Stinger)']: settings:
+05:02:06 AM.098: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:06 AM.098: 	input_format:            (null)
+05:02:06 AM.098: 	speed:                   100
+05:02:06 AM.098: 	is_looping:              no
+05:02:06 AM.098: 	is_hw_decoding:          yes
+05:02:06 AM.098: 	is_clear_on_media_end:   yes
+05:02:06 AM.098: 	restart_on_activate:     yes
+05:02:06 AM.098: 	close_when_inactive:     no
+05:02:06 AM.198: [Media Source 'clone (Stinger)']: settings:
+05:02:06 AM.198: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:06 AM.198: 	input_format:            (null)
+05:02:06 AM.198: 	speed:                   100
+05:02:06 AM.198: 	is_looping:              no
+05:02:06 AM.198: 	is_hw_decoding:          yes
+05:02:06 AM.198: 	is_clear_on_media_end:   yes
+05:02:06 AM.198: 	restart_on_activate:     yes
+05:02:06 AM.198: 	close_when_inactive:     no
+05:02:12 AM.303: [Media Source 'clone (Stinger)']: settings:
+05:02:12 AM.303: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:12 AM.303: 	input_format:            (null)
+05:02:12 AM.303: 	speed:                   100
+05:02:12 AM.303: 	is_looping:              no
+05:02:12 AM.303: 	is_hw_decoding:          yes
+05:02:12 AM.303: 	is_clear_on_media_end:   yes
+05:02:12 AM.303: 	restart_on_activate:     yes
+05:02:12 AM.303: 	close_when_inactive:     no
+05:02:16 AM.830: [Media Source 'Interface (Stinger)']: settings:
+05:02:16 AM.830: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:02:16 AM.830: 	input_format:            (null)
+05:02:16 AM.830: 	speed:                   100
+05:02:16 AM.830: 	is_looping:              no
+05:02:16 AM.830: 	is_hw_decoding:          yes
+05:02:16 AM.830: 	is_clear_on_media_end:   yes
+05:02:16 AM.830: 	restart_on_activate:     yes
+05:02:16 AM.830: 	close_when_inactive:     no
+05:02:18 AM.393: User switched to scene 'Intro'
+05:02:23 AM.886: User switched to scene 'Props'
+05:02:29 AM.756: v4l2-input: /dev/video1 seems to not support video capture
+05:02:29 AM.756: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+05:02:29 AM.757: v4l2-input: Found input 'Camera 1' (Index 0)
+05:02:29 AM.757: v4l2-controls: setting default for Power Line Frequency to 2
+05:02:29 AM.757: v4l2-controls: setting default for Exposure, Auto to 3
+05:02:29 AM.757: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:02:29 AM.757: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:02:29 AM.757: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:02:29 AM.757: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:02:29 AM.757: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:02:29 AM.757: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:02:29 AM.758: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:02:29 AM.758: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:02:29 AM.758: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:02:29 AM.758: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:02:29 AM.758: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:02:29 AM.758: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:02:29 AM.758: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:02:29 AM.759: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:02:29 AM.759: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:02:29 AM.760: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:05:36 AM.524: User switched to scene 'Intro'
+05:05:37 AM.537: User switched to scene 'Main'
+05:05:38 AM.413: User switched to scene 'Dual'
+05:05:40 AM.545: User switched to scene 'Props'
+05:05:43 AM.251: User switched to scene 'Intro'
+05:05:43 AM.919: User switched to scene 'Main'
+05:05:44 AM.902: User switched to scene 'Intro'
+05:05:46 AM.007: User switched to scene 'Main'
+05:05:46 AM.588: User switched to scene 'Props'
+05:05:48 AM.695: User switched to scene 'Main'
+05:05:58 AM.401: User switched to scene 'Dual'
+05:06:10 AM.672: User switched to scene 'Props'
+05:06:38 AM.054: User Removed source 'Input History' (input-history) from scene 'Titlebar 2'
+05:06:53 AM.243: User switched to scene 'Main'
+05:06:59 AM.553: User switched to scene 'Dual'
+05:07:07 AM.622: User switched to scene 'Props'
+05:07:46 AM.037: User added scene 'Starting Soon'
+05:07:46 AM.062: User switched to scene 'Starting Soon'
+05:08:14 AM.982: User added source 'Starting Soon - Text' (image_source) to scene 'Starting Soon'
+05:08:50 AM.214: User added source 'Page Background' (image_source) to scene 'Starting Soon'
+05:10:49 AM.416: User switched to scene 'Props'
+05:10:53 AM.800: User switched to scene 'Starting Soon'
+05:10:57 AM.272: User added source 'Circle webcam' (v4l2_input) to scene 'Starting Soon'
+05:11:00 AM.965: User switched to scene 'Intro'
+05:11:00 AM.978: User Removed scene 'Starting Soon'
+05:11:07 AM.187: User added scene 'Starting Soon'
+05:11:07 AM.199: User switched to scene 'Starting Soon'
+05:11:18 AM.928: User added source 'Page Background' (image_source) to scene 'Starting Soon'
+05:11:43 AM.874: User added source 'Starting Soon Text' (image_source) to scene 'Starting Soon'
+05:12:28 AM.136: User switched to scene 'Intro'
+05:12:34 AM.844: User switched to scene 'Props'
+05:12:40 AM.152: User added source 'Circle webcam' (v4l2_input) to scene 'Props'
+05:12:47 AM.449: Source 'Circle webcam' renamed to 'Rect webcam'
+05:12:52 AM.752: Source 'Rect webcam' renamed to 'Circlewebcam'
+05:12:56 AM.646: User Removed source 'Circlewebcam' (v4l2_input) from scene 'Props'
+05:13:15 AM.776: v4l2-input: Start capture from 
+05:13:15 AM.776: v4l2-input: Unable to open device
+05:13:15 AM.776: v4l2-input: Initialization failed
+05:13:15 AM.794: User added source 'Rect Webcam' (v4l2_input) to scene 'Props'
+05:13:15 AM.800: v4l2-input: /dev/video1 seems to not support video capture
+05:13:15 AM.801: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+05:13:15 AM.801: v4l2-input: Found input 'Camera 1' (Index 0)
+05:13:15 AM.801: v4l2-controls: setting default for Power Line Frequency to 2
+05:13:15 AM.801: v4l2-controls: setting default for Exposure, Auto to 3
+05:13:15 AM.801: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:13:15 AM.801: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:13:15 AM.801: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:13:15 AM.801: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:13:15 AM.801: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:13:15 AM.801: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:13:15 AM.802: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+05:13:15 AM.802: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:15 AM.803: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:13:15 AM.804: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:13:15 AM.804: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:13:15 AM.804: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:13:15 AM.804: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:13:15 AM.804: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:13:15 AM.804: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+05:13:15 AM.804: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:15 AM.806: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:15 AM.821: v4l2-input: Start capture from /dev/video0
+05:13:15 AM.822: v4l2-input: Unable to set input 0
+05:13:15 AM.822: v4l2-input: Initialization failed
+05:13:31 AM.841: v4l2-input: /dev/video1 seems to not support video capture
+05:13:31 AM.841: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+05:13:31 AM.841: v4l2-input: Found input 'Camera 1' (Index 0)
+05:13:31 AM.842: v4l2-controls: setting default for Power Line Frequency to 2
+05:13:31 AM.842: v4l2-controls: setting default for Exposure, Auto to 3
+05:13:31 AM.842: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:13:31 AM.842: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:13:31 AM.842: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:13:31 AM.842: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:13:31 AM.842: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:13:31 AM.842: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:13:31 AM.842: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:31 AM.843: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:13:31 AM.843: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:13:31 AM.843: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:13:31 AM.843: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:13:31 AM.843: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:13:31 AM.843: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:13:31 AM.843: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:31 AM.843: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:31 AM.844: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:44 AM.856: v4l2-input: Start capture from /dev/video0
+05:13:44 AM.856: v4l2-input: Unable to set input 0
+05:13:44 AM.856: v4l2-input: Initialization failed
+05:13:50 AM.326: User Removed source 'Rect Webcam' (v4l2_input) from scene 'Props'
+05:13:59 AM.582: v4l2-input: Start capture from 
+05:13:59 AM.582: v4l2-input: Unable to open device
+05:13:59 AM.582: v4l2-input: Initialization failed
+05:13:59 AM.612: User added source 'Rect Webcam' (v4l2_input) to scene 'Props'
+05:13:59 AM.616: v4l2-input: /dev/video1 seems to not support video capture
+05:13:59 AM.616: v4l2-input: Found device 'Logitech Webcam C930e' at /dev/video0
+05:13:59 AM.617: v4l2-input: Found input 'Camera 1' (Index 0)
+05:13:59 AM.617: v4l2-controls: setting default for Power Line Frequency to 2
+05:13:59 AM.617: v4l2-controls: setting default for Exposure, Auto to 3
+05:13:59 AM.617: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:13:59 AM.617: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:13:59 AM.617: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:13:59 AM.617: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:13:59 AM.617: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:13:59 AM.617: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:13:59 AM.617: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+05:13:59 AM.617: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:59 AM.619: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:13:59 AM.619: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:13:59 AM.619: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:13:59 AM.619: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+05:13:59 AM.619: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:13:59 AM.619: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:13:59 AM.619: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+05:13:59 AM.619: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:59 AM.621: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+05:13:59 AM.640: v4l2-input: Start capture from /dev/video0
+05:13:59 AM.641: v4l2-input: Unable to set input 0
+05:13:59 AM.641: v4l2-input: Initialization failed
+05:14:25 AM.431: User Removed source 'Rect Webcam' (v4l2_input) from scene 'Props'
+05:14:27 AM.551: User switched to scene 'Starting Soon'
+05:14:45 AM.202: User added source 'System Specs' (image_source) to scene 'Starting Soon'
+05:14:59 AM.795: User Removed source 'System Specs' (image_source) from scene 'Starting Soon'
+05:15:05 AM.699: User added source 'Twitter' (image_source) to scene 'Starting Soon'
+05:15:28 AM.984: User Removed source 'Twitter' (image_source) from scene 'Starting Soon'
+05:16:04 AM.964: User added source 'Social Background' (image_source) to scene 'Starting Soon'
+05:16:33 AM.684: User switched to scene 'Props'
+05:16:34 AM.509: User added source 'Social Background' (image_source) to scene 'Props'
+05:16:58 AM.594: User Removed source 'Titlebar 2' (group) from scene 'Props'
+05:18:30 AM.817: Source 'Group' renamed to 'Titlebar'
+05:18:38 AM.369: Source 'Circlewebcam' renamed to 'Circle Webcam'
+05:18:52 AM.044: User added source 'Twitter Username' (text_ft2_source_v2) to scene 'Props'
+05:19:35 AM.187: User added source 'Website' (text_ft2_source_v2) to scene 'Props'
+05:20:18 AM.892: User added source 'Twitter Icon' (image_source) to scene 'Props'
+05:20:59 AM.091: User added source 'Website Icon' (image_source) to scene 'Props'
+05:22:03 AM.889: User switched to scene 'Starting Soon'
+05:22:08 AM.211: User switched to scene 'Intro'
+05:22:08 AM.222: User Removed scene 'Starting Soon'
+05:22:14 AM.382: User added scene 'Starting Soon'
+05:22:14 AM.388: User switched to scene 'Starting Soon'
+05:22:21 AM.917: User added source 'Page Background' (image_source) to scene 'Starting Soon'
+05:22:51 AM.222: User added source 'Starting Soon Text' (image_source) to scene 'Starting Soon'
+05:23:16 AM.892: User switched to scene 'Props'
+05:23:28 AM.743: Source 'Group' renamed to 'Social Bar'
+05:23:44 AM.356: User switched to scene 'Starting Soon'
+05:23:48 AM.265: User added source 'Social Bar' (group) to scene 'Starting Soon'
+05:23:58 AM.057: User switched to scene 'Props'
+05:24:27 AM.619: User added filter 'Chroma Key' (chroma_key_filter) to source 'Social Background'
+05:24:35 AM.230: User switched to scene 'Starting Soon'
+05:24:47 AM.326: User switched to scene 'Props'
+05:25:00 AM.179: User removed filter 'Chroma Key' (chroma_key_filter) from source 'Social Background'
+05:25:08 AM.508: User added filter 'Luma Key' (luma_key_filter) to source 'Social Background'
+05:25:18 AM.445: User removed filter 'Luma Key' (luma_key_filter) from source 'Social Background'
+05:25:22 AM.145: User added filter 'Image Mask/Blend' (mask_filter) to source 'Social Background'
+05:26:10 AM.750: User switched to scene 'Starting Soon'
+05:26:19 AM.178: User switched to scene 'Props'
+05:27:30 AM.994: User switched to scene 'Starting Soon'
+05:28:04 AM.590: User switched to scene 'Intro'
+05:28:08 AM.789: User switched to scene 'Starting Soon'
+05:28:12 AM.613: User switched to scene 'Props'
+05:28:29 AM.648: User added source 'Title - Title' (text_ft2_source_v2) to scene 'Props'
+05:29:14 AM.815: Source 'Title - Title' renamed to 'Title'
+05:29:21 AM.576: User switched to scene 'Starting Soon'
+05:29:24 AM.652: User added source 'Title' (text_ft2_source_v2) to scene 'Starting Soon'
+05:30:15 AM.572: User Removed source 'Title' (text_ft2_source_v2) from scene 'Starting Soon'
+05:30:16 AM.553: User switched to scene 'Props'
+05:30:21 AM.703: User switched to scene 'Starting Soon'
+05:30:24 AM.809: User added source 'Titlebar' (group) to scene 'Starting Soon'
+05:30:38 AM.248: User switched to scene 'Intro'
+05:30:42 AM.172: User switched to scene 'Main'
+05:30:45 AM.720: User added source 'Titlebar' (group) to scene 'Main'
+05:30:56 AM.381: User Removed source 'Qwerty Overlay' (input-overlay) from scene 'Main'
+05:31:06 AM.154: User switched to scene 'Dual'
+05:31:09 AM.529: User added source 'Titlebar' (group) to scene 'Dual'
+05:31:21 AM.611: User Removed source 'Titlebar 2' (group) from scene 'Dual'
+05:31:30 AM.756: User switched to scene 'Main'
+05:31:34 AM.568: User switched to scene 'Intro'
+05:31:37 AM.825: User switched to scene 'Starting Soon'
+05:31:44 AM.245: User switched to scene 'Props'
+05:31:48 AM.472: User switched to scene 'Starting Soon'
+05:31:50 AM.039: User added source 'Circle Webcam' (v4l2_input) to scene 'Starting Soon'
+05:32:34 AM.321: User switched to scene 'Intro'
+05:32:43 AM.251: User switched to scene 'Main'
+05:32:43 AM.304: User Removed scene 'Intro'
+05:32:44 AM.496: User switched to scene 'Starting Soon'
+05:32:54 AM.595: Source 'Starting Soon' renamed to 'Introduction'
+05:32:55 AM.864: User switched to scene 'Props'
+05:33:13 AM.268: User Removed source 'Title' (text_ft2_source_v2) from scene 'Props'
+05:33:27 AM.323: User switched to scene 'Introduction'
+05:37:44 AM.448: ---------------------------------
+05:37:44 AM.448: video settings reset:
+05:37:44 AM.448: 	base resolution:   1920x1080
+05:37:44 AM.448: 	output resolution: 1920x1080
+05:37:44 AM.448: 	downscale filter:  Bicubic
+05:37:44 AM.448: 	fps:               60/1
+05:37:44 AM.448: 	format:            NV12
+05:37:44 AM.448: 	YUV mode:          709/Partial
+05:37:44 AM.448: NV12 texture support not available
+05:37:44 AM.457: Settings changed (general, advanced)
+05:37:44 AM.457: ------------------------------------------------
+05:38:25 AM.522: Switched to Preview/Program mode
+05:38:25 AM.522: ------------------------------------------------
+05:38:41 AM.754: Switched to scene 'Introduction'
+05:38:41 AM.756: Switched to regular Preview mode
+05:38:41 AM.756: ------------------------------------------------
+05:42:03 AM.652: User switched to scene 'Main'
+05:42:08 AM.026: User switched to scene 'Introduction'
+05:42:15 AM.549: User added scene 'Outro'
+05:42:15 AM.552: User switched to scene 'Outro'
+05:42:17 AM.806: User switched to scene 'Introduction'
+05:42:24 AM.501: User switched to scene 'Outro'
+05:42:25 AM.247: User added source 'Circle Webcam' (v4l2_input) to scene 'Outro'
+05:42:25 AM.342: User added source 'Titlebar' (group) to scene 'Outro'
+05:42:25 AM.462: User added source 'Social Bar' (group) to scene 'Outro'
+05:42:25 AM.475: User added source 'Page Background' (image_source) to scene 'Outro'
+05:44:14 AM.213: User added source 'Outro Text' (image_source) to scene 'Outro'
+05:45:07 AM.323: User switched to scene 'Dual'
+05:45:14 AM.603: User switched to scene 'Main'
+05:45:22 AM.044: User switched to scene 'Introduction'
+05:45:30 AM.337: User switched to scene 'Props'
+05:45:35 AM.195: User switched to scene 'Outro'
+05:45:59 AM.083: User switched to scene 'Props'
+05:46:12 AM.530: User added filter 'Image Mask/Blend' (mask_filter) to source 'Titlebar - Background 2'
+05:46:37 AM.940: User switched to scene 'Introduction'
+05:46:56 AM.278: User switched to scene 'Main'
+05:47:02 AM.102: User switched to scene 'Introduction'
+05:47:17 AM.939: [Media Source 'Clearview - Muted (Stinger)']: settings:
+05:47:17 AM.939: 	input:                   
+05:47:17 AM.939: 	input_format:            (null)
+05:47:17 AM.939: 	speed:                   100
+05:47:17 AM.939: 	is_looping:              no
+05:47:17 AM.939: 	is_hw_decoding:          yes
+05:47:17 AM.939: 	is_clear_on_media_end:   yes
+05:47:17 AM.939: 	restart_on_activate:     yes
+05:47:17 AM.939: 	close_when_inactive:     no
+05:47:17 AM.970: Out of space trying to render glyphs
+05:47:18 AM.026: Out of space trying to render glyphs
+05:47:18 AM.078: [Media Source 'clone (Stinger)']: settings:
+05:47:18 AM.078: 	input:                   
+05:47:18 AM.078: 	input_format:            (null)
+05:47:18 AM.078: 	speed:                   100
+05:47:18 AM.078: 	is_looping:              no
+05:47:18 AM.078: 	is_hw_decoding:          yes
+05:47:18 AM.078: 	is_clear_on_media_end:   yes
+05:47:18 AM.078: 	restart_on_activate:     yes
+05:47:18 AM.078: 	close_when_inactive:     no
+05:47:32 AM.662: [Media Source 'clone (Stinger)']: settings:
+05:47:32 AM.662: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+05:47:32 AM.662: 	input_format:            (null)
+05:47:32 AM.662: 	speed:                   100
+05:47:32 AM.662: 	is_looping:              no
+05:47:32 AM.662: 	is_hw_decoding:          yes
+05:47:32 AM.662: 	is_clear_on_media_end:   yes
+05:47:32 AM.662: 	restart_on_activate:     yes
+05:47:32 AM.662: 	close_when_inactive:     no
+05:47:40 AM.312: [Media Source 'clone (Stinger)']: settings:
+05:47:40 AM.312: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+05:47:40 AM.312: 	input_format:            (null)
+05:47:40 AM.312: 	speed:                   100
+05:47:40 AM.312: 	is_looping:              no
+05:47:40 AM.312: 	is_hw_decoding:          yes
+05:47:40 AM.312: 	is_clear_on_media_end:   yes
+05:47:40 AM.312: 	restart_on_activate:     yes
+05:47:40 AM.312: 	close_when_inactive:     no
+05:47:40 AM.394: [Media Source 'clone (Stinger)']: settings:
+05:47:40 AM.394: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+05:47:40 AM.394: 	input_format:            (null)
+05:47:40 AM.394: 	speed:                   100
+05:47:40 AM.394: 	is_looping:              no
+05:47:40 AM.394: 	is_hw_decoding:          yes
+05:47:40 AM.394: 	is_clear_on_media_end:   yes
+05:47:40 AM.394: 	restart_on_activate:     yes
+05:47:40 AM.394: 	close_when_inactive:     no
+05:47:40 AM.532: [Media Source 'clone (Stinger)']: settings:
+05:47:40 AM.532: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+05:47:40 AM.532: 	input_format:            (null)
+05:47:40 AM.532: 	speed:                   100
+05:47:40 AM.532: 	is_looping:              no
+05:47:40 AM.532: 	is_hw_decoding:          yes
+05:47:40 AM.532: 	is_clear_on_media_end:   yes
+05:47:40 AM.532: 	restart_on_activate:     yes
+05:47:40 AM.532: 	close_when_inactive:     no
+05:47:43 AM.233: [Media Source 'clone (Stinger)']: settings:
+05:47:43 AM.233: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+05:47:43 AM.233: 	input_format:            (null)
+05:47:43 AM.233: 	speed:                   100
+05:47:43 AM.233: 	is_looping:              no
+05:47:43 AM.233: 	is_hw_decoding:          yes
+05:47:43 AM.233: 	is_clear_on_media_end:   yes
+05:47:43 AM.233: 	restart_on_activate:     yes
+05:47:43 AM.233: 	close_when_inactive:     no
+05:47:48 AM.200: [Media Source 'Clearview - Muted (Stinger)']: settings:
+05:47:48 AM.200: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+05:47:48 AM.200: 	input_format:            (null)
+05:47:48 AM.200: 	speed:                   100
+05:47:48 AM.200: 	is_looping:              no
+05:47:48 AM.200: 	is_hw_decoding:          yes
+05:47:48 AM.200: 	is_clear_on_media_end:   yes
+05:47:48 AM.200: 	restart_on_activate:     yes
+05:47:48 AM.200: 	close_when_inactive:     no
+05:47:50 AM.320: User switched to scene 'Main'
+05:47:54 AM.126: User switched to scene 'Introduction'
+05:48:04 AM.794: User switched to scene 'Dual'
+05:48:09 AM.385: User switched to scene 'Introduction'
+05:51:44 AM.664: ==== Shutting down ==================================================
+05:51:45 AM.530: v4l2-input: Stopped capture after 168184 frames
+05:51:45 AM.672: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:51:45 AM.672: pulse-am: Got 5545 packets with 2442418 frames
+05:51:45 AM.759: pulse-input: Stopped recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:51:45 AM.759: pulse-input: Got 1771390 packets with 248282102 frames
+05:51:45 AM.765: pulse-input: Stopped recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+05:51:45 AM.765: pulse-input: Got 565420 packets with 270245665 frames
+05:51:45 AM.778: pulse-input: Stopped recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+05:51:45 AM.778: pulse-input: Got 565422 packets with 270246433 frames
+05:51:45 AM.778: All scene data cleared
+05:51:45 AM.778: ------------------------------------------------
+05:51:45 AM.792: Failed to fetch parent window geometry!
+05:51:45 AM.794: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 130, Minor opcode: BadWindow (invalid Window parameter), Serial: 1024850
+05:51:45 AM.794: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: BadIDChoice (invalid resource ID chosen for this connection), Minor opcode: 0, Serial: 1024852
+05:51:45 AM.800: Failed to fetch parent window geometry!

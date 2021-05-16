@@ -1,0 +1,45 @@
+#panel_window menubar {
+background-color: alpha (black, 0.90);
+border: none;
+}
+
+#user_image {
+margin-left: -20px;
+}
+
+#user_image_border {
+border: none; }
+
+#login_window,
+#shutdown_dialog,
+#restart_dialog {
+background-color: alpha (black, 0.90); 
+border: 1px solid shade(@borders, 1.6);
+}
+
+#login_window entry {
+margin-top: 4px;
+}
+
+#content_frame { 
+padding: 10px 20px 0 20px;
+border: none; 
+}
+
+#buttonbox_frame {
+border: none;
+padding: 0 10px 5px 230px; 
+}
+
+#buttonbox_frame button {
+border: 10px solid transparent;
+padding: 4px 8px 4px 8px; 
+}
+
+#greeter_infobar {
+font-size: 90%;
+padding: 0 0 10px 10px;
+border: none;
+background: transparent;
+color: @theme_selected_fg_color;
+} 

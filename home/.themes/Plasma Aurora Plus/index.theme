@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Plasma Aurora Plus
+Type=X-GNOME-Metatheme
+Comment=Dark green theme
+Encoding=UTF-8
+GtkTheme=Plasma Aurora Plus
+MetacityTheme=Adwaita
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

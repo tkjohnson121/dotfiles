@@ -1,0 +1,21 @@
+set $wallpaper /home/kj/photos/wallpapers/landscape-4.jpeg
+
+set $background #190621
+set $foreground #c5c0c7
+
+set $color0 #190621
+set $color1 #8123aa
+set $color2 #945aa7
+set $color3 #a6249d
+set $color4 #b14185
+set $color5 #ac1f6a
+set $color6 #aa1349
+set $color7 #c5c0c7
+set $color8 #524458
+set $color9 #8123aa
+set $color10 #945aa7
+set $color11 #a6249d
+set $color12 #b14185
+set $color13 #ac1f6a
+set $color14 #aa1349
+set $color15 #c5c0c7

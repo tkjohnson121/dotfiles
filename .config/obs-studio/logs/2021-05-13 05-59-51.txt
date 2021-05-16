@@ -1,0 +1,251 @@
+05:59:51 AM.212: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+05:59:51 AM.212: CPU Speed: 3400.000MHz
+05:59:51 AM.212: Physical Cores: 6, Logical Cores: 12
+05:59:51 AM.212: Physical Memory: 16013MB Total, 2656MB Free
+05:59:51 AM.212: Kernel Version: Linux 5.12.2-arch1-1
+05:59:51 AM.212: Distribution: "EndeavourOS" Unknown
+05:59:51 AM.212: Session Type: x11
+05:59:51 AM.217: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+05:59:51 AM.222: Portable mode: false
+05:59:51 AM.276: OBS 26.1.2-2 (linux)
+05:59:51 AM.276: ---------------------------------
+05:59:51 AM.277: ---------------------------------
+05:59:51 AM.277: audio settings reset:
+05:59:51 AM.277: 	samples per sec: 48000
+05:59:51 AM.277: 	speakers:        2
+05:59:51 AM.278: ---------------------------------
+05:59:51 AM.278: Initializing OpenGL...
+05:59:51 AM.369: Loading up OpenGL on adapter Mesa/X.org llvmpipe (LLVM 11.1.0, 256 bits)
+05:59:51 AM.369: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 21.1.0, shading language 4.50
+05:59:51 AM.379: ---------------------------------
+05:59:51 AM.379: video settings reset:
+05:59:51 AM.379: 	base resolution:   1920x1080
+05:59:51 AM.379: 	output resolution: 1920x1080
+05:59:51 AM.379: 	downscale filter:  Bicubic
+05:59:51 AM.379: 	fps:               60/1
+05:59:51 AM.379: 	format:            NV12
+05:59:51 AM.379: 	YUV mode:          709/Partial
+05:59:51 AM.379: NV12 texture support not available
+05:59:51 AM.387: Audio monitoring device:
+05:59:51 AM.387: 	name: Default
+05:59:51 AM.387: 	id: default
+05:59:51 AM.387: ---------------------------------
+05:59:51 AM.388: Failed to load 'en-US' text for module: 'decklink-captions.so'
+05:59:51 AM.389: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+05:59:51 AM.448: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+05:59:51 AM.448: No blackmagic support
+05:59:51 AM.460: NVENC supported
+05:59:51 AM.460: FFMPEG VAAPI supported
+05:59:51 AM.467: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+05:59:51 AM.467: 
+05:59:51 AM.467: Couldn't find VLC installation, VLC video source disabled
+05:59:51 AM.482: [input-overlay] Loading v5.0.0 build time 2021.05.08 00:01
+05:59:51 AM.483: [input-overlay] Using '/dev/js*' for gamepad discovery
+05:59:51 AM.483: [input-overlay::libgamepad] Couldn't read bindings from '/home/kujo/.config/input-overlay/gamepad_bindings.json'
+05:59:51 AM.483: [input-overlay] gamepad hook started
+05:59:51 AM.507: [StreamFX] Loading Version 0.10.0.0-g5888c7d2
+05:59:51 AM.511: [StreamFX] Loaded Version 0.10.0.0-g5888c7d2
+05:59:51 AM.511: ---------------------------------
+05:59:51 AM.511:   Loaded Modules:
+05:59:51 AM.511:     StreamFX.so
+05:59:51 AM.511:     input-overlay.so
+05:59:51 AM.511:     vlc-video.so
+05:59:51 AM.511:     text-freetype2.so
+05:59:51 AM.511:     rtmp-services.so
+05:59:51 AM.511:     obs-x264.so
+05:59:51 AM.511:     obs-transitions.so
+05:59:51 AM.511:     obs-outputs.so
+05:59:51 AM.511:     obs-libfdk.so
+05:59:51 AM.511:     obs-filters.so
+05:59:51 AM.511:     obs-ffmpeg.so
+05:59:51 AM.511:     linux-v4l2.so
+05:59:51 AM.511:     linux-pulseaudio.so
+05:59:51 AM.511:     linux-jack.so
+05:59:51 AM.511:     linux-decklink.so
+05:59:51 AM.511:     linux-capture.so
+05:59:51 AM.511:     linux-alsa.so
+05:59:51 AM.511:     image-source.so
+05:59:51 AM.511:     frontend-tools.so
+05:59:51 AM.511:     decklink-ouput-ui.so
+05:59:51 AM.511:     decklink-captions.so
+05:59:51 AM.511: ---------------------------------
+05:59:51 AM.511: ==== Startup complete ===============================================
+05:59:51 AM.520: All scene data cleared
+05:59:51 AM.520: ------------------------------------------------
+05:59:51 AM.538: pulse-input: Server name: 'pulseaudio 14.2'
+05:59:51 AM.538: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:59:51 AM.538: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:59:51 AM.538: [Loaded global audio device]: 'Desktop Audio'
+05:59:51 AM.539: pulse-input: Server name: 'pulseaudio 14.2'
+05:59:51 AM.539: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+05:59:51 AM.539: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+05:59:51 AM.539: [Loaded global audio device]: 'Mic/Aux'
+05:59:51 AM.539: pulse-input: Server name: 'pulseaudio 14.2'
+05:59:51 AM.539: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+05:59:51 AM.539: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_Webcam_C930e_595B5CCE-02.analog-stereo'
+05:59:51 AM.539: [Loaded global audio device]: 'Mic/Aux 2'
+05:59:51 AM.678: xshm-input: Geometry 1080x1920 @ 0,0
+05:59:51 AM.691: xshm-input: Geometry 1920x1080 @ 1080,0
+05:59:51 AM.705: v4l2-input: Start capture from /dev/video0
+05:59:51 AM.706: v4l2-input: Input: 0
+05:59:51 AM.721: v4l2-input: Resolution: 640x480
+05:59:51 AM.721: v4l2-input: Pixelformat: YU12
+05:59:51 AM.721: v4l2-input: Linesize: 640 Bytes
+05:59:51 AM.721: v4l2-input: Framerate: 30.00 fps
+05:59:51 AM.737: Switched to scene 'Introduction'
+05:59:51 AM.737: ------------------------------------------------
+05:59:51 AM.737: Loaded scenes:
+05:59:51 AM.737: - scene 'Props':
+05:59:51 AM.737:     - source: 'Titlebar' (group)
+05:59:51 AM.737:         - source: 'Titlebar - Background 2' (image_source)
+05:59:51 AM.737:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737:         - source: 'Title' (text_ft2_source_v2)
+05:59:51 AM.737:     - source: 'Circle Webcam' (v4l2_input)
+05:59:51 AM.737:         - filter: 'Color Correction' (color_filter)
+05:59:51 AM.737:         - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737:     - source: 'Social Bar' (group)
+05:59:51 AM.737:         - source: 'Social Background' (image_source)
+05:59:51 AM.737:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737:         - source: 'Twitter Icon' (image_source)
+05:59:51 AM.737:         - source: 'Twitter Username' (text_ft2_source_v2)
+05:59:51 AM.737:         - source: 'Website Icon' (image_source)
+05:59:51 AM.737:         - source: 'Website' (text_ft2_source_v2)
+05:59:51 AM.737: - scene 'Introduction':
+05:59:51 AM.737:     - source: 'Page Background' (image_source)
+05:59:51 AM.737:     - source: 'Starting Soon Text' (image_source)
+05:59:51 AM.737:     - source: 'Social Bar' (group)
+05:59:51 AM.737:         - source: 'Social Background' (image_source)
+05:59:51 AM.737:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737:         - source: 'Twitter Icon' (image_source)
+05:59:51 AM.737:         - source: 'Twitter Username' (text_ft2_source_v2)
+05:59:51 AM.737:         - source: 'Website Icon' (image_source)
+05:59:51 AM.737:         - source: 'Website' (text_ft2_source_v2)
+05:59:51 AM.737:     - source: 'Titlebar' (group)
+05:59:51 AM.737:         - source: 'Titlebar - Background 2' (image_source)
+05:59:51 AM.737:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737:         - source: 'Title' (text_ft2_source_v2)
+05:59:51 AM.737:     - source: 'Circle Webcam' (v4l2_input)
+05:59:51 AM.737:         - filter: 'Color Correction' (color_filter)
+05:59:51 AM.737:         - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737: - scene 'Main':
+05:59:51 AM.737:     - source: 'Display 1' (xshm_input)
+05:59:51 AM.737:     - source: 'Titlebar 2' (group)
+05:59:51 AM.737:     - source: 'Titlebar' (group)
+05:59:51 AM.737:         - source: 'Titlebar - Background 2' (image_source)
+05:59:51 AM.737:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737:         - source: 'Title' (text_ft2_source_v2)
+05:59:51 AM.737:     - source: 'Circle Webcam' (v4l2_input)
+05:59:51 AM.737:         - filter: 'Color Correction' (color_filter)
+05:59:51 AM.737:         - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737: - scene 'Dual':
+05:59:51 AM.737:     - source: 'Display 1' (xshm_input)
+05:59:51 AM.737:     - source: 'Display 2' (xshm_input)
+05:59:51 AM.737:     - source: 'Titlebar' (group)
+05:59:51 AM.737:         - source: 'Titlebar - Background 2' (image_source)
+05:59:51 AM.737:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737:         - source: 'Title' (text_ft2_source_v2)
+05:59:51 AM.737:     - source: 'Circle Webcam' (v4l2_input)
+05:59:51 AM.737:         - filter: 'Color Correction' (color_filter)
+05:59:51 AM.737:         - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.737: - scene 'Outro':
+05:59:51 AM.737:     - source: 'Page Background' (image_source)
+05:59:51 AM.737:     - source: 'Titlebar' (group)
+05:59:51 AM.737:         - source: 'Titlebar - Background 2' (image_source)
+05:59:51 AM.738:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.738:         - source: 'Title' (text_ft2_source_v2)
+05:59:51 AM.738:     - source: 'Social Bar' (group)
+05:59:51 AM.738:         - source: 'Social Background' (image_source)
+05:59:51 AM.738:             - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.738:         - source: 'Twitter Icon' (image_source)
+05:59:51 AM.738:         - source: 'Twitter Username' (text_ft2_source_v2)
+05:59:51 AM.738:         - source: 'Website Icon' (image_source)
+05:59:51 AM.738:         - source: 'Website' (text_ft2_source_v2)
+05:59:51 AM.738:     - source: 'Outro Text' (image_source)
+05:59:51 AM.738:     - source: 'Circle Webcam' (v4l2_input)
+05:59:51 AM.738:         - filter: 'Color Correction' (color_filter)
+05:59:51 AM.738:         - filter: 'Image Mask/Blend' (mask_filter)
+05:59:51 AM.738: ------------------------------------------------
+05:59:51 AM.738: [Media Source 'Clearview - Muted (Stinger)']: settings:
+05:59:51 AM.738: 	input:                   /home/kujo/videos/overlays/stingers/clearview.webm
+05:59:51 AM.738: 	input_format:            (null)
+05:59:51 AM.738: 	speed:                   100
+05:59:51 AM.738: 	is_looping:              no
+05:59:51 AM.738: 	is_hw_decoding:          yes
+05:59:51 AM.738: 	is_clear_on_media_end:   yes
+05:59:51 AM.738: 	restart_on_activate:     yes
+05:59:51 AM.738: 	close_when_inactive:     no
+05:59:51 AM.738: [Media Source 'Interface (Stinger)']: settings:
+05:59:51 AM.738: 	input:                   /home/kujo/videos/overlays/stingers/interface_sound.webm
+05:59:51 AM.738: 	input_format:            (null)
+05:59:51 AM.738: 	speed:                   100
+05:59:51 AM.738: 	is_looping:              no
+05:59:51 AM.738: 	is_hw_decoding:          yes
+05:59:51 AM.738: 	is_clear_on_media_end:   yes
+05:59:51 AM.738: 	restart_on_activate:     yes
+05:59:51 AM.738: 	close_when_inactive:     no
+05:59:51 AM.738: [Media Source 'Kinetic (Stinger)']: settings:
+05:59:51 AM.738: 	input:                   /home/kujo/videos/overlays/stingers/kinetic.webm
+05:59:51 AM.738: 	input_format:            (null)
+05:59:51 AM.738: 	speed:                   100
+05:59:51 AM.738: 	is_looping:              no
+05:59:51 AM.738: 	is_hw_decoding:          yes
+05:59:51 AM.738: 	is_clear_on_media_end:   yes
+05:59:51 AM.738: 	restart_on_activate:     yes
+05:59:51 AM.738: 	close_when_inactive:     no
+05:59:51 AM.738: [Media Source 'Arcade_Pop (Stinger)']: settings:
+05:59:51 AM.738: 	input:                   /home/kujo/videos/overlays/stingers/arcade_purple_mute.webm
+05:59:51 AM.738: 	input_format:            (null)
+05:59:51 AM.738: 	speed:                   100
+05:59:51 AM.738: 	is_looping:              no
+05:59:51 AM.738: 	is_hw_decoding:          yes
+05:59:51 AM.738: 	is_clear_on_media_end:   yes
+05:59:51 AM.738: 	restart_on_activate:     yes
+05:59:51 AM.738: 	close_when_inactive:     no
+05:59:51 AM.739: [Media Source 'Clearview (Stinger)']: settings:
+05:59:51 AM.739: 	input:                   /home/kujo/videos/overlays/stingers/clearview_60fps.webm
+05:59:51 AM.739: 	input_format:            (null)
+05:59:51 AM.739: 	speed:                   100
+05:59:51 AM.739: 	is_looping:              no
+05:59:51 AM.739: 	is_hw_decoding:          yes
+05:59:51 AM.739: 	is_clear_on_media_end:   yes
+05:59:51 AM.739: 	restart_on_activate:     yes
+05:59:51 AM.739: 	close_when_inactive:     no
+05:59:51 AM.740: pulse-am: Server name: 'pulseaudio 14.2'
+05:59:51 AM.740: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+05:59:51 AM.741: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+05:59:52 AM.059: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+05:59:52 AM.059: 
+05:59:52 AM.172: [StreamFX] <updater> Automatic checks at launch are now enabled.
+06:00:00 AM.425: [StreamFX] <updater> User allowed the processing of data.
+06:00:21 AM.323: User added source 'Source Mirror' (streamfx-source-mirror) to scene 'Introduction'
+06:00:47 AM.763: User Removed source 'Source Mirror' (streamfx-source-mirror) from scene 'Introduction'
+06:00:54 AM.310: User added source 'Shader' (streamfx-source-shader) to scene 'Introduction'
+06:01:31 AM.267: User Removed source 'Shader' (streamfx-source-shader) from scene 'Introduction'
+06:01:57 AM.902: User switched to scene 'Main'
+06:02:27 AM.997: User switched to scene 'Props'
+06:02:38 AM.116: User switched to scene 'Introduction'
+06:02:49 AM.172: User switched to scene 'Main'
+06:02:55 AM.417: User switched to scene 'Dual'
+06:03:04 AM.439: User switched to scene 'Outro'
+06:04:43 AM.670: ---------------------------------
+06:04:43 AM.670: video settings reset:
+06:04:43 AM.670: 	base resolution:   1920x1080
+06:04:43 AM.670: 	output resolution: 1920x1080
+06:04:43 AM.670: 	downscale filter:  Bicubic
+06:04:43 AM.670: 	fps:               24000/1001
+06:04:43 AM.670: 	format:            NV12
+06:04:43 AM.670: 	YUV mode:          709/Partial
+06:04:43 AM.670: NV12 texture support not available
+06:04:43 AM.675: Settings changed (video)
+06:04:43 AM.675: ------------------------------------------------
+06:07:23 AM.696: Failed to fetch parent window geometry!
+06:07:23 AM.701: Failed to fetch parent window geometry!
+06:07:23 AM.707: Failed to fetch parent window geometry!
+06:07:23 AM.719: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 130, Minor opcode: BadWindow (invalid Window parameter), Serial: 101601
+06:07:23 AM.720: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: BadIDChoice (invalid resource ID chosen for this connection), Minor opcode: 0, Serial: 101603
+06:07:23 AM.743: Failed to fetch parent window geometry!
+06:07:23 AM.743: Failed to fetch parent window geometry!
+06:07:23 AM.743: Failed to fetch parent window geometry!
+06:07:23 AM.744: Failed to fetch parent window geometry!
+06:07:23 AM.765: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 130, Minor opcode: BadWindow (invalid Window parameter), Serial: 101612
+06:07:23 AM.765: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: BadIDChoice (invalid resource ID chosen for this connection), Minor opcode: 0, Serial: 101614

@@ -1,0 +1,180 @@
+01:29:32 PM.969: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+01:29:32 PM.970: CPU Speed: 2438.521MHz
+01:29:32 PM.970: Physical Cores: 6, Logical Cores: 12
+01:29:32 PM.970: Physical Memory: 16013MB Total, 10340MB Free
+01:29:32 PM.970: Kernel Version: Linux 5.12.1-arch1-1
+01:29:32 PM.970: Distribution: "EndeavourOS" Unknown
+01:29:32 PM.970: Session Type: x11
+01:29:32 PM.970: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+01:29:32 PM.971: Portable mode: false
+01:29:33 PM.030: OBS 26.1.2-2 (linux)
+01:29:33 PM.030: ---------------------------------
+01:29:33 PM.030: ---------------------------------
+01:29:33 PM.030: audio settings reset:
+01:29:33 PM.030: 	samples per sec: 48000
+01:29:33 PM.030: 	speakers:        2
+01:29:33 PM.034: ---------------------------------
+01:29:33 PM.034: Initializing OpenGL...
+01:29:33 PM.135: Loading up OpenGL on adapter Mesa/X.org llvmpipe (LLVM 11.1.0, 256 bits)
+01:29:33 PM.135: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 21.0.3, shading language 4.50
+01:29:33 PM.182: ---------------------------------
+01:29:33 PM.182: video settings reset:
+01:29:33 PM.182: 	base resolution:   1920x1080
+01:29:33 PM.182: 	output resolution: 1920x1080
+01:29:33 PM.182: 	downscale filter:  Bicubic
+01:29:33 PM.182: 	fps:               60/1
+01:29:33 PM.182: 	format:            NV12
+01:29:33 PM.182: 	YUV mode:          709/Partial
+01:29:33 PM.182: NV12 texture support not available
+01:29:33 PM.190: Audio monitoring device:
+01:29:33 PM.190: 	name: Default
+01:29:33 PM.190: 	id: default
+01:29:33 PM.190: ---------------------------------
+01:29:33 PM.193: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:29:33 PM.196: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:29:33 PM.265: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:29:33 PM.265: No blackmagic support
+01:29:33 PM.290: NVENC supported
+01:29:33 PM.290: FFMPEG VAAPI supported
+01:29:33 PM.311: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+01:29:33 PM.311: 
+01:29:33 PM.311: Couldn't find VLC installation, VLC video source disabled
+01:29:33 PM.312: os_dlopen(/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so->/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so): libuiohook.so.0: cannot open shared object file: No such file or directory
+01:29:33 PM.312: 
+01:29:33 PM.312: Module '/home/kujo/.config/obs-studio/plugins/input-overlay/bin/64bit/input-overlay.so' not loaded
+01:29:33 PM.312: ---------------------------------
+01:29:33 PM.312:   Loaded Modules:
+01:29:33 PM.312:     vlc-video.so
+01:29:33 PM.312:     text-freetype2.so
+01:29:33 PM.312:     rtmp-services.so
+01:29:33 PM.312:     obs-x264.so
+01:29:33 PM.312:     obs-transitions.so
+01:29:33 PM.312:     obs-outputs.so
+01:29:33 PM.312:     obs-libfdk.so
+01:29:33 PM.312:     obs-filters.so
+01:29:33 PM.312:     obs-ffmpeg.so
+01:29:33 PM.312:     linux-v4l2.so
+01:29:33 PM.312:     linux-pulseaudio.so
+01:29:33 PM.312:     linux-jack.so
+01:29:33 PM.312:     linux-decklink.so
+01:29:33 PM.312:     linux-capture.so
+01:29:33 PM.312:     linux-alsa.so
+01:29:33 PM.312:     image-source.so
+01:29:33 PM.312:     frontend-tools.so
+01:29:33 PM.312:     decklink-ouput-ui.so
+01:29:33 PM.312:     decklink-captions.so
+01:29:33 PM.312: ---------------------------------
+01:29:33 PM.313: ==== Startup complete ===============================================
+01:29:33 PM.328: All scene data cleared
+01:29:33 PM.328: ------------------------------------------------
+01:29:33 PM.337: pulse-input: Server name: 'pulseaudio 14.2'
+01:29:33 PM.338: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:29:33 PM.338: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+01:29:33 PM.338: [Loaded global audio device]: 'Desktop Audio'
+01:29:33 PM.339: pulse-input: Server name: 'pulseaudio 14.2'
+01:29:33 PM.339: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:29:33 PM.339: pulse-input: Started recording from 'alsa_input.usb-Audio-Technica_AT2005USB-00.analog-stereo'
+01:29:33 PM.339: [Loaded global audio device]: 'Mic/Aux'
+01:29:33 PM.339: Failed to open file '/home/kj/videos/overlays/clearview/overlays/Webcam 16-9.png': No such file or directory
+01:29:33 PM.339: gs_image_file_init_internal: Failed to load file '/home/kj/videos/overlays/clearview/overlays/Webcam 16-9.png'
+01:29:33 PM.339: [image_source: 'Webcam - Overlay'] failed to load texture '/home/kj/videos/overlays/clearview/overlays/Webcam 16-9.png'
+01:29:33 PM.339: v4l2-input: Start capture from /dev/video0
+01:29:33 PM.341: v4l2-input: Input: 0
+01:29:33 PM.341: v4l2-input: Resolution: 1024x576
+01:29:33 PM.341: v4l2-input: Pixelformat: YU12
+01:29:33 PM.341: v4l2-input: Linesize: 1024 Bytes
+01:29:33 PM.341: v4l2-input: Framerate: 30.00 fps
+01:29:33 PM.351: xshm-input: Geometry 1920x1080 @ 1080,0
+01:29:33 PM.356: Failed to open file '/home/kj/videos/overlays/clearview/overlays/Overlay_1_blank.png': No such file or directory
+01:29:33 PM.356: gs_image_file_init_internal: Failed to load file '/home/kj/videos/overlays/clearview/overlays/Overlay_1_blank.png'
+01:29:33 PM.356: [image_source: 'Titlebar - Background 2'] failed to load texture '/home/kj/videos/overlays/clearview/overlays/Overlay_1_blank.png'
+01:29:33 PM.357: xshm-input: Geometry 1080x1920 @ 0,0
+01:29:33 PM.362: Source ID 'input-overlay' not found
+01:29:33 PM.362: Failed to create source 'Qwerty Overlay'!
+01:29:33 PM.362: Source ID 'input-history' not found
+01:29:33 PM.362: Failed to create source 'Input History'!
+01:29:33 PM.367: Switched to scene 'Intro'
+01:29:33 PM.367: ------------------------------------------------
+01:29:33 PM.367: Loaded scenes:
+01:29:33 PM.367: - scene 'Props':
+01:29:33 PM.367:     - source: 'Titlebar 2' (group)
+01:29:33 PM.367:         - source: 'Titlebar - Background 2' (image_source)
+01:29:33 PM.367:         - source: 'Title - Title' (text_ft2_source_v2)
+01:29:33 PM.367:         - source: 'Input History' (input-history)
+01:29:33 PM.367:     - source: 'Canon - Webcam' (group)
+01:29:33 PM.367:         - source: 'Webcam' (v4l2_input)
+01:29:33 PM.367:             - filter: 'Color Correction' (color_filter)
+01:29:33 PM.368:         - source: 'Webcam - Overlay' (image_source)
+01:29:33 PM.368: - scene 'Intro':
+01:29:33 PM.368:     - source: 'Canon - Webcam' (group)
+01:29:33 PM.368:         - source: 'Webcam' (v4l2_input)
+01:29:33 PM.368:             - filter: 'Color Correction' (color_filter)
+01:29:33 PM.368:         - source: 'Webcam - Overlay' (image_source)
+01:29:33 PM.368:     - source: 'Titlebar 2' (group)
+01:29:33 PM.368:         - source: 'Titlebar - Background 2' (image_source)
+01:29:33 PM.368:         - source: 'Title - Title' (text_ft2_source_v2)
+01:29:33 PM.368:         - source: 'Input History' (input-history)
+01:29:33 PM.368: - scene 'Main':
+01:29:33 PM.368:     - source: 'Display 1' (xshm_input)
+01:29:33 PM.368:     - source: 'Titlebar 2' (group)
+01:29:33 PM.368:         - source: 'Titlebar - Background 2' (image_source)
+01:29:33 PM.368:         - source: 'Title - Title' (text_ft2_source_v2)
+01:29:33 PM.368:         - source: 'Input History' (input-history)
+01:29:33 PM.368:     - source: 'Qwerty Overlay' (input-overlay)
+01:29:33 PM.368:     - source: 'Canon - Webcam' (group)
+01:29:33 PM.368:         - source: 'Webcam' (v4l2_input)
+01:29:33 PM.368:             - filter: 'Color Correction' (color_filter)
+01:29:33 PM.368:         - source: 'Webcam - Overlay' (image_source)
+01:29:33 PM.368: - scene 'Dual':
+01:29:33 PM.368:     - source: 'Display 1' (xshm_input)
+01:29:33 PM.368:     - source: 'Display 2' (xshm_input)
+01:29:33 PM.368:     - source: 'Titlebar 2' (group)
+01:29:33 PM.368:         - source: 'Titlebar - Background 2' (image_source)
+01:29:33 PM.368:         - source: 'Title - Title' (text_ft2_source_v2)
+01:29:33 PM.368:         - source: 'Input History' (input-history)
+01:29:33 PM.368:     - source: 'Canon - Webcam' (group)
+01:29:33 PM.368:         - source: 'Webcam' (v4l2_input)
+01:29:33 PM.368:             - filter: 'Color Correction' (color_filter)
+01:29:33 PM.368:         - source: 'Webcam - Overlay' (image_source)
+01:29:33 PM.368: ------------------------------------------------
+01:29:33 PM.372: [Media Source 'Arcade_Pop (Stinger)']: settings:
+01:29:33 PM.372: 	input:                   /home/kj/videos/overlays/arcade_pop/Transition_Purple_Mute.webm
+01:29:33 PM.372: 	input_format:            (null)
+01:29:33 PM.372: 	speed:                   100
+01:29:33 PM.372: 	is_looping:              no
+01:29:33 PM.372: 	is_hw_decoding:          yes
+01:29:33 PM.372: 	is_clear_on_media_end:   yes
+01:29:33 PM.372: 	restart_on_activate:     yes
+01:29:33 PM.372: 	close_when_inactive:     no
+01:29:33 PM.372: MP: Failed to open media: '/home/kj/videos/overlays/arcade_pop/Transition_Purple_Mute.webm'
+01:29:33 PM.372: [Media Source 'Clearview (Stinger)']: settings:
+01:29:33 PM.372: 	input:                   /home/kj/videos/overlays/clearview/screens/Stinger_60fps.webm
+01:29:33 PM.372: 	input_format:            (null)
+01:29:33 PM.372: 	speed:                   100
+01:29:33 PM.372: 	is_looping:              no
+01:29:33 PM.372: 	is_hw_decoding:          yes
+01:29:33 PM.372: 	is_clear_on_media_end:   yes
+01:29:33 PM.372: 	restart_on_activate:     yes
+01:29:33 PM.372: 	close_when_inactive:     no
+01:29:33 PM.372: MP: Failed to open media: '/home/kj/videos/overlays/clearview/screens/Stinger_60fps.webm'
+01:29:33 PM.373: pulse-am: Server name: 'pulseaudio 14.2'
+01:29:33 PM.373: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+01:29:33 PM.374: pulse-am: Started Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+01:29:33 PM.918: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+01:29:33 PM.918: 
+01:31:03 PM.880: ==== Shutting down ==================================================
+01:31:04 PM.484: v4l2-input: Stopped capture after 2733 frames
+01:31:04 PM.628: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+01:31:04 PM.628: pulse-am: Got 0 packets with 0 frames
+01:31:04 PM.629: pulse-input: Stopped recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+01:31:04 PM.629: pulse-input: Got 28860 packets with 3937841 frames
+01:31:04 PM.630: pulse-input: Stopped recording from 'alsa_input.usb-Audio-Technica_AT2005USB-00.analog-stereo'
+01:31:04 PM.630: pulse-input: Got 9136 packets with 4024128 frames
+01:31:04 PM.670: All scene data cleared
+01:31:04 PM.670: ------------------------------------------------
+01:31:04 PM.673: Failed to fetch parent window geometry!
+01:31:04 PM.673: Failed to fetch parent window geometry!
+01:31:04 PM.673: Failed to fetch parent window geometry!
+01:31:04 PM.676: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 130, Minor opcode: BadWindow (invalid Window parameter), Serial: 27268
+01:31:04 PM.676: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: BadIDChoice (invalid resource ID chosen for this connection), Minor opcode: 0, Serial: 27270
+01:31:04 PM.759: Failed to fetch parent window geometry!

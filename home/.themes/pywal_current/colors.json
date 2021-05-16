@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kj/photos/wallpapers/landscape-4.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#190621",
+        "foreground": "#c5c0c7",
+        "cursor": "#c5c0c7"
+    },
+    "colors": {
+        "color0": "#190621",
+        "color1": "#8123aa",
+        "color2": "#945aa7",
+        "color3": "#a6249d",
+        "color4": "#b14185",
+        "color5": "#ac1f6a",
+        "color6": "#aa1349",
+        "color7": "#c5c0c7",
+        "color8": "#524458",
+        "color9": "#8123aa",
+        "color10": "#945aa7",
+        "color11": "#a6249d",
+        "color12": "#b14185",
+        "color13": "#ac1f6a",
+        "color14": "#aa1349",
+        "color15": "#c5c0c7"
+    }
+}

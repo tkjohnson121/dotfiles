@@ -1,0 +1,65 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor DP-3 -d 5 6 7 8 
+bspc monitor DP-1 -d 1 2 3 4
+
+bspc config border_width         2
+bspc config window_gap          8
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config pointer_follows_focus false
+bspc config focus_follows_pointer false
+bspc config pointer_modifier mod1
+bspc config pointer_action1 move
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a mplayer2 state=floating
+bspc rule -a Io.github.celluloid_player.Celluloid state=floating
+bspc rule -a SimpleScreenRecorder state=floating
+bspc rule -a Yad state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a Arandr state=floating
+bspc rule -a 1Password state=floating
+bspc rule -a Galculator state=floating
+bspc rule -a zoom state=floating
+bspc rule -a Slack state=floating
+bspc rule -a discord state=floating
+bspc rule -a Oblogout state=floating
+bspc rule -a Pavucontrol state=floating sticky=on
+bspc rule -a Lxappearance state=floating follow=on
+bspc rule -a rofi state=floating sticky=on
+bspc rule -a Stacer state=floating
+bspc rule -a flameshot state=floating
+bspc rule -a Timeshift state=floating
+bspc rule -a Insync state=floating
+bspc rule -a gmail-desktop-nativefier-804458 state=floating
+bspc rule -a googlecalendar-nativefier-e22938 state=loating
+
+# BSPWM coloring
+
+# Default Coloring
+# bspc config focused_border_color        "#6c71c4"
+# bspc config normal_border_color         "#073642"
+# bspc config active_border_color         "#073642"
+
+## Pywal Coloring
+# source the colors.
+# . "${HOME}/.cache/wal/colors.sh"
+# bspc config normal_border_color "$color8"
+# bspc config active_border_color "$color2"
+# bspc config focused_border_color "$color1"
+# bspc config presel_feedback_color "$color1"
+
+## Dracula Coloring
+bspc config normal_border_color "#44475a"
+bspc config active_border_color "#6272a4"
+bspc config focused_border_color "#ff79c6"
+bspc config presel_feedback_color "#6272a4"
+
+# Autostart
+/home/kujo/.config/bspwm/scripts/autostart.sh
