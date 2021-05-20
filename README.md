@@ -69,6 +69,9 @@ ln -s /home/kujo/.dotfiles/home/.zshrc-personal /home/kujo/.zshrc-personal
 # themes and icons
 ln -s /home/kujo/.dotfiles/home/.themes /home/kujo/.themes
 ln -s /home/kujo/.dotfiles/home/.icons /home/kujo/.icons
+
+# misc scripts
+ln -s /home/kujo/.dotfiles/home/bin /home/kujo/bin
 ```
 
 ### Application configs
