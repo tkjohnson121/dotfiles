@@ -31,6 +31,7 @@
 ### System Utilities
 
 - polybar
+- pywal-git
 - starship
 - timeshift
 - neovim
@@ -38,7 +39,7 @@
 - nvm, node, and yarn
 - zsh and oh-my-zsh
 - bpytop | htop | gtop
-- rofi & rofi-calc
+- rofi & rofi-calc & rofi-web-search
 - thunar
 - kitty
 - gmail-desktop
@@ -102,6 +103,9 @@ ln -s /home/kujo/.dotfiles/.config/nvim /home/kujo/.config/nvim
 
 # obs-studio
 ln -s /home/kujo/.dotfiles/.config/obs-studio /home/kujo/.config/obs-studio
+
+# pywal
+ln -s /home/kujo/.dotfiles/.config/wal /home/kujo/.config/wal
 
 # polybar
 ln -s /home/kujo/.dotfiles/.config/polybar /home/kujo/.config/polybar
