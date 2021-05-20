@@ -24,6 +24,7 @@ bspc rule -a Arandr state=floating
 bspc rule -a 1Password state=floating
 bspc rule -a zoom state=floating
 bspc rule -a Slack state=floating
+bspc rule -a 'Gmail Desktop' state=floating
 bspc rule -a Oblogout state=floating
 bspc rule -a Pavucontrol state=floating sticky=on
 bspc rule -a Lxappearance state=floating follow=on
