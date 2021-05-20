@@ -31,8 +31,6 @@
 ### System Utilities
 
 - polybar
-- pywal-git
-- volume-icon
 - starship
 - timeshift
 - neovim
@@ -41,10 +39,10 @@
 - zsh and oh-my-zsh
 - bpytop | htop | gtop
 - rofi & rofi-calc
-- network-manager-outlet
-- dolphin | nautilus | ranger
-- kitty | konsole | alacritty | tilix - terminal
-- geary | thunderbird | mailspring - email
+- thunar
+- kitty
+- gmail-desktop
+- picom-jonaburg-git
 
 ## Symlinks
 
@@ -63,6 +61,7 @@ ln -s /home/kujo/.dotfiles/home/.gitconfig /home/kujo/.gitconfig
 ln -s /home/kujo/.dotfiles/home/.gitignore /home/kujo/.gitignore
 
 # zsh
+ln -s /home/kujo/.dotfiles/home/.zshenv /home/kujo/.zshenv
 ln -s /home/kujo/.dotfiles/home/.zshrc /home/kujo/.zshrc
 ln -s /home/kujo/.dotfiles/home/.zshrc-personal /home/kujo/.zshrc-personal
 
@@ -115,13 +114,9 @@ ln -s /home/kujo/.dotfiles/.config/rofi /home/kujo/.config/rofi
 
 # starship
 ln -s /home/kujo/.dotfiles/.config/starship.toml /home/kujo/.config/starship.toml
-
-# spicetify
-ln -s /home/kujo/.dotfiles/.config/spicetify/config.ini /home/kujo/.config/spicetify/config.ini
-ln -s /home/kujo/.dotfiles/.config/spicetify/pywal_current /home/kujo/.config/spicetify/Themes/pywal_current
 ```
 
-## Remove them all
+## Remove all symlinks _BE CAREFUL_
 
 ```bash
 find /home/kujo -xtype l -delete

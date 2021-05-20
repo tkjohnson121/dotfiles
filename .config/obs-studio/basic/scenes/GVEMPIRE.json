@@ -101,7 +101,7 @@
         },
         "sync": 0,
         "versioned_id": "pulse_input_capture",
-        "volume": 1.0
+        "volume": 0.58275783061981201
     },
     "DesktopAudioDevice1": {
         "balance": 0.5,
@@ -118,7 +118,7 @@
         "id": "pulse_output_capture",
         "mixers": 255,
         "monitoring_type": 0,
-        "muted": false,
+        "muted": true,
         "name": "Desktop Audio",
         "prev_ver": 436273154,
         "private_settings": {},
@@ -131,10 +131,10 @@
         },
         "sync": 0,
         "versioned_id": "pulse_output_capture",
-        "volume": 0.04334123432636261
+        "volume": 0.039997197687625885
     },
-    "current_program_scene": "Introduction",
-    "current_scene": "Introduction",
+    "current_program_scene": "Outro",
+    "current_scene": "Outro",
     "current_transition": "Clearview",
     "groups": [
         {
@@ -616,12 +616,15 @@
                         "id": 6,
                         "locked": true,
                         "name": "Titlebar - Background 2",
-                        "pos": {},
+                        "pos": {
+                            "x": 0.0,
+                            "y": 959.0
+                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.1656225919723511,
+                            "y": 1.1663913726806641
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -642,12 +645,15 @@
                         "id": 23,
                         "locked": true,
                         "name": "Title",
-                        "pos": {},
+                        "pos": {
+                            "x": 19.093809127807617,
+                            "y": 1018.3253173828125
+                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0.14276862144470215,
+                            "y": 0.14309176802635193
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -699,12 +705,15 @@
                         "id": 16,
                         "locked": false,
                         "name": "Social Background",
-                        "pos": {},
+                        "pos": {
+                            "x": 0.0,
+                            "y": 101.06219482421875
+                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.0,
-                            "y": -0.0
+                            "x": 0.99999994039535522,
+                            "y": -1.0005694627761841
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -725,12 +734,15 @@
                         "id": 20,
                         "locked": false,
                         "name": "Twitter Icon",
-                        "pos": {},
+                        "pos": {
+                            "x": 302.99996948242188,
+                            "y": 2.0056943893432617
+                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.1200000047683716,
+                            "y": 1.1206380128860474
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -751,12 +763,15 @@
                         "id": 18,
                         "locked": false,
                         "name": "Twitter Username",
-                        "pos": {},
+                        "pos": {
+                            "x": 387.00018310546875,
+                            "y": 11.010942459106445
+                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0.11166750639677048,
+                            "y": 0.11333312839269638
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -777,12 +792,15 @@
                         "id": 21,
                         "locked": false,
                         "name": "Website Icon",
-                        "pos": {},
+                        "pos": {
+                            "x": 1339.0001220703125,
+                            "y": -8.0
+                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.3399999141693115,
+                            "y": 1.3407630920410156
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -803,12 +821,15 @@
                         "id": 19,
                         "locked": false,
                         "name": "Website",
-                        "pos": {},
+                        "pos": {
+                            "x": 1434.9996337890625,
+                            "y": 7.0086641311645508
+                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0.12464749068021774,
+                            "y": 0.12628546357154846
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1711,8 +1732,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 356.5213623046875,
-                            "y": 290.00003051757812
+                            "x": 523.0,
+                            "y": 417.00003051757812
                         },
                         "bounds_align": 0,
                         "bounds_type": 2,
@@ -1722,11 +1743,11 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 7,
-                        "locked": true,
+                        "locked": false,
                         "name": "Circle Webcam",
                         "pos": {
-                            "x": 1563.4786376953125,
-                            "y": 790.0
+                            "x": 1397.0,
+                            "y": 663.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -2002,8 +2023,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 417.6953125,
-                            "y": 329.11886596679688
+                            "x": 549.0,
+                            "y": 414.99996948242188
                         },
                         "bounds_align": 0,
                         "bounds_type": 2,
@@ -2013,11 +2034,11 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Circle Webcam",
                         "pos": {
-                            "x": 1502.3046875,
-                            "y": 750.881103515625
+                            "x": 1457.0,
+                            "y": 704.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -2063,7 +2084,7 @@
                     "style": "Regular"
                 },
                 "outline": true,
-                "text": "TILT Dev Logs - May 13"
+                "text": "TILT Dev Logs - May 19"
             },
             "sync": 0,
             "versioned_id": "text_ft2_source_v2",
@@ -2412,36 +2433,6 @@
                     "enabled": true,
                     "flags": 0,
                     "hotkeys": {},
-                    "id": "color_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Color Correction",
-                    "prev_ver": 436273154,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "brightness": -0.029999999999999999,
-                        "contrast": -0.059999999999999998,
-                        "gamma": 0.27000000000000002,
-                        "hue_shift": 0.0,
-                        "opacity": 93,
-                        "saturation": 0.14000000000000001
-                    },
-                    "sync": 0,
-                    "versioned_id": "color_filter",
-                    "volume": 1.0
-                },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
                     "id": "mask_filter",
                     "mixers": 0,
                     "monitoring_type": 0,
@@ -2493,7 +2484,8 @@
                 "Zoom, Absolute": 134,
                 "device_id": "/dev/video0",
                 "input": 0,
-                "pixelformat": 842093913
+                "pixelformat": 842093913,
+                "resolution": -1
             },
             "sync": 0,
             "versioned_id": "v4l2_input",

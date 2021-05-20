@@ -132,7 +132,7 @@ ctrl + shift + o
   /home/kujo/.config/bspwm/compton.conf
 
 # Power Menu
-ctrl + shift + e
+ctrl + shift + esc
   /home/kujo/.config/rofi/scripts/powermenu.sh
 
 #################################################################

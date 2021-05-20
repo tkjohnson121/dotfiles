@@ -1,6 +1,9 @@
 # Sort Locale
 export LC_COLLATE=C
 
+# Path
+export PATH="$PATH:/usr/local/bin"
+
 # Go Path
 export PATH="$PATH:$HOME/go/bin"
 
@@ -49,25 +52,28 @@ alias open="thunar"
 alias vi="nvim"
 alias top="bpytop"
 alias npkill="npx npkill ~/code"
+alias vimdiff="nvim -d"
 
 # Git Aliases
 alias commit-all="git add .; git-cz"
 alias commit="git-cz"
 alias gcm="git-cz"
 alias gitpretty="git log --all --graph --decorate --oneline"
+alias diff="git difftool -y"
 
 # Dotfile Aliases
 alias dotfiles='git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles'
 alias dtr="ranger ~/.dotfiles"
 alias dtb="nvim ~/.dotfiles/.config/bspwm/bspwmrc"
 alias dtz="nvim ~/.dotfiles/home/.zshrc-personal"
+alias dtp="nvim ~/.dotfiles/.config/polybar/modules.ini"
 alias dtpm="nvim ~/.dotfiles/.config/polybar/main.ini"
 alias dtps="nvim ~/.dotfiles/.config/polybar/secondary.ini"
 
 # List Aliases
 alias ls='ls --color=auto'
-alias la='ls -a'
-alias ll='ls -la'
+alias ll='ls -a'
+alias la='ls -la'
 alias l='ls'
 alias l.="ls -A | egrep '^\.'"
 
@@ -95,7 +101,8 @@ alias webcam-list-config="gphoto2 --list-config"
 alias webcam-get-config="gphoto2 --get-config"
 alias webcam-set-config="gphoto2 --set-config"
 
-# starship prompt
+# Starship
+SPACESHIP_PROMPT_ORDER=(user host dir git node exec_time line_sep jobs exit_code char)
 eval "$(starship init zsh)"
 
 figlet "GVEMPIRE"

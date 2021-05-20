@@ -27,9 +27,7 @@ call plug#begin()
   Plug 'leafgarland/typescript-vim'
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'pangloss/vim-typescript'
-  "" File Explorer
   Plug 'scrooloose/NERDTree'
-  "" Auto pairs for '(' '[' '{'
   Plug 'jiangmiao/auto-pairs'
   Plug 'wakatime/vim-wakatime'
 

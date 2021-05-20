@@ -16,29 +16,22 @@ bspc config focus_follows_pointer false
 bspc config pointer_modifier mod1
 bspc config pointer_action1 move
 
-bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a mplayer2 state=floating
 bspc rule -a Io.github.celluloid_player.Celluloid state=floating
 bspc rule -a SimpleScreenRecorder state=floating
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off
 bspc rule -a Arandr state=floating
 bspc rule -a 1Password state=floating
-bspc rule -a Galculator state=floating
 bspc rule -a zoom state=floating
 bspc rule -a Slack state=floating
-bspc rule -a discord state=floating
 bspc rule -a Oblogout state=floating
 bspc rule -a Pavucontrol state=floating sticky=on
 bspc rule -a Lxappearance state=floating follow=on
 bspc rule -a rofi state=floating sticky=on
-bspc rule -a Stacer state=floating
+spc rule -a Stacer state=floating
 bspc rule -a flameshot state=floating
 bspc rule -a Timeshift state=floating
 bspc rule -a Insync state=floating
-bspc rule -a gmail-desktop-nativefier-804458 state=floating
-bspc rule -a googlecalendar-nativefier-e22938 state=loating
 
 # BSPWM coloring
 
