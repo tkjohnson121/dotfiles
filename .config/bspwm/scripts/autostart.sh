@@ -16,6 +16,7 @@ function run {
 
 # Picom
 # picom --config /home/kj/.dotfiles/picom/picom.conf &
+pkill picom
 picom -CGb &
 
 # Dex
