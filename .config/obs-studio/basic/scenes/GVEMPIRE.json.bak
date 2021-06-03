@@ -89,7 +89,7 @@
         "mixers": 255,
         "monitoring_type": 0,
         "muted": false,
-        "name": "Mic/Aux",
+        "name": "Blue Yeti",
         "prev_ver": 436273154,
         "private_settings": {},
         "push-to-mute": false,
@@ -101,7 +101,7 @@
         },
         "sync": 0,
         "versioned_id": "pulse_input_capture",
-        "volume": 0.58275783061981201
+        "volume": 0.63774770498275757
     },
     "DesktopAudioDevice1": {
         "balance": 0.5,
@@ -118,7 +118,7 @@
         "id": "pulse_output_capture",
         "mixers": 255,
         "monitoring_type": 0,
-        "muted": true,
+        "muted": false,
         "name": "Desktop Audio",
         "prev_ver": 436273154,
         "private_settings": {},
@@ -131,12 +131,137 @@
         },
         "sync": 0,
         "versioned_id": "pulse_output_capture",
-        "volume": 0.039997197687625885
+        "volume": 0.028431504964828491
     },
-    "current_program_scene": "Outro",
-    "current_scene": "Outro",
+    "current_program_scene": "Dual",
+    "current_scene": "Dual",
     "current_transition": "Clearview",
     "groups": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.Titlebar - Background 2": [],
+                "libobs.show_scene_item.Titlebar - Background 2": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Titlebar 2",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 0,
+                "cy": 0,
+                "id_counter": 2,
+                "items": []
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.Title": [],
+                "libobs.hide_scene_item.Titlebar - Background 2": [],
+                "libobs.show_scene_item.Title": [],
+                "libobs.show_scene_item.Titlebar - Background 2": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Titlebar",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 2228,
+                "cy": 117,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": true,
+                        "name": "Titlebar - Background 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.1598960161209106,
+                            "y": 1.1600003242492676
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 23,
+                        "locked": true,
+                        "name": "Title",
+                        "pos": {
+                            "x": 19.000001907348633,
+                            "y": 59.000244140625
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.14206720888614655,
+                            "y": 0.14230772852897644
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1.0
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -322,131 +447,6 @@
             "sync": 0,
             "versioned_id": "group",
             "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.hide_scene_item.Title": [],
-                "libobs.hide_scene_item.Titlebar - Background 2": [],
-                "libobs.show_scene_item.Title": [],
-                "libobs.show_scene_item.Titlebar - Background 2": []
-            },
-            "id": "group",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Titlebar",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": true,
-                "cx": 2228,
-                "cy": 117,
-                "id_counter": 0,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 6,
-                        "locked": true,
-                        "name": "Titlebar - Background 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.1598960161209106,
-                            "y": 1.1600003242492676
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 23,
-                        "locked": true,
-                        "name": "Title",
-                        "pos": {
-                            "x": 19.000001907348633,
-                            "y": 59.000244140625
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.14206720888614655,
-                            "y": 0.14230772852897644
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "group",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.hide_scene_item.Titlebar - Background 2": [],
-                "libobs.show_scene_item.Titlebar - Background 2": []
-            },
-            "id": "group",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Titlebar 2",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": true,
-                "cx": 0,
-                "cy": 0,
-                "id_counter": 2,
-                "items": []
-            },
-            "sync": 0,
-            "versioned_id": "group",
-            "volume": 1.0
         }
     ],
     "modules": {
@@ -517,13 +517,43 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "mask_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Image Mask/Blend",
+                    "prev_ver": 436273154,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "image_path": "/home/kujo/videos/overlays/overlays/green-circle.png",
+                        "opacity": 90,
+                        "stretch": false,
+                        "type": "mask_alpha_filter.effect"
+                    },
+                    "sync": 0,
+                    "versioned_id": "mask_filter",
+                    "volume": 1.0
+                }
+            ],
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
+            "id": "v4l2_input",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Outro Text",
+            "name": "Circle Webcam",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -531,10 +561,26 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/kujo/videos/overlays/overlays/kinetic_text_ending.png"
+                "Backlight Compensation": 0,
+                "Brightness": 95,
+                "Contrast": 150,
+                "Exposure (Absolute)": 263,
+                "Exposure, Auto Priority": true,
+                "Focus (absolute)": 0,
+                "Gain": 0,
+                "Pan (Absolute)": 0,
+                "Saturation": 154,
+                "Sharpness": 117,
+                "Tilt (Absolute)": 0,
+                "White Balance Temperature": 4002,
+                "Zoom, Absolute": 134,
+                "device_id": "/dev/video0",
+                "input": 0,
+                "pixelformat": 842093913,
+                "resolution": -1
             },
             "sync": 0,
-            "versioned_id": "image_source",
+            "versioned_id": "v4l2_input",
             "volume": 1.0
         },
         {
@@ -546,13 +592,9 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Circle Webcam": [],
-                "libobs.hide_scene_item.Outro Text": [],
-                "libobs.hide_scene_item.Page Background": [],
                 "libobs.hide_scene_item.Social Bar": [],
                 "libobs.hide_scene_item.Titlebar": [],
                 "libobs.show_scene_item.Circle Webcam": [],
-                "libobs.show_scene_item.Outro Text": [],
-                "libobs.show_scene_item.Page Background": [],
                 "libobs.show_scene_item.Social Bar": [],
                 "libobs.show_scene_item.Titlebar": []
             },
@@ -560,7 +602,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Outro",
+            "name": "Props",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -569,37 +611,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 6,
+                "id_counter": 23,
                 "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 2633.5,
-                            "y": 1479.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": true,
-                        "name": "Page Background",
-                        "pos": {
-                            "x": -356.75,
-                            "y": -199.5
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.58300131559371948,
-                            "y": 0.58333331346511841
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -618,13 +631,13 @@
                         "name": "Titlebar - Background 2",
                         "pos": {
                             "x": 0.0,
-                            "y": 959.0
+                            "y": 964.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.1656225919723511,
-                            "y": 1.1663913726806641
+                            "x": 1.1598960161209106,
+                            "y": 1.1600003242492676
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -646,14 +659,14 @@
                         "locked": true,
                         "name": "Title",
                         "pos": {
-                            "x": 19.093809127807617,
-                            "y": 1018.3253173828125
+                            "x": 19.000001907348633,
+                            "y": 1023.000244140625
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.14276862144470215,
-                            "y": 0.14309176802635193
+                            "x": 0.14206720888614655,
+                            "y": 0.14230772852897644
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -661,8 +674,39 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 2239.0,
-                            "y": 674.00006103515625
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 17,
+                        "locked": false,
+                        "name": "Titlebar",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 964.0
+                        },
+                        "private_settings": {
+                            "collapsed": false
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 525.1739501953125,
+                            "y": 370.08331298828125
                         },
                         "bounds_align": 0,
                         "bounds_type": 2,
@@ -671,16 +715,14 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 2,
-                        "locked": true,
-                        "name": "Titlebar",
+                        "id": 13,
+                        "locked": false,
+                        "name": "Circle Webcam",
                         "pos": {
-                            "x": 0.0,
-                            "y": 681.0
+                            "x": 697.41302490234375,
+                            "y": 354.95834350585938
                         },
-                        "private_settings": {
-                            "collapsed": true
-                        },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.58300131559371948,
@@ -707,13 +749,13 @@
                         "name": "Social Background",
                         "pos": {
                             "x": 0.0,
-                            "y": 101.06219482421875
+                            "y": 109.0001220703125
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.99999994039535522,
-                            "y": -1.0005694627761841
+                            "x": 1.0,
+                            "y": -1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -735,14 +777,14 @@
                         "locked": false,
                         "name": "Twitter Icon",
                         "pos": {
-                            "x": 302.99996948242188,
-                            "y": 2.0056943893432617
+                            "x": 303.0,
+                            "y": 10.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.1200000047683716,
-                            "y": 1.1206380128860474
+                            "x": 1.1200001239776611,
+                            "y": 1.1200002431869507
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -764,14 +806,14 @@
                         "locked": false,
                         "name": "Twitter Username",
                         "pos": {
-                            "x": 387.00018310546875,
-                            "y": 11.010942459106445
+                            "x": 387.00021362304688,
+                            "y": 19.0001220703125
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.11166750639677048,
-                            "y": 0.11333312839269638
+                            "x": 0.11166751384735107,
+                            "y": 0.11326862871646881
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -793,14 +835,14 @@
                         "locked": false,
                         "name": "Website Icon",
                         "pos": {
-                            "x": 1339.0001220703125,
-                            "y": -8.0
+                            "x": 1339.000244140625,
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.3399999141693115,
-                            "y": 1.3407630920410156
+                            "x": 1.3400000333786011,
+                            "y": 1.3400000333786011
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -822,45 +864,14 @@
                         "locked": false,
                         "name": "Website",
                         "pos": {
-                            "x": 1434.9996337890625,
-                            "y": 7.0086641311645508
+                            "x": 1434.999755859375,
+                            "y": 15.0001220703125
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.12464749068021774,
-                            "y": 0.12628546357154846
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 622.08331298828125
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": true,
-                        "name": "Social Bar",
-                        "pos": {
-                            "x": 0.0,
-                            "y": -264.0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.58300131559371948,
-                            "y": 0.58333331346511841
+                            "x": 0.12464749813079834,
+                            "y": 0.12621359527111053
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -878,18 +889,122 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 5,
-                        "locked": true,
-                        "name": "Outro Text",
+                        "id": 22,
+                        "locked": false,
+                        "name": "Social Bar",
                         "pos": {
-                            "x": 485.5,
-                            "y": 138.0
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Title",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color1": 4294966010,
+                "color2": 4294966010,
+                "drop_shadow": true,
+                "font": {
+                    "face": "Hack",
+                    "flags": 0,
+                    "size": 256,
+                    "style": "Regular"
+                },
+                "outline": true,
+                "text": "TILT Dev Logs - June 2"
+            },
+            "sync": 0,
+            "versioned_id": "text_ft2_source_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Circle Webcam": [],
+                "libobs.hide_scene_item.Display 1": [],
+                "libobs.hide_scene_item.Titlebar": [],
+                "libobs.hide_scene_item.Titlebar 2": [],
+                "libobs.show_scene_item.Circle Webcam": [],
+                "libobs.show_scene_item.Display 1": [],
+                "libobs.show_scene_item.Titlebar": [],
+                "libobs.show_scene_item.Titlebar 2": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Main",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 8,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "Display 1",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.49427083134651184,
-                            "y": 0.49500000476837158
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -897,8 +1012,126 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 1102.0,
-                            "y": 612.08331298828125
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": true,
+                        "name": "Titlebar 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 962.0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 6,
+                        "locked": true,
+                        "name": "Titlebar - Background 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 964.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.1598960161209106,
+                            "y": 1.1600003242492676
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 23,
+                        "locked": true,
+                        "name": "Title",
+                        "pos": {
+                            "x": 19.000001907348633,
+                            "y": 1023.000244140625
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.14206720888614655,
+                            "y": 0.14230772852897644
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": true,
+                        "name": "Titlebar",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 964.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 413.0,
+                            "y": 321.99996948242188
                         },
                         "bounds_align": 0,
                         "bounds_type": 2,
@@ -908,11 +1141,302 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Circle Webcam",
                         "pos": {
-                            "x": 409.0,
-                            "y": 336.0
+                            "x": 1541.0,
+                            "y": 758.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.57370519638061523,
+                            "y": 0.57403188943862915
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "xshm_input",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Display 1",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "versioned_id": "xshm_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "mask_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Image Mask/Blend",
+                    "prev_ver": 436273154,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "image_path": "/home/kujo/videos/overlays/overlays/clearview_overlay_1_blank.png",
+                        "opacity": 64,
+                        "type": "mask_alpha_filter.effect"
+                    },
+                    "sync": 0,
+                    "versioned_id": "mask_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Titlebar - Background 2",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "/home/kujo/videos/overlays/overlays/clearview_overlay_1_blank.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Circle Webcam": [],
+                "libobs.hide_scene_item.Display 1": [],
+                "libobs.hide_scene_item.Display 2": [],
+                "libobs.hide_scene_item.Titlebar": [],
+                "libobs.show_scene_item.Circle Webcam": [],
+                "libobs.show_scene_item.Display 1": [],
+                "libobs.show_scene_item.Display 2": [],
+                "libobs.show_scene_item.Titlebar": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Dual",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 8,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "Display 1",
+                        "pos": {
+                            "x": 562.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.70729166269302368,
+                            "y": 0.70740741491317749
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": true,
+                        "name": "Display 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.52129632234573364,
+                            "y": 0.52135413885116577
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 6,
+                        "locked": true,
+                        "name": "Titlebar - Background 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 964.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.1598960161209106,
+                            "y": 1.1600003242492676
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 23,
+                        "locked": true,
+                        "name": "Title",
+                        "pos": {
+                            "x": 19.000001907348633,
+                            "y": 1023.000244140625
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.14206720888614655,
+                            "y": 0.14230772852897644
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": true,
+                        "name": "Titlebar",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 964.0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 523.0,
+                            "y": 417.00003051757812
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Circle Webcam",
+                        "pos": {
+                            "x": 1397.0,
+                            "y": 663.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -936,11 +1460,11 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
+            "id": "xshm_input",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Starting Soon Text",
+            "name": "Display 2",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -948,7 +1472,136 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/kujo/videos/overlays/overlays/kinetic_text_starting.png"
+                "screen": 1
+            },
+            "sync": 0,
+            "versioned_id": "xshm_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "mask_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Image Mask/Blend",
+                    "prev_ver": 436273154,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "image_path": "/home/kujo/videos/overlays/overlays/clearview_overlay_2.png",
+                        "opacity": 51,
+                        "type": "mask_alpha_filter.effect"
+                    },
+                    "sync": 0,
+                    "versioned_id": "mask_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Social Background",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "/home/kujo/videos/overlays/overlays/clearview_overlay_2.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Twitter Username",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "text": "@tkjohnson121"
+            },
+            "sync": 0,
+            "versioned_id": "text_ft2_source_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Website",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "text": "gvempire.dev"
+            },
+            "sync": 0,
+            "versioned_id": "text_ft2_source_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Twitter Icon",
+            "prev_ver": 436273154,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "/home/kujo/videos/overlays/icons/clearview_twitter.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -965,7 +1618,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Page Background",
+            "name": "Website Icon",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -973,7 +1626,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/kujo/photos/wallpapers/landscape.jpg"
+                "file": "/home/kujo/videos/overlays/icons/clearview_top tipper.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1382,7 +2035,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Website Icon",
+            "name": "Page Background",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1390,7 +2043,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/kujo/videos/overlays/icons/clearview_top tipper.png"
+                "file": "/home/kujo/photos/wallpapers/landscape.jpg"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1407,7 +2060,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Twitter Icon",
+            "name": "Starting Soon Text",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1415,139 +2068,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/kujo/videos/overlays/icons/clearview_twitter.png"
+                "file": "/home/kujo/videos/overlays/overlays/kinetic_text_starting.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Website",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "text": "gvempire.dev"
-            },
-            "sync": 0,
-            "versioned_id": "text_ft2_source_v2",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Twitter Username",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "text": "@tkjohnson121"
-            },
-            "sync": 0,
-            "versioned_id": "text_ft2_source_v2",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "mask_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Image Mask/Blend",
-                    "prev_ver": 436273154,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "image_path": "/home/kujo/videos/overlays/overlays/clearview_overlay_2.png",
-                        "opacity": 51,
-                        "type": "mask_alpha_filter.effect"
-                    },
-                    "sync": 0,
-                    "versioned_id": "mask_filter",
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Social Background",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "/home/kujo/videos/overlays/overlays/clearview_overlay_2.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "xshm_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Display 2",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "screen": 1
-            },
-            "sync": 0,
-            "versioned_id": "xshm_input",
             "volume": 1.0
         },
         {
@@ -1559,19 +2083,21 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Circle Webcam": [],
-                "libobs.hide_scene_item.Display 1": [],
-                "libobs.hide_scene_item.Display 2": [],
+                "libobs.hide_scene_item.Outro Text": [],
+                "libobs.hide_scene_item.Page Background": [],
+                "libobs.hide_scene_item.Social Bar": [],
                 "libobs.hide_scene_item.Titlebar": [],
                 "libobs.show_scene_item.Circle Webcam": [],
-                "libobs.show_scene_item.Display 1": [],
-                "libobs.show_scene_item.Display 2": [],
+                "libobs.show_scene_item.Outro Text": [],
+                "libobs.show_scene_item.Page Background": [],
+                "libobs.show_scene_item.Social Bar": [],
                 "libobs.show_scene_item.Titlebar": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Dual",
+            "name": "Outro",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1580,160 +2106,13 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 8,
+                "id_counter": 6,
                 "items": [
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": true,
-                        "name": "Display 1",
-                        "pos": {
-                            "x": 562.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.70729166269302368,
-                            "y": 0.70740741491317749
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": true,
-                        "name": "Display 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.52129632234573364,
-                            "y": 0.52135413885116577
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 6,
-                        "locked": true,
-                        "name": "Titlebar - Background 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 964.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.1598960161209106,
-                            "y": 1.1600003242492676
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 23,
-                        "locked": true,
-                        "name": "Title",
-                        "pos": {
-                            "x": 19.000001907348633,
-                            "y": 1023.000244140625
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.14206720888614655,
-                            "y": 0.14230772852897644
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 8,
-                        "locked": true,
-                        "name": "Titlebar",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 964.0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 523.0,
-                            "y": 417.00003051757812
+                            "x": 2633.5,
+                            "y": 1479.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 2,
@@ -1742,12 +2121,12 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 7,
-                        "locked": false,
-                        "name": "Circle Webcam",
+                        "id": 4,
+                        "locked": true,
+                        "name": "Page Background",
                         "pos": {
-                            "x": 1397.0,
-                            "y": 663.0
+                            "x": -356.75,
+                            "y": -199.5
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1757,122 +2136,7 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "mask_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Image Mask/Blend",
-                    "prev_ver": 436273154,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "image_path": "/home/kujo/videos/overlays/overlays/clearview_overlay_1_blank.png",
-                        "opacity": 64,
-                        "type": "mask_alpha_filter.effect"
                     },
-                    "sync": 0,
-                    "versioned_id": "mask_filter",
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Titlebar - Background 2",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "/home/kujo/videos/overlays/overlays/clearview_overlay_1_blank.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "xshm_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Display 1",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {},
-            "sync": 0,
-            "versioned_id": "xshm_input",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Circle Webcam": [],
-                "libobs.hide_scene_item.Display 1": [],
-                "libobs.hide_scene_item.Titlebar": [],
-                "libobs.hide_scene_item.Titlebar 2": [],
-                "libobs.show_scene_item.Circle Webcam": [],
-                "libobs.show_scene_item.Display 1": [],
-                "libobs.show_scene_item.Titlebar": [],
-                "libobs.show_scene_item.Titlebar 2": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Main",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 8,
-                "items": [
                     {
                         "align": 5,
                         "bounds": {
@@ -1885,19 +2149,16 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
+                        "group_item_backup": true,
+                        "id": 6,
                         "locked": true,
-                        "name": "Display 1",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
+                        "name": "Titlebar - Background 2",
+                        "pos": {},
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1914,322 +2175,43 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
+                        "group_item_backup": true,
+                        "id": 23,
                         "locked": true,
-                        "name": "Titlebar 2",
+                        "name": "Title",
+                        "pos": {},
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 2239.0,
+                            "y": 674.00006103515625
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": true,
+                        "name": "Titlebar",
                         "pos": {
                             "x": 0.0,
-                            "y": 962.0
+                            "y": 681.0
                         },
                         "private_settings": {
                             "collapsed": true
                         },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 6,
-                        "locked": true,
-                        "name": "Titlebar - Background 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 964.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.1598960161209106,
-                            "y": 1.1600003242492676
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 23,
-                        "locked": true,
-                        "name": "Title",
-                        "pos": {
-                            "x": 19.000001907348633,
-                            "y": 1023.000244140625
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.14206720888614655,
-                            "y": 0.14230772852897644
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 8,
-                        "locked": true,
-                        "name": "Titlebar",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 964.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 549.0,
-                            "y": 414.99996948242188
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Circle Webcam",
-                        "pos": {
-                            "x": 1457.0,
-                            "y": 704.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.57370519638061523,
-                            "y": 0.57403188943862915
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Title",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "color1": 4294966010,
-                "color2": 4294966010,
-                "drop_shadow": true,
-                "font": {
-                    "face": "Hack",
-                    "flags": 0,
-                    "size": 256,
-                    "style": "Regular"
-                },
-                "outline": true,
-                "text": "TILT Dev Logs - May 19"
-            },
-            "sync": 0,
-            "versioned_id": "text_ft2_source_v2",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Circle Webcam": [],
-                "libobs.hide_scene_item.Social Bar": [],
-                "libobs.hide_scene_item.Titlebar": [],
-                "libobs.show_scene_item.Circle Webcam": [],
-                "libobs.show_scene_item.Social Bar": [],
-                "libobs.show_scene_item.Titlebar": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Props",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 23,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 6,
-                        "locked": true,
-                        "name": "Titlebar - Background 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 964.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.1598960161209106,
-                            "y": 1.1600003242492676
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 23,
-                        "locked": true,
-                        "name": "Title",
-                        "pos": {
-                            "x": 19.000001907348633,
-                            "y": 1023.000244140625
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.14206720888614655,
-                            "y": 0.14230772852897644
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 17,
-                        "locked": false,
-                        "name": "Titlebar",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 964.0
-                        },
-                        "private_settings": {
-                            "collapsed": false
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 525.1739501953125,
-                            "y": 370.08331298828125
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 13,
-                        "locked": false,
-                        "name": "Circle Webcam",
-                        "pos": {
-                            "x": 697.41302490234375,
-                            "y": 354.95834350585938
-                        },
-                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.58300131559371948,
@@ -2254,15 +2236,12 @@
                         "id": 16,
                         "locked": false,
                         "name": "Social Background",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 109.0001220703125
-                        },
+                        "pos": {},
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": -1.0
+                            "x": 0.0,
+                            "y": -0.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2283,15 +2262,12 @@
                         "id": 20,
                         "locked": false,
                         "name": "Twitter Icon",
-                        "pos": {
-                            "x": 303.0,
-                            "y": 10.0
-                        },
+                        "pos": {},
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.1200001239776611,
-                            "y": 1.1200002431869507
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2312,15 +2288,12 @@
                         "id": 18,
                         "locked": false,
                         "name": "Twitter Username",
-                        "pos": {
-                            "x": 387.00021362304688,
-                            "y": 19.0001220703125
-                        },
+                        "pos": {},
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.11166751384735107,
-                            "y": 0.11326862871646881
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2341,15 +2314,12 @@
                         "id": 21,
                         "locked": false,
                         "name": "Website Icon",
-                        "pos": {
-                            "x": 1339.000244140625,
-                            "y": 0.0
-                        },
+                        "pos": {},
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.3400000333786011,
-                            "y": 1.3400000333786011
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2370,15 +2340,43 @@
                         "id": 19,
                         "locked": false,
                         "name": "Website",
-                        "pos": {
-                            "x": 1434.999755859375,
-                            "y": 15.0001220703125
-                        },
+                        "pos": {},
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.12464749813079834,
-                            "y": 0.12621359527111053
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 622.08331298828125
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "Social Bar",
+                        "pos": {
+                            "x": 0.0,
+                            "y": -264.0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.58300131559371948,
+                            "y": 0.58333331346511841
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2396,20 +2394,47 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 22,
-                        "locked": false,
-                        "name": "Social Bar",
+                        "id": 5,
+                        "locked": true,
+                        "name": "Outro Text",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 485.5,
+                            "y": 138.0
                         },
-                        "private_settings": {
-                            "collapsed": true
-                        },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.49427083134651184,
+                            "y": 0.49500000476837158
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1102.0,
+                            "y": 612.08331298828125
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": true,
+                        "name": "Circle Webcam",
+                        "pos": {
+                            "x": 409.0,
+                            "y": 336.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.58300131559371948,
+                            "y": 0.58333331346511841
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2425,43 +2450,13 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "mask_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Image Mask/Blend",
-                    "prev_ver": 436273154,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "image_path": "/home/kujo/videos/overlays/overlays/green-circle.png",
-                        "opacity": 90,
-                        "stretch": false,
-                        "type": "mask_alpha_filter.effect"
-                    },
-                    "sync": 0,
-                    "versioned_id": "mask_filter",
-                    "volume": 1.0
-                }
-            ],
             "flags": 0,
             "hotkeys": {},
-            "id": "v4l2_input",
+            "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Circle Webcam",
+            "name": "Outro Text",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -2469,26 +2464,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "Backlight Compensation": 0,
-                "Brightness": 95,
-                "Contrast": 150,
-                "Exposure (Absolute)": 263,
-                "Exposure, Auto Priority": true,
-                "Focus (absolute)": 0,
-                "Gain": 0,
-                "Pan (Absolute)": 0,
-                "Saturation": 154,
-                "Sharpness": 117,
-                "Tilt (Absolute)": 0,
-                "White Balance Temperature": 4002,
-                "Zoom, Absolute": 134,
-                "device_id": "/dev/video0",
-                "input": 0,
-                "pixelformat": 842093913,
-                "resolution": -1
+                "file": "/home/kujo/videos/overlays/overlays/kinetic_text_ending.png"
             },
             "sync": 0,
-            "versioned_id": "v4l2_input",
+            "versioned_id": "image_source",
             "volume": 1.0
         }
     ],

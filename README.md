@@ -37,7 +37,7 @@
 - neovim
 - ranger
 - nvm, node, and yarn
-- zsh and oh-my-zsh
+- zsh and antigen
 - bpytop | htop | gtop
 - rofi & rofi-calc & rofi-web-search
 - thunar
@@ -58,20 +58,19 @@ ln -s /run/media/kujo/drive/sounds /home/kujo/sounds
 ln -s /run/media/kujo/drive/videos /home/kujo/videos
 
 # git
-ln -s /home/kujo/.dotfiles/home/.gitconfig /home/kujo/.gitconfig
-ln -s /home/kujo/.dotfiles/home/.gitignore /home/kujo/.gitignore
+ln -s /home/kujo/.dotfiles/.gitconfig /home/kujo/.gitconfig
+ln -s /home/kujo/.dotfiles/.gitignore /home/kujo/.gitignore
 
 # zsh
-ln -s /home/kujo/.dotfiles/home/.zshenv /home/kujo/.zshenv
-ln -s /home/kujo/.dotfiles/home/.zshrc /home/kujo/.zshrc
-ln -s /home/kujo/.dotfiles/home/.zshrc-personal /home/kujo/.zshrc-personal
+ln -s /home/kujo/.dotfiles/.zshrc /home/kujo/.zshrc
+ln -s /home/kujo/.dotfiles/.zsh /home/kujo/.zsh
 
 # themes and icons
-ln -s /home/kujo/.dotfiles/home/.themes /home/kujo/.themes
-ln -s /home/kujo/.dotfiles/home/.icons /home/kujo/.icons
+ln -s /home/kujo/.dotfiles/.themes /home/kujo/.themes
+ln -s /home/kujo/.dotfiles/.icons /home/kujo/.icons
 
 # misc scripts
-ln -s /home/kujo/.dotfiles/home/bin /home/kujo/bin
+ln -s /home/kujo/.dotfiles/.bin /home/kujo/.bin
 ```
 
 ### Application configs
