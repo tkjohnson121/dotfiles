@@ -36,7 +36,7 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles'
 alias dt="cd ~/.dotfiles"
 alias dtr="ranger ~/.dotfiles"
 alias dtb="nvim ~/.dotfiles/.config/bspwm/bspwmrc"
-alias dtz="cd ~/.dotfiles/.zshrc"
+alias dtz="nvim ~/.dotfiles/.zshrc"
 alias dtza="nvim ~/.dotfiles/.zsh/aliases.zsh"
 alias dtze="nvim ~/.dotfiles/.zsh/exports.zsh"
 alias dtzf="nvim ~/.dotfiles/.zsh/functions.zsh"

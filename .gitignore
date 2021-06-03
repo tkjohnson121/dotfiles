@@ -2,5 +2,5 @@
 .config/obs-studio/logs
 .config/obs-studio/profiler_data
 .zsh/antigen/bundles/
-.zsh.antigen/debug.log
-.zsh/*.zwc
+.zsh/antigen/debug.log
+**/*.zwc

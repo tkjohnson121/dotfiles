@@ -19,7 +19,28 @@ antigen bundle zsh-users/zsh-autosuggestions
 # Theme
 antigen theme spaceship-prompt/spaceship-prompt
 
+# Apply Antigen Config
 antigen apply
+
+# Spaceship Configuration
+SPACESHIP_PROMPT_ORDER=(
+  time          # Time stamps section
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  package       # Package version
+  node          # Node.js section
+  golang        # Go section
+  docker        # Docker section
+  aws           # Amazon Web Services section
+  gcloud        # Google Cloud Platform section
+  line_sep      # Line break
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
 
 # Pywal Config
 #(cat /home/kj/.cache/wal/sequences &)

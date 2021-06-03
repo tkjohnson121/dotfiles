@@ -3179,3 +3179,57 @@ antigen
 [LOG][1622725387.1922357082] Return from hook antigen-apply with 0
 [LOG][1622725387.1923811436] /home/kujo/.zsh/antigen/antigen.zsh:1518
 [LOG][1622725387.1923811436] Return from hook antigen with 0
+[WRN][1622725988.4897162914] /home/kujo/.zsh/antigen/antigen.zsh:266
+[WRN][1622725988.4897162914] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1622725988.4899239540] /home/kujo/.zsh/antigen/antigen.zsh:475
+[TRA][1622725988.4899239540] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1622725988.4899239540] TRACE
+-antigen-env-setup
+/home/kujo/.zsh/antigen/antigen.zsh
+/home/kujo/.zshrc
+[TRA][1622725988.5439693928] /home/kujo/.zsh/antigen/antigen.zsh:808
+[TRA][1622725988.5439693928] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1622725988.5439693928] TRACE
+antigen-bundle
+-antigen-use-oh-my-zsh
+antigen-use
+antigen
+/home/kujo/.zshrc
+[TRA][1622725988.5452990532] /home/kujo/.zsh/antigen/antigen.zsh:808
+[TRA][1622725988.5452990532] Called antigen-bundle with git BUNDLE
+[TRA][1622725988.5452990532] TRACE
+antigen-bundle
+antigen
+/home/kujo/.zshrc
+[TRA][1622725988.5463154316] /home/kujo/.zsh/antigen/antigen.zsh:808
+[TRA][1622725988.5463154316] Called antigen-bundle with node BUNDLE
+[TRA][1622725988.5463154316] TRACE
+antigen-bundle
+antigen
+/home/kujo/.zshrc
+[TRA][1622725988.5472388268] /home/kujo/.zsh/antigen/antigen.zsh:808
+[TRA][1622725988.5472388268] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1622725988.5472388268] TRACE
+antigen-bundle
+antigen
+/home/kujo/.zshrc
+[TRA][1622725988.5481600761] /home/kujo/.zsh/antigen/antigen.zsh:808
+[TRA][1622725988.5481600761] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1622725988.5481600761] TRACE
+antigen-bundle
+antigen
+/home/kujo/.zshrc
+[TRA][1622725988.5491428375] /home/kujo/.zsh/antigen/antigen.zsh:808
+[TRA][1622725988.5491428375] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1622725988.5491428375] TRACE
+antigen-bundle
+antigen
+/home/kujo/.zshrc
+[LOG][1622725988.5500333309] /home/kujo/.zsh/antigen/antigen.zsh:785
+[LOG][1622725988.5500333309] Called antigen-apply
+[TRA][1622725988.5501565933] /home/kujo/.zsh/antigen/antigen.zsh:789
+[TRA][1622725988.5501565933] Gonna create compdump file @ apply COMPDUMP
+[TRA][1622725988.5501565933] TRACE
+antigen-apply
+antigen
+/home/kujo/.zshrc
