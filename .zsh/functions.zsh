@@ -23,3 +23,15 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+# cd = save pwd to a file to be read when opening a new terminal window
+# save path on cd
+function cd {
+    builtin cd $@
+    pwd > ~/.last_dir
+}
+
+# restore last saved path
+if [ -f ~/.last_dir ]
+    then cd `cat ~/.last_dir`
+fi

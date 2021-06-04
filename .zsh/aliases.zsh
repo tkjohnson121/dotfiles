@@ -25,6 +25,7 @@ alias npkill="npx npkill ~/code"
 alias vimdiff="nvim -d"
 
 # Git Aliases
+alias gcmw="git add . && git commit -m 'build(wiki): update wiki'"
 alias commit-all="git add .; git-cz"
 alias commit="git-cz"
 alias gcm="git-cz"
