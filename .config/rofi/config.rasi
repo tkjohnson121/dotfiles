@@ -1,8 +1,8 @@
 configuration {
-  modi: "combi,calc,emoji,search:/home/kujo/.config/rofi/scripts/web-search.py";
+  modi: "combi,calc,search:/home/kujo/.config/rofi/scripts/web-search.py";
   show-icons: true;
   terminal: "kitty";
   font: "Hack Regular 12";
   theme: "./dracula.rasi";
-  combi-modi: "window,drun,ssh";
+  combi-modi: "window,drun,ssh,emoji";
 }
