@@ -105,6 +105,8 @@ ln -s /home/kujo/.dotfiles/.config/nvim /home/kujo/.config/nvim
 
 # obs-studio
 ln -s /home/kujo/.dotfiles/.config/obs-studio /home/kujo/.config/obs-studio
+ln -s /home/kujo/.dotfiles/.config/obs-studio/assets /home/kujo/videos/assets/obs
+ln -s /home/kujo/.dotfiles/.config/obs-studio/scene-collections /home/kujo/videos/scene-collections
 
 # pywal
 ln -s /home/kujo/.dotfiles/.config/wal /home/kujo/.config/wal
