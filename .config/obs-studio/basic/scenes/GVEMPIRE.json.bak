@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "_props",
-    "current_scene": "_props",
+    "current_program_scene": "Webcam",
+    "current_scene": "Webcam",
     "current_transition": "clearview-blue-purple",
     "groups": [
         {
@@ -336,8 +336,8 @@
                         "locked": false,
                         "name": "bar--title",
                         "pos": {
-                            "x": 485.0,
-                            "y": 1.0
+                            "x": 712.0,
+                            "y": 7.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1535,8 +1535,8 @@
                         "locked": false,
                         "name": "bar--title",
                         "pos": {
-                            "x": 485.0,
-                            "y": 1.0
+                            "x": 712.0,
+                            "y": 7.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1925,8 +1925,8 @@
                         "locked": false,
                         "name": "bar--title",
                         "pos": {
-                            "x": 485.0,
-                            "y": 1.0
+                            "x": 712.0,
+                            "y": 7.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -2438,8 +2438,8 @@
                         "locked": false,
                         "name": "bar--title",
                         "pos": {
-                            "x": 485.0,
-                            "y": 981.0
+                            "x": 712.0,
+                            "y": 987.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -3064,8 +3064,8 @@
                         "locked": false,
                         "name": "bar--title",
                         "pos": {
-                            "x": 485.0,
-                            "y": 1.0
+                            "x": 712.0,
+                            "y": 7.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
