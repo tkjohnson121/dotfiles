@@ -44,6 +44,7 @@ alias dtzf="nvim ~/.dotfiles/.zsh/functions.zsh"
 alias dtp="nvim ~/.dotfiles/.config/polybar/modules.ini"
 alias dtpm="nvim ~/.dotfiles/.config/polybar/main.ini"
 alias dtps="nvim ~/.dotfiles/.config/polybar/secondary.ini"
+alias dts="nvim ~/.dotfiles/.config/sxhkd/sxhkdrc"
 
 # List Aliases
 alias ls='ls --color=auto'
