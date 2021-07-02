@@ -1,5 +1,9 @@
 .config/nvim/plugged/*
 .config/obs-studio/logs
 .config/obs-studio/profiler_data
-
+.zsh/antigen/bundles/
+.zsh/antigen/.resources
+.zsh/antigen/.zcompdump*
+.zsh/antigen/init.zsh
+.zsh/antigen/debug.log
 **/*.zwc
