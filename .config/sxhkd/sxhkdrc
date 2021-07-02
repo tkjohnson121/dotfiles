@@ -8,7 +8,7 @@
 
 # sxhkd help
 alt + slash
- /home/kujo/.config/rofi/scripts/sxhkd-help.sh 
+ /Users/kujo/.config/rofi/scripts/sxhkd-help.sh
 
 # kill
 super + q
@@ -42,11 +42,11 @@ super + {Return,KP_Enter}
 alt + Escape
   xkill
 
-# File Manager    
+# File Manager
 alt + r
   thunar
 
-# Rofi 
+# Rofi
 ctrl + space
 	rofi -show combi
 
@@ -89,7 +89,7 @@ super + shift + BackSpace
 		bspc monitor -f next
 
 # Swap current window with the biggest one in the present desktop.
-super + shift + d 
+super + shift + d
 	bspc node -s biggest.local
 
 # Expand tiled space
@@ -121,11 +121,11 @@ super + shift + s
 
 # Reload bspwm
 super + shift + b
-	/home/kujo/.config/bspwm/bspwmrc
+	/Users/kujo/.config/bspwm/bspwmrc
 
 # Reload polybar
 super + shift + p
-	/home/kujo/.config/polybar/launch.sh
+	/Users/kujo/.config/polybar/launch.sh
 
 # Hide polybar
 super + shift + y
@@ -133,11 +133,11 @@ super + shift + y
 
 # Toggle Compton
 ctrl + shift + o
-  /home/kujo/.config/bspwm/compton.conf
+  /Users/kujo/.config/bspwm/compton.conf
 
 # Power Menu
 ctrl + shift + esc
-  /home/kujo/.config/rofi/scripts/powermenu.sh
+  /Users/kujo/.config/rofi/scripts/powermenu.sh
 
 #################################################################
 #     SCREENSHOTS

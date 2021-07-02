@@ -1,5 +1,5 @@
 configuration {
-  modi: "combi,calc,search:/home/kujo/.config/rofi/scripts/web-search.py";
+  modi: "combi,calc,search:/Users/kujo/.config/rofi/scripts/web-search.py";
   show-icons: true;
   terminal: "kitty";
   font: "Hack Regular 12";

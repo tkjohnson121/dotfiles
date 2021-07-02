@@ -49,83 +49,83 @@
 
 ```shell
 # User Directories
-ln -s /run/media/kujo/drive/_temp /home/kujo/_temp
-ln -s /run/media/kujo/drive/code /home/kujo/code
-ln -s /run/media/kujo/drive/desktop /home/kujo/desktop
-ln -s /run/media/kujo/drive/docs /home/kujo/docs
-ln -s /run/media/kujo/drive/photos /home/kujo/photos
-ln -s /run/media/kujo/drive/sounds /home/kujo/sounds
-ln -s /run/media/kujo/drive/videos /home/kujo/videos
+ln -s /run/media/kujo/drive/_temp /Users/kujo/_temp
+ln -s /run/media/kujo/drive/code /Users/kujo/code
+ln -s /run/media/kujo/drive/desktop /Users/kujo/desktop
+ln -s /run/media/kujo/drive/docs /Users/kujo/docs
+ln -s /run/media/kujo/drive/photos /Users/kujo/photos
+ln -s /run/media/kujo/drive/sounds /Users/kujo/sounds
+ln -s /run/media/kujo/drive/videos /Users/kujo/videos
 
 # git
-ln -s /home/kujo/.dotfiles/.gitconfig /home/kujo/.gitconfig
-ln -s /home/kujo/.dotfiles/.gitignore /home/kujo/.gitignore
+ln -s /Users/kujo/.dotfiles/.gitconfig /Users/kujo/.gitconfig
+ln -s /Users/kujo/.dotfiles/.gitignore /Users/kujo/.gitignore
 
 # zsh
-ln -s /home/kujo/.dotfiles/.zshrc /home/kujo/.zshrc
-ln -s /home/kujo/.dotfiles/.zsh /home/kujo/.zsh
+ln -s /Users/kujo/.dotfiles/.zshrc /Users/kujo/.zshrc
+ln -s /Users/kujo/.dotfiles/.zsh /Users/kujo/.zsh
 
 # themes and icons
-ln -s /home/kujo/.dotfiles/.themes /home/kujo/.themes
-ln -s /home/kujo/.dotfiles/.icons /home/kujo/.icons
+ln -s /Users/kujo/.dotfiles/.themes /Users/kujo/.themes
+ln -s /Users/kujo/.dotfiles/.icons /Users/kujo/.icons
 
 # misc scripts
-ln -s /home/kujo/.dotfiles/.bin /home/kujo/.bin
+ln -s /Users/kujo/.dotfiles/.bin /Users/kujo/.bin
 ```
 
 ### Application configs
 
 ```bash
 # user-dirs
-ln -s /home/kujo/.dotfiles/.config/user-dirs.dirs /home/kujo/.config/user-dirs.dirs
+ln -s /Users/kujo/.dotfiles/.config/user-dirs.dirs /Users/kujo/.config/user-dirs.dirs
 
 # nitrogen
-ln -s /home/kujo/.dotfiles/.config/nitrogen /home/kujo/.config/nitrogen
+ln -s /Users/kujo/.dotfiles/.config/nitrogen /Users/kujo/.config/nitrogen
 
 # bspwm
-ln -s /home/kujo/.dotfiles/.config/bspwm /home/kujo/.config/bspwm
+ln -s /Users/kujo/.dotfiles/.config/bspwm /Users/kujo/.config/bspwm
 
 # sxhkd
-ln -s /home/kujo/.dotfiles/.config/sxhkd /home/kujo/.config/sxhkd
+ln -s /Users/kujo/.dotfiles/.config/sxhkd /Users/kujo/.config/sxhkd
 
 # picom
-ln -s /home/kujo/.dotfiles/.config/picom.conf /home/kujo/.config/picom.conf
+ln -s /Users/kujo/.dotfiles/.config/picom.conf /Users/kujo/.config/picom.conf
 
 # dunst
-ln -s /home/kujo/.dotfiles/.config/dunst /home/kujo/.config/dunst
+ln -s /Users/kujo/.dotfiles/.config/dunst /Users/kujo/.config/dunst
 
 # kitty
-ln -s /home/kujo/.dotfiles/.config/kitty /home/kujo/.config/kitty
+ln -s /Users/kujo/.dotfiles/.config/kitty /Users/kujo/.config/kitty
 
 # neofetch
-ln -s /home/kujo/.dotfiles/.config/neofetch /home/kujo/.config/neofetch
+ln -s /Users/kujo/.dotfiles/.config/neofetch /Users/kujo/.config/neofetch
 
 # nvim
-ln -s /home/kujo/.dotfiles/.config/nvim /home/kujo/.config/nvim
+ln -s /Users/kujo/.dotfiles/.config/nvim /Users/kujo/.config/nvim
 
 # obs-studio
-ln -s /home/kujo/.dotfiles/.config/obs-studio /home/kujo/.config/obs-studio
-ln -s /home/kujo/.dotfiles/.config/obs-studio/assets /home/kujo/videos/assets/obs
-ln -s /home/kujo/.dotfiles/.config/obs-studio/scene-collections /home/kujo/videos/scene-collections
+ln -s /Users/kujo/.dotfiles/.config/obs-studio /Users/kujo/.config/obs-studio
+ln -s /Users/kujo/.dotfiles/.config/obs-studio/assets /Users/kujo/videos/assets/obs
+ln -s /Users/kujo/.dotfiles/.config/obs-studio/scene-collections /Users/kujo/videos/scene-collections
 
 # pywal
-ln -s /home/kujo/.dotfiles/.config/wal /home/kujo/.config/wal
+ln -s /Users/kujo/.dotfiles/.config/wal /Users/kujo/.config/wal
 
 # polybar
-ln -s /home/kujo/.dotfiles/.config/polybar /home/kujo/.config/polybar
+ln -s /Users/kujo/.dotfiles/.config/polybar /Users/kujo/.config/polybar
 
 # ranger
-ln -s /home/kujo/.dotfiles/.config/ranger /home/kujo/.config/ranger
+ln -s /Users/kujo/.dotfiles/.config/ranger /Users/kujo/.config/ranger
 
 # rofi
-ln -s /home/kujo/.dotfiles/.config/rofi /home/kujo/.config/rofi
+ln -s /Users/kujo/.dotfiles/.config/rofi /Users/kujo/.config/rofi
 
 # starship
-ln -s /home/kujo/.dotfiles/.config/starship.toml /home/kujo/.config/starship.toml
+ln -s /Users/kujo/.dotfiles/.config/starship.toml /Users/kujo/.config/starship.toml
 ```
 
 ## Remove all symlinks _BE CAREFUL_
 
 ```bash
-find /home/kujo -xtype l -delete
+find /Users/kujo -xtype l -delete
 ```

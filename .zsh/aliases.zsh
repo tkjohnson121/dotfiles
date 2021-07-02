@@ -48,11 +48,11 @@ alias dtps="nvim ~/.dotfiles/.config/polybar/secondary.ini"
 alias dts="nvim ~/.dotfiles/.config/sxhkd/sxhkdrc"
 
 # List Aliases
-alias ls='ls --color=auto'
-alias ll='ls -a'
-alias la='ls -la'
-alias l='ls'
-alias l.="ls -A | egrep '^\.'"
+# alias ls='ls --color=auto'
+# alias ll='ls -a'
+# alias la='ls -la'
+# alias l='ls'
+# alias l.="ls -A | egrep '^\.'"
 
 # APT Updates
 #alias update='sudo apt update'
@@ -62,16 +62,16 @@ alias l.="ls -A | egrep '^\.'"
 #alias update-all='update && upgrade && dist-upgrade && full-upgrade'
 #alias clean='sudo apt clean && sudo apt autoclean && sudo apt autoremove && sudo flatpak uninstall --unused && sudo flatpak repair'
 
-# Pacman
-alias unlock="sudo rm /var/lib/pacman/db.lck"
-alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
-alias update-all="yay -Syu --noconfirm"
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
-alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
-alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
-alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+# # Pacman
+# alias unlock="sudo rm /var/lib/pacman/db.lck"
+# alias pacman='sudo pacman --color auto'
+# alias update='sudo pacman -Syyu'
+# alias update-all="yay -Syu --noconfirm"
+# alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+# alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+# alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+# alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+# alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
 # YouTube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "

@@ -22,7 +22,7 @@ antigen theme spaceship-prompt/spaceship-prompt
 antigen apply
 
 # Pywal Config
-#(cat /home/kj/.cache/wal/sequences &)
+# (cat /home/kj/.cache/wal/sequences &)
 # cat ~/.cache/wal/sequences
 # source ~/.cache/wal/colors-tty.sh
 
