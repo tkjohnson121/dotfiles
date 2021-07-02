@@ -7,8 +7,6 @@ let g:prettier#autoformat_config_present = 1
 " let g:prettier#quickfix_enabled = 0     "When running at every change you may want to disable quickfix
 " autocmd TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync " Always be running at every change
 
-
-
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line

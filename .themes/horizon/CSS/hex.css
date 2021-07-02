@@ -1,0 +1,66 @@
+
+:root {
+  --dark-shade0: #16161c;
+
+  --dark-shade1: #1a1c23;
+
+  --dark-shade2: #1c1e26;
+
+  --dark-shade3: #8931b9;
+
+  --dark-shade4: #2e303e;
+
+  --dark-shade5: #6c6f93;
+
+  --dark-shade6: #989ab3;
+
+  --dark-shade7: #f0f1f4;
+
+  --dark-accent0: #e95678;
+
+  --dark-accent1: #f09383;
+
+  --dark-accent2: #fac29a;
+
+  --dark-accent3: #09f7a0;
+
+  --dark-accent4: #30fdff;
+
+  --dark-accent5: #21bfc2;
+
+  --dark-accent6: #b877db;
+
+  --dark-accent7: #f98fd1;
+
+  --light-shade0: #fdf0ed;
+
+  --light-shade1: #fadad1;
+
+  --light-shade2: #f9cbbe;
+
+  --light-shade3: #8931b9;
+
+  --light-shade4: #232530;
+
+  --light-shade5: #1c1e26;
+
+  --light-shade6: #1a1c23;
+
+  --light-shade7: #232530;
+
+  --light-accent0: #da103f;
+
+  --light-accent1: #dc3318;
+
+  --light-accent2: #f77d26;
+
+  --light-accent3: #07da8c;
+
+  --light-accent4: #1eaeae;
+
+  --light-accent5: #1d8991;
+
+  --light-accent6: #8931b9;
+
+  --light-accent7: #e84a72;
+}
